@@ -10,3 +10,21 @@
 2015-01-14 22:16:07.810 VideoList[74383:1490280] here
 2015-01-14 22:16:10.638 VideoList[74383:1490280] THREAD WARNING: ['InAppBrowser'] took '117.962891' ms. Plugin should use a background thread.
 2015-01-14 22:16:10.652 VideoList[74383:1490280] Error in Success callbackId: InAppBrowser9952861 : TypeError: null is not an object (evaluating 'event.type')
+2015-01-15 12:27:44.407 VideoList[81480:1630417] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-15 12:27:44.412 VideoList[81480:1630417] Multi-tasking -> Device: YES, App: YES
+2015-01-15 12:27:44.429 VideoList[81480:1630417] Unlimited access to network resources
+2015-01-15 12:27:44.774 VideoList[81480:1630417] [CDVTimer][keyboard] 0.063002ms
+2015-01-15 12:27:44.774 VideoList[81480:1630417] [CDVTimer][TotalPluginStartup] 0.245035ms
+2015-01-15 12:27:45.038 VideoList[81480:1630417] Resetting plugins due to page load.
+2015-01-15 12:27:45.296 VideoList[81480:1630417] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/E908E409-50B0-405F-9E3A-B4F22DE284AA/VideoList.app/www/index.html#/tab/dash
+2015-01-15 12:36:27.373 VideoList[81790:1634212] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-15 12:36:27.375 VideoList[81790:1634212] Multi-tasking -> Device: YES, App: YES
+2015-01-15 12:36:27.390 VideoList[81790:1634212] Unlimited access to network resources
+2015-01-15 12:36:27.787 VideoList[81790:1634212] [CDVTimer][keyboard] 0.057995ms
+2015-01-15 12:36:27.787 VideoList[81790:1634212] [CDVTimer][TotalPluginStartup] 0.241995ms
+2015-01-15 12:36:28.041 VideoList[81790:1634212] Resetting plugins due to page load.
+2015-01-15 12:36:28.309 VideoList[81790:1634212] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/A43B0C4F-AC98-472B-B6F3-8D04F36075CB/VideoList.app/www/index.html#/tab/dash
+2015-01-15 12:36:51.948 VideoList[81790:1634212] here
+2015-01-15 12:36:51.959 VideoList[81790:1634212] Resetting plugins due to page load.
+2015-01-15 12:36:52.029 VideoList[81790:1634212] CDVWebViewDelegate: Detected redirect when loadCount=2
+2015-01-15 12:36:52.919 VideoList[81790:1634212] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/A43B0C4F-AC98-472B-B6F3-8D04F36075CB/VideoList.app/www/index.html#/tab/top100/1

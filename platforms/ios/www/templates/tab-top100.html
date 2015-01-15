@@ -2,21 +2,21 @@
   <ion-content>
   
   
+    <ion-list>
   
 	    <div ng-controller="videoListCtrl">
 	      <div class="list">
-	          <a ng-repeat="video in data.videos" class="item item-thumbnail-left" href="{{video.url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
+	          <a ion-item item-thumbnail-left ng-repeat="video in data.videos" class="item item-thumbnail-left" href="{{video.url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
 	            <img src="{{video.thumbnail_url}}">
 	            <h2>{{video.title}}</h2>
-	            <p>{{video.description}}</p>
-	            <p>Dauer: {{getDuration(video.length)}}</p>
+	            <span class="item-note">{{video.rank}}st</span>
+	            <p>{{video.name}}</p>
 	          </a>
 	      </div>
 	    </div>      
-
+    </ion-list>
   
-  
-    <ion-list>
+    <!-- <ion-list>
       <ion-item ng-repeat="m in music" >
       	<ion-item item-thumbnail-left ng-repeat="u in m" 
       		type="item-text-wrap" 
@@ -28,13 +28,6 @@
 	            <p>{{u.name}}</p>
 	      </ion-item>
       </ion-item>
-    </ion-list>
-    
-    
-    
-    
-    
-    
-    
+    </ion-list> -->    
   </ion-content>
 </ion-view>	
