@@ -25,10 +25,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
     $scope.data = {};
 
-
-	// http://127.0.0.1:8060/survey/youtube_api/
-    // $http.get(dataUrl)
+	//http://127.0.0.1:8060/survey/youtube_api/
     $http.get('http://dev.followkr.com/survey/youtube_api/')
+    // $http.get('http://127.0.0.1:8060/survey/youtube_api/')
       .success(function(data) {
       	// alert(data.toSource());
         $scope.data.videos = data;

@@ -1,8 +1,33 @@
-<ion-view view-title="test">
+<ion-view view-title="検索">
   <ion-content>
-	
-  <div ng-controller="MainCtrl">
-    <div my-youtube code="code"></div>
-  </div>
+	<div ng-controller="mainController">
+		<form ng-submit="doSearch()" name="myForm">
+			<div class="list">
+				<div class="item item-input-inset">
+					<label class="item-input-wrapper">
+						<input type="text" ng-model="query" placeholder="Search" />
+					</label>
+					<input type="submit"  class="button button-small" value="search" ng-disabled="myForm.$invalid" />
+				</div>
+			</div>
+		</form>
+		<ul ng-show="results.length" style="list-style-type: none; padding: 0;">
+			<!-- <li ng-repeat="result in results"> -->
+				<!-- <p>{{result}}</p> -->
+				<!-- <p>{{result.id}}</p>
+				<p>{{result.media$group.media$thumbnail[0].url}}</p> -->
+			<!-- </li> -->
+			<div ng-controller="videoListCtrl">
+			  <div class="list">
+			      <!-- <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left" href="{{ video.link[0].href }}" ng-click="showInAppVideo('{{video.link[0].href }}', $event)"> -->
+			      <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left" href="{{video.link[0].href}}&autoplay=1" ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">
+			        <img src="{{video.media$group.media$thumbnail[0].url}}">
+			        <h2>{{video.title.$t}}</h2>
+			        <p>{{video.name}}</p>
+			      </a>
+			  </div>
+			</div>
+		</ul>
+	</div>
   </ion-content>
 </ion-view>
