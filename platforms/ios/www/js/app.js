@@ -26,8 +26,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     $scope.data = {};
 
 	//http://127.0.0.1:8060/survey/youtube_api/
-    // $http.get('http://dev.followkr.com/survey/youtube_api/')
-    $http.get('http://127.0.0.1:8060/survey/youtube_api/')
+    $http.get('http://dev.followkr.com/survey/youtube_api/')
+    // $http.get('http://127.0.0.1:8060/survey/youtube_api/')
       .success(function(data) {
       	// alert(data.toSource());
         $scope.data.videos = data;
@@ -71,8 +71,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 .controller('videoListCtrl_pop', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 $scope.data = {};
-$http.get('http://127.0.0.1:8060/survey/youtube_api_pop/')
-// $http.get('http://dev.followkr.com/survey/youtube_api_pop/')
+// $http.get('http://127.0.0.1:8060/survey/youtube_api_pop/')
+$http.get('http://dev.followkr.com/survey/youtube_api_pop/')
   .success(function(data) {
     $scope.data.videos = data;
   })
@@ -108,8 +108,8 @@ $http.get('http://127.0.0.1:8060/survey/youtube_api_pop/')
 
 .controller('videoListCtrl_jp', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 $scope.data = {};
-$http.get('http://127.0.0.1:8060/survey/youtube_api_jp/')
-// $http.get('http://dev.followkr.com/survey/youtube_api_jp/')
+// $http.get('http://127.0.0.1:8060/survey/youtube_api_jp/')
+$http.get('http://dev.followkr.com/survey/youtube_api_jp/')
   .success(function(data) {
   	// alert(data.toSource());
     $scope.data.videos = data;
