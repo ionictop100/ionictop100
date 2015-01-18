@@ -1,9 +1,7 @@
 <ion-view view-title="K-POP">
   <ion-content>
   
-  
     <ion-list>
-  
 	    <div ng-controller="videoListCtrl">
 	      <div class="list">
 	          <a ion-item item-thumbnail-left ng-repeat="video in data.videos" class="item item-thumbnail-left" href="{{video.url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
@@ -13,21 +11,8 @@
 	            <p>{{video.name}}</p>
 	          </a>
 	      </div>
-	    </div>      
+	    </div>
     </ion-list>
   
-    <!-- <ion-list>
-      <ion-item ng-repeat="m in music" >
-      	<ion-item item-thumbnail-left ng-repeat="u in m" 
-      		type="item-text-wrap" 
-      		href="#/tab/top100/{{u.id}}"
-      		class="item item-thumbnail-left">
-				<img src="{{u.img}}">
-	            <h2>{{u.title}}</h2>
-    			<span class="item-note">{{u.rank}}st</span>
-	            <p>{{u.name}}</p>
-	      </ion-item>
-      </ion-item>
-    </ion-list> -->
   </ion-content>
 </ion-view>	

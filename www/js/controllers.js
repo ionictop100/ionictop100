@@ -70,33 +70,48 @@ return $sce.trustAsHtml(html_code);
 .controller('TestCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
 })
-.controller('Top100Ctrl',  function($scope, Music, $http) {
-  $scope.music = Music.all();
+.controller('Top100Ctrl',  function($scope, Music, $http, $ionicLoading) {
+  var _this = this
+  $ionicLoading.show({
+    template: 'loading'
+  })
+  // $scope.music = Music.all();
       $http.get("http://dev.followkr.com/survey/youtube_api/").
       // $http.get("http://127.0.0.1:8060/survey/youtube_api/").
       success(function(data, status, headers, config) {
+      	$ionicLoading.hide()
       	$scope.results = data
       }).
       	error(function(data, status, headers, config) {
       });            
 })
 
-.controller('Top100jpCtrl',  function($scope, Music, $http) {
-  $scope.music = Music.all();
+.controller('Top100jpCtrl',  function($scope, Music, $http, $ionicLoading) {
+  var _this = this
+  $ionicLoading.show({
+    template: 'loading'
+  })	
+  // $scope.music = Music.all();
       $http.get("http://dev.followkr.com/survey/youtube_api_jp/").
       // $http.get("http://127.0.0.1:8060/survey/youtube_api_jp/").
       success(function(data, status, headers, config) {
+      	$ionicLoading.hide()
       	$scope.results = data
       }).
       	error(function(data, status, headers, config) {
       });            
 })
 
-.controller('Top100popCtrl',  function($scope, Music, $http) {
-  $scope.music = Music.all();
+.controller('Top100popCtrl',  function($scope, Music, $http, $ionicLoading) {
+  var _this = this
+  $ionicLoading.show({
+    template: 'loading'
+  })	
+  // $scope.music = Music.all();
       $http.get("http://dev.followkr.com/survey/youtube_api_pop/").
       // $http.get("http://127.0.0.1:8060/survey/youtube_api_pop/").
       success(function(data, status, headers, config) {
+      	$ionicLoading.hide()
       	$scope.results = data
       }).
       	error(function(data, status, headers, config) {
