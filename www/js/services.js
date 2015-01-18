@@ -98,8 +98,8 @@ angular.module('starter.services', [])
 
 .factory('Music', function($http) {
       var music = {content:null};
-      $http.get("http://dev.followkr.com/survey/youtube_api/").success(function(data) {
-      // $http.get("http://127.0.0.1:8060/survey/youtube_api/").success(function(data) {
+      // $http.get("http://dev.followkr.com/survey/youtube_api/").success(function(data) {
+      $http.get("http://127.0.0.1:8060/survey/youtube_api_jp/").success(function(data) {
 			music.content = data;
 		  })
 	

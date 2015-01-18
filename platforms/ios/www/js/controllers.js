@@ -13,6 +13,7 @@ angular.module('starter.controllers',[])
 	var url = 'http://gdata.youtube.com/feeds/api/videos?'
 			+ ['q=' + encodeURIComponent($scope.query),
 			'alt=json',
+			'order=relevance',
 			'max-results=20',
 			'callback=JSON_CALLBACK'
 			].join('&');
@@ -23,8 +24,6 @@ angular.module('starter.controllers',[])
 	var permalink=entry['id']['$t'];
 	var id =permalink.match(/^.+\/(.+?)$/)[1];
 	// var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' frameborder='0' allowfullscreen></iframe>";
-	// <a ion-item item-thumbnail-left ng-repeat="video in data.videos" class="item item-thumbnail-left" href="{{video.url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
-	
 	var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' ng-click='showInAppVideo('{{video.url}}', $event)'></iframe>";
 	$scope.results[i].iframesrc = iframe;
 	});
@@ -82,8 +81,29 @@ return $sce.trustAsHtml(html_code);
       });            
 })
 
+.controller('Top100jpCtrl',  function($scope, Music, $http) {
+  $scope.music = Music.all();
+      $http.get("http://dev.followkr.com/survey/youtube_api_jp/").
+      // $http.get("http://127.0.0.1:8060/survey/youtube_api_jp/").
+      success(function(data, status, headers, config) {
+      	$scope.results = data
+      }).
+      	error(function(data, status, headers, config) {
+      });            
+})
+
+.controller('Top100popCtrl',  function($scope, Music, $http) {
+  $scope.music = Music.all();
+      $http.get("http://dev.followkr.com/survey/youtube_api_pop/").
+      // $http.get("http://127.0.0.1:8060/survey/youtube_api_pop/").
+      success(function(data, status, headers, config) {
+      	$scope.results = data
+      }).
+      	error(function(data, status, headers, config) {
+      });            
+})
+
 .controller('Top100DetailCtrl', function($scope, $stateParams, Music) {
-	// alert($stateParams.id);
   $scope.m = Music.get($stateParams.id);
   $scope.url = "http://www.youtube.com/embed/jgBYxZ5k5QE";
 })
@@ -122,12 +142,3 @@ var User = App.factory("User",function($resource){
     return User;
     // use User in your controller or another service.
 });
-
-
-
-
-
-
-
-
-

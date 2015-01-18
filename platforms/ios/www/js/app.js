@@ -26,8 +26,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     $scope.data = {};
 
 	//http://127.0.0.1:8060/survey/youtube_api/
-    $http.get('http://dev.followkr.com/survey/youtube_api/')
-    // $http.get('http://127.0.0.1:8060/survey/youtube_api/')
+    // $http.get('http://dev.followkr.com/survey/youtube_api/')
+    $http.get('http://127.0.0.1:8060/survey/youtube_api/')
       .success(function(data) {
       	// alert(data.toSource());
         $scope.data.videos = data;
@@ -69,6 +69,80 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 
 
+.controller('videoListCtrl_pop', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
+$scope.data = {};
+$http.get('http://127.0.0.1:8060/survey/youtube_api_pop/')
+// $http.get('http://dev.followkr.com/survey/youtube_api_pop/')
+  .success(function(data) {
+    $scope.data.videos = data;
+  })
+  .error(function(error) {
+    $scope.data.error = error;
+  });
+
+  $scope.showInAppVideo = function(url, $event) {
+
+    if ($event.preventDefault) {
+      $event.preventDefault();
+    }
+
+    var ref = window.open(url, '_blank', 'location=yes');
+  };
+
+  $scope.getDuration = function(sec) {
+
+    var s = sec % 60 < 10 ? "0" + ( sec % 60 ) : sec % 60;
+    var m = Math.floor(sec/60); 
+
+    return "" + m + ":" + s;
+      };
+
+  }])
+  .run(function($ionicPlatform) {
+    $ionicPlatform.ready(function() {
+      if(window.StatusBar) {
+        StatusBar.styleDefault();
+      }
+    })
+  })
+
+.controller('videoListCtrl_jp', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
+$scope.data = {};
+$http.get('http://127.0.0.1:8060/survey/youtube_api_jp/')
+// $http.get('http://dev.followkr.com/survey/youtube_api_jp/')
+  .success(function(data) {
+  	// alert(data.toSource());
+    $scope.data.videos = data;
+  })
+  .error(function(error) {
+    $scope.data.error = error;
+  });
+
+  $scope.showInAppVideo = function(url, $event) {
+
+    if ($event.preventDefault) {
+      $event.preventDefault();
+    }
+
+    var ref = window.open(url, '_blank', 'location=yes');
+  };
+
+  $scope.getDuration = function(sec) {
+
+    var s = sec % 60 < 10 ? "0" + ( sec % 60 ) : sec % 60;
+    var m = Math.floor(sec/60); 
+
+    return "" + m + ":" + s;
+      };
+
+  }])
+  .run(function($ionicPlatform) {
+    $ionicPlatform.ready(function() {
+      if(window.StatusBar) {
+        StatusBar.styleDefault();
+      }
+    })
+  })
 
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -97,14 +171,32 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
-
-
   .state('tab.top100', {
     url: '/top100',
     views: {
       'tab-top100': {
         templateUrl: 'templates/tab-top100.html',
         controller: 'Top100Ctrl'
+      }
+    }
+  })
+
+  .state('tab.top100jp', {
+    url: '/top100jp',
+    views: {
+      'tab-top100jp': {
+        templateUrl: 'templates/tab-top100jp.html',
+        controller: 'Top100jpCtrl'
+      }
+    }
+  })
+
+  .state('tab.top100pop', {
+    url: '/top100pop',
+    views: {
+      'tab-top100pop': {
+        templateUrl: 'templates/tab-top100pop.html',
+        controller: 'Top100popCtrl'
       }
     }
   })
