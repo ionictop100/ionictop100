@@ -4752,7 +4752,7 @@ a.item-content {
 .item-note {
   float: right;
   color: #aaa;
-  font-size: 14px; }
+  font-size: 34px; }
 
 .item-left-editable .item-content, .item-right-editable .item-content {
   -webkit-transition-duration: 250ms;

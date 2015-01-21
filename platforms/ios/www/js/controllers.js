@@ -79,7 +79,7 @@ return $sce.trustAsHtml(html_code);
   $ionicLoading.show({
     template: 'loading'
   })
-  $scope.music = Music.all();
+  // $scope.music = Music.all();
       $http.get("http://dev.followkr.com/survey/youtube_api/").
       // $http.get("http://127.0.0.1:8060/survey/youtube_api/").
       success(function(data, status, headers, config) {
