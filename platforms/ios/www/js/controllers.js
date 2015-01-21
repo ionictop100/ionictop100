@@ -71,7 +71,6 @@ angular.module('starter.controllers',[])
   $scope.friends = Friends.all();
 })
 .controller('Top100Ctrl',  function($scope, Music, $http, $ionicLoading) {
-  alert(111);
   var _this = this
   $ionicLoading.show({
     template: 'loading'

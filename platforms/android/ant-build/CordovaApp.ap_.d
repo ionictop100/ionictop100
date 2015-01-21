@@ -53,7 +53,6 @@
 /Users/free31/git/ionictop100/platforms/android/ant-build/res/drawable-xxhdpi/ic_action_remove.png \
 /Users/free31/git/ionictop100/platforms/android/assets/_where-is-www.txt \
 /Users/free31/git/ionictop100/platforms/android/assets/www \
-/Users/free31/git/ionictop100/platforms/android/assets/www/Copy of index.html \
 /Users/free31/git/ionictop100/platforms/android/assets/www/cordova.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/cordova_plugins.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/css \
