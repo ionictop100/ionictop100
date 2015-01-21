@@ -75,7 +75,6 @@
 /Users/free31/git/ionictop100/platforms/android/assets/www/img/ionic.png \
 /Users/free31/git/ionictop100/platforms/android/assets/www/js/app.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/js/controllers.js \
-/Users/free31/git/ionictop100/platforms/android/assets/www/js/Copy of app.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/js/services.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/lib/angular \
 /Users/free31/git/ionictop100/platforms/android/assets/www/lib/angular-animate \
@@ -213,7 +212,7 @@
 /Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-chats.html \
 /Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-dash.html \
 /Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-friends.html \
-/Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-test.html \
+/Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-search.html \
 /Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-top100.html \
 /Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-top100jp.html \
 /Users/free31/git/ionictop100/platforms/android/assets/www/templates/tab-top100pop.html \

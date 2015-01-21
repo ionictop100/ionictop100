@@ -235,12 +235,12 @@ $http.get('http://dev.followkr.com/survey/youtube_api_jp/')
 
 
 
-  .state('tab.test', {
-      url: '/test',
+  .state('tab.search', {
+      url: '/search',
       views: {
-        'tab-test': {
-          templateUrl: 'templates/tab-test.html',
-          controller: 'TestCtrl'
+        'tab-search': {
+          templateUrl: 'templates/tab-search.html',
+          controller: 'SearchCtrl'
         }
       }
     })

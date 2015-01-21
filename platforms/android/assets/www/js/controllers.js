@@ -71,7 +71,7 @@ return $sce.trustAsHtml(html_code);
   };
 })
 
-.controller('TestCtrl', function($scope, Friends) {
+.controller('SearchCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
 })
 .controller('Top100Ctrl',  function($scope, Music, $http, $ionicLoading) {

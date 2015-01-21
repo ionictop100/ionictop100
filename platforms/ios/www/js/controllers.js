@@ -71,7 +71,7 @@ return $sce.trustAsHtml(html_code);
   };
 })
 
-.controller('TestCtrl', function($scope, Friends) {
+.controller('SearchCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
 })
 .controller('Top100Ctrl',  function($scope, Music, $http, $ionicLoading) {
@@ -79,7 +79,7 @@ return $sce.trustAsHtml(html_code);
   $ionicLoading.show({
     template: 'loading'
   })
-  // $scope.music = Music.all();
+  $scope.music = Music.all();
       $http.get("http://dev.followkr.com/survey/youtube_api/").
       // $http.get("http://127.0.0.1:8060/survey/youtube_api/").
       success(function(data, status, headers, config) {
@@ -123,7 +123,7 @@ return $sce.trustAsHtml(html_code);
 })
 
 .controller('Top100DetailCtrl', function($scope, $stateParams, Music) {
-  $scope.m = Music.get($stateParams.id);
+  // $scope.m = Music.get($stateParams.id);
   $scope.url = "http://www.youtube.com/embed/jgBYxZ5k5QE";
 })
 
