@@ -4248,3 +4248,10 @@ The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in
 2015-01-19 21:34:11.949 VideoList[2621:20938] THREAD WARNING: ['InAppBrowser'] took '225.081787' ms. Plugin should use a background thread.
 2015-01-19 21:34:12.011 VideoList[2621:20938] Error in Success callbackId: InAppBrowser1041430553 : TypeError: null is not an object (evaluating 'event.type')
 2015-01-19 21:34:13.083 VideoList[2621:20938] webView:didFailLoadWithError - -999: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-01-21 15:31:14.942 VideoList[19742:279160] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-21 15:31:14.944 VideoList[19742:279160] Multi-tasking -> Device: YES, App: YES
+2015-01-21 15:31:14.957 VideoList[19742:279160] Unlimited access to network resources
+2015-01-21 15:31:15.345 VideoList[19742:279160] [CDVTimer][keyboard] 0.056028ms
+2015-01-21 15:31:15.345 VideoList[19742:279160] [CDVTimer][TotalPluginStartup] 0.238001ms
+2015-01-21 15:31:15.645 VideoList[19742:279160] Resetting plugins due to page load.
+2015-01-21 15:31:16.094 VideoList[19742:279160] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/1EE1474C-0716-41A6-9EFD-329D15358371/VideoList.app/www/index.html#/tab/top100

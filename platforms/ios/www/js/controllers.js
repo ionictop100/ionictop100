@@ -8,33 +8,37 @@ angular.module('starter.controllers',[])
   }
 })
 
-// .controller('mainController', function($scope, $http,$sce) {
- // $scope.doSearch = function(){
-	// var url = 'http://gdata.youtube.com/feeds/api/videos?'
-			// + ['q=' + encodeURIComponent($scope.query),
-			// 'alt=json',
-			// 'order=relevance',
-			// 'max-results=20',
-			// 'callback=JSON_CALLBACK'
-			// ].join('&');
-//  
-	// $http.jsonp(url).success(function(data){
-	// $scope.results = data.feed.entry;
-	// angular.forEach(data.feed.entry, function(entry, i){
-	// var permalink=entry['id']['$t'];
-	// var id =permalink.match(/^.+\/(.+?)$/)[1];
-	// // var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' frameborder='0' allowfullscreen></iframe>";
-	// var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' ng-click='showInAppVideo('{{video.url}}', $event)'></iframe>";
-	// $scope.results[i].iframesrc = iframe;
-	// });
-// });
-//  
-// $scope.to_trusted = function(html_code){
-// // html_codeはsanitize済
-// return $sce.trustAsHtml(html_code);
-// }
-// };
-// })
+.controller('mainController', function($scope, $http,$sce) {
+ $scope.doSearch = function(){
+	var url = 'http://gdata.youtube.com/feeds/api/videos?'
+			+ ['q=' + encodeURIComponent($scope.query),
+			'alt=json',
+			'order=relevance',
+			'max-results=20',
+			'callback=JSON_CALLBACK'
+			].join('&');
+ 
+	$http.jsonp(url).success(function(data){
+	$scope.results = data.feed.entry;
+	angular.forEach(data.feed.entry, function(entry, i){
+	var permalink=entry['id']['$t'];
+	var id =permalink.match(/^.+\/(.+?)$/)[1];
+	// var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' frameborder='0' allowfullscreen></iframe>";
+	var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' ng-click='showInAppVideo('{{video.url}}', $event)'></iframe>";
+	$scope.results[i].iframesrc = iframe;
+	});
+});
+ 
+$scope.to_trusted = function(html_code){
+// html_codeはsanitize済
+return $sce.trustAsHtml(html_code);
+}
+};
+})
+
+
+
+
 
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
