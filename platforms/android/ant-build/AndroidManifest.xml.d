@@ -1,2 +1,2 @@
-C:\dev\ex\ionicvideo\demo\platforms\android\ant-build\AndroidManifest.xml : \
-C:\dev\ex\ionicvideo\demo\platforms\android\AndroidManifest.xml \
+/Users/free31/git/ionictop100/platforms/android/ant-build/AndroidManifest.xml : \
+/Users/free31/git/ionictop100/platforms/android/AndroidManifest.xml \

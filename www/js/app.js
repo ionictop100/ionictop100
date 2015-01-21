@@ -24,6 +24,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .controller('videoListCtrl', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 
     $scope.data = {};
+    
 
 	//http://127.0.0.1:8060/survey/youtube_api/
     $http.get('http://dev.followkr.com/survey/youtube_api/')
