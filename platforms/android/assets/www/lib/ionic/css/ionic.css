@@ -4755,9 +4755,12 @@ a.item-content {
   font-size: 34px; }
 
 .item-note_new {
-  float: right;
+  padding-top: 1px;
+  padding-left: 180px;
+  position: absolute;
   color: #aaa;
-  font-size: 12px; }
+  opacity: 0.3;
+  font-size: 30px; }
 
 .item-left-editable .item-content, .item-right-editable .item-content {
   -webkit-transition-duration: 250ms;
