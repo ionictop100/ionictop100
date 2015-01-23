@@ -4756,11 +4756,19 @@ a.item-content {
 
 .item-note_new {
   padding-top: 1px;
-  padding-left: 180px;
+  padding-left: 250px;
   position: absolute;
-  color: #aaa;
+  color: dark;
   opacity: 0.3;
   font-size: 30px; }
+
+.item-note_is_new {
+  padding-top: 4px;
+  padding-left: 25px;
+  position: absolute;
+  color: #aaa;
+  opacity: 0.5;
+  font-size: 15px; }
 
 .item-left-editable .item-content, .item-right-editable .item-content {
   -webkit-transition-duration: 250ms;

@@ -4255,3 +4255,1790 @@ The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in
 2015-01-21 15:31:15.345 VideoList[19742:279160] [CDVTimer][TotalPluginStartup] 0.238001ms
 2015-01-21 15:31:15.645 VideoList[19742:279160] Resetting plugins due to page load.
 2015-01-21 15:31:16.094 VideoList[19742:279160] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/1EE1474C-0716-41A6-9EFD-329D15358371/VideoList.app/www/index.html#/tab/top100
+2015-01-23 12:10:36.381 VideoList[51727:858968] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 12:10:36.383 VideoList[51727:858968] Multi-tasking -> Device: YES, App: YES
+2015-01-23 12:10:36.398 VideoList[51727:858968] Unlimited access to network resources
+2015-01-23 12:10:36.774 VideoList[51727:858968] [CDVTimer][keyboard] 0.061989ms
+2015-01-23 12:10:36.774 VideoList[51727:858968] [CDVTimer][TotalPluginStartup] 0.252962ms
+2015-01-23 12:10:37.074 VideoList[51727:858968] Resetting plugins due to page load.
+2015-01-23 12:10:37.348 VideoList[51727:858968] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/AD523FB9-9CA4-426E-BEE2-4376AD0091D7/VideoList.app/www/index.html#/tab/dash
+2015-01-23 12:10:40.673 VideoList[51727:858968] THREAD WARNING: ['InAppBrowser'] took '117.067139' ms. Plugin should use a background thread.
+2015-01-23 12:10:40.673 VideoList[51727:858968] Error in Success callbackId: InAppBrowser1318831199 : TypeError: null is not an object (evaluating 'event.type')
+2015-01-23 12:14:36.921 VideoList[52317:862567] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 12:14:36.923 VideoList[52317:862567] Multi-tasking -> Device: YES, App: YES
+2015-01-23 12:14:36.938 VideoList[52317:862567] Unlimited access to network resources
+2015-01-23 12:14:37.356 VideoList[52317:862567] [CDVTimer][keyboard] 0.069976ms
+2015-01-23 12:14:37.356 VideoList[52317:862567] [CDVTimer][TotalPluginStartup] 0.292003ms
+2015-01-23 12:14:37.627 VideoList[52317:862567] Resetting plugins due to page load.
+2015-01-23 12:14:37.876 VideoList[52317:862567] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/17150D4F-43B2-40D8-B070-5FE6F778A444/VideoList.app/www/index.html#/tab/dash
+2015-01-23 12:14:40.331 VideoList[52317:862567] Error in Success callbackId: InAppBrowser637686311 : TypeError: null is not an object (evaluating 'event.type')
+2015-01-23 12:14:40.334 VideoList[52317:862567] Resetting plugins due to page load.
+2015-01-23 12:14:40.334 VideoList[52317:862567] IAB.close() called but it was already closed.
+2015-01-23 12:14:41.621 VideoList[52317:862567] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+Jan 23 12:14:41 kin-no-MacBook-Pro-2.local rtcreporting[52317] <Info>: logging starts...
+Jan 23 12:14:41 kin-no-MacBook-Pro-2.local rtcreporting[52317] <Debug>: setMessageLoggingBlock: called
+2015-01-23 12:14:42.637 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7c931380 UIImageView:0x7c9325c0.centerX == AVAudioOnlyIndicatorView:0x7bfae4e0.centerX>",
+    "<NSLayoutConstraint:0x7c9312a0 H:|-(>=10)-[UIImageView:0x7c9325c0]   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>",
+    "<NSLayoutConstraint:0x7bfb96b0 H:|-(0)-[AVAudioOnlyIndicatorView:0x7bfae4e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9710 H:[AVAudioOnlyIndicatorView:0x7bfae4e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9400 H:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9470 H:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be17690 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7c931380 UIImageView:0x7c9325c0.centerX == AVAudioOnlyIndicatorView:0x7bfae4e0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.638 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7c9312a0 H:|-(>=10)-[UIImageView:0x7c9325c0]   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>",
+    "<NSLayoutConstraint:0x7c931240 H:[UIImageView:0x7c9325c0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>",
+    "<NSLayoutConstraint:0x7bfb96b0 H:|-(0)-[AVAudioOnlyIndicatorView:0x7bfae4e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9710 H:[AVAudioOnlyIndicatorView:0x7bfae4e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9400 H:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9470 H:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be17690 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7c931240 H:[UIImageView:0x7c9325c0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.639 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7bfad200 UIImageView:0x7bfb5280.centerX == AVUnsupportedContentIndicatorView:0x7bfb4fc0.centerX>",
+    "<NSLayoutConstraint:0x7bfae970 H:[UIImageView:0x7bfb5280]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>",
+    "<NSLayoutConstraint:0x7bfb9560 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7bfb4fc0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9590 H:[AVUnsupportedContentIndicatorView:0x7bfb4fc0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9400 H:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9470 H:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be17690 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7bfad200 UIImageView:0x7bfb5280.centerX == AVUnsupportedContentIndicatorView:0x7bfb4fc0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.641 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7be29a60 UIView:0x7fa50bf0.centerX == AVExternalPlaybackIndicatorView:0x7fa4e9e0.centerX>",
+    "<NSLayoutConstraint:0x7be29340 H:|-(>=10)-[UIView:0x7fa50bf0]   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>",
+    "<NSLayoutConstraint:0x7bfb97e0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x7fa4e9e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9810 H:[AVExternalPlaybackIndicatorView:0x7fa4e9e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9400 H:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9470 H:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be17690 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7be29a60 UIView:0x7fa50bf0.centerX == AVExternalPlaybackIndicatorView:0x7fa4e9e0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.642 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7be29340 H:|-(>=10)-[UIView:0x7fa50bf0]   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>",
+    "<NSLayoutConstraint:0x7be293b0 H:[UIView:0x7fa50bf0]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>",
+    "<NSLayoutConstraint:0x7bfb97e0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x7fa4e9e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9810 H:[AVExternalPlaybackIndicatorView:0x7fa4e9e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9400 H:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9470 H:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be17690 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7be293b0 H:[UIView:0x7fa50bf0]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.643 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7bfae9e0 H:|-(>=10)-[UIImageView:0x7bfb5280]   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>",
+    "<NSLayoutConstraint:0x7bfae970 H:[UIImageView:0x7bfb5280]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>",
+    "<NSLayoutConstraint:0x7bfb9560 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7bfb4fc0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9590 H:[AVUnsupportedContentIndicatorView:0x7bfb4fc0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9400 H:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9470 H:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be17690 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7bfae970 H:[UIImageView:0x7bfb5280]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.645 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7bfad200 UIImageView:0x7bfb5280.centerX == AVUnsupportedContentIndicatorView:0x7bfb4fc0.centerX>",
+    "<NSLayoutConstraint:0x7bfae9e0 H:|-(>=10)-[UIImageView:0x7bfb5280]   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>",
+    "<NSLayoutConstraint:0x7bfb9560 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7bfb4fc0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9590 H:[AVUnsupportedContentIndicatorView:0x7bfb4fc0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9400 H:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9470 H:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be17690 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7bfad200 UIImageView:0x7bfb5280.centerX == AVUnsupportedContentIndicatorView:0x7bfb4fc0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.647 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7be29260 UIView:0x7fa50bf0.centerY == AVExternalPlaybackIndicatorView:0x7fa4e9e0.centerY + 10>",
+    "<NSLayoutConstraint:0x7be29440 V:[UIView:0x7fa50bf0]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>",
+    "<NSLayoutConstraint:0x7be2af70 V:|-(0)-[UIImageView:0x7fa4bd50]   (Names: '|':UIView:0x7fa50bf0 )>",
+    "<NSLayoutConstraint:0x7be29230 V:[UIImageView:0x7fa4bd50]-(20)-[UILabel:0x7c930c30]>",
+    "<NSLayoutConstraint:0x7be29200 V:[UILabel:0x7c930c30]-(0)-[UILabel:0x7be295f0]>",
+    "<NSLayoutConstraint:0x7be291d0 V:[UILabel:0x7be295f0]-(0)-|   (Names: '|':UIView:0x7fa50bf0 )>",
+    "<NSLayoutConstraint:0x7bfb9890 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7fa4e9e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb98c0 V:[AVExternalPlaybackIndicatorView:0x7fa4e9e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb94c0 V:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9530 V:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be16b70 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7be29230 V:[UIImageView:0x7fa4bd50]-(20)-[UILabel:0x7c930c30]>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.648 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7bfb72b0 UIImageView:0x7bfb5280.centerY == AVUnsupportedContentIndicatorView:0x7bfb4fc0.centerY + 10>",
+    "<NSLayoutConstraint:0x7bfad630 V:[UIImageView:0x7bfb5280]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>",
+    "<NSLayoutConstraint:0x7bfb9610 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7bfb4fc0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9650 V:[AVUnsupportedContentIndicatorView:0x7bfb4fc0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb94c0 V:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9530 V:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be16b70 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7bfb72b0 UIImageView:0x7bfb5280.centerY == AVUnsupportedContentIndicatorView:0x7bfb4fc0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.648 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7c931330 UIImageView:0x7c9325c0.centerY == AVAudioOnlyIndicatorView:0x7bfae4e0.centerY + 10>",
+    "<NSLayoutConstraint:0x7c9311b0 V:[UIImageView:0x7c9325c0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>",
+    "<NSLayoutConstraint:0x7bfb9760 V:|-(0)-[AVAudioOnlyIndicatorView:0x7bfae4e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb97b0 V:[AVAudioOnlyIndicatorView:0x7bfae4e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb94c0 V:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9530 V:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be16b70 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7c931330 UIImageView:0x7c9325c0.centerY == AVAudioOnlyIndicatorView:0x7bfae4e0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.649 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7be29260 UIView:0x7fa50bf0.centerY == AVExternalPlaybackIndicatorView:0x7fa4e9e0.centerY + 10>",
+    "<NSLayoutConstraint:0x7be29440 V:[UIView:0x7fa50bf0]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>",
+    "<NSLayoutConstraint:0x7bfb9890 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7fa4e9e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb98c0 V:[AVExternalPlaybackIndicatorView:0x7fa4e9e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb94c0 V:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9530 V:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be16b70 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7be29260 UIView:0x7fa50bf0.centerY == AVExternalPlaybackIndicatorView:0x7fa4e9e0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.650 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7c931210 V:|-(>=10)-[UIImageView:0x7c9325c0]   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>",
+    "<NSLayoutConstraint:0x7c9311b0 V:[UIImageView:0x7c9325c0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>",
+    "<NSLayoutConstraint:0x7bfb9760 V:|-(0)-[AVAudioOnlyIndicatorView:0x7bfae4e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb97b0 V:[AVAudioOnlyIndicatorView:0x7bfae4e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb94c0 V:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9530 V:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be16b70 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7c9311b0 V:[UIImageView:0x7c9325c0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7bfae4e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.651 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7bfad6b0 V:|-(>=10)-[UIImageView:0x7bfb5280]   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>",
+    "<NSLayoutConstraint:0x7bfad630 V:[UIImageView:0x7bfb5280]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>",
+    "<NSLayoutConstraint:0x7bfb9610 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7bfb4fc0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb9650 V:[AVUnsupportedContentIndicatorView:0x7bfb4fc0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb94c0 V:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9530 V:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be16b70 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7bfad630 V:[UIImageView:0x7bfb5280]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7bfb4fc0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:14:42.652 VideoList[52317:862567] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7be293e0 V:|-(>=10)-[UIView:0x7fa50bf0]   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>",
+    "<NSLayoutConstraint:0x7be29440 V:[UIView:0x7fa50bf0]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>",
+    "<NSLayoutConstraint:0x7bfb9890 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7fa4e9e0]   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb98c0 V:[AVExternalPlaybackIndicatorView:0x7fa4e9e0]-(0)-|   (Names: '|':UIView:0x7bfb4df0 )>",
+    "<NSLayoutConstraint:0x7bfb94c0 V:|-(0)-[UIView:0x7bfb4df0]   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7bfb9530 V:[UIView:0x7bfb4df0]-(0)-|   (Names: '|':AVPlayerView:0x7bfb4b30 )>",
+    "<NSLayoutConstraint:0x7be16b70 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7bfb4b30(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7be29440 V:[UIView:0x7fa50bf0]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7fa4e9e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+Jan 23 12:14:51 kin-no-MacBook-Pro-2.local rtcreporting[52317] <Debug>: initWithSessionInfo: XPC connection interrupted
+2015-01-23 12:37:11.903 VideoList[54195:876029] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 12:37:11.905 VideoList[54195:876029] Multi-tasking -> Device: YES, App: YES
+2015-01-23 12:37:11.924 VideoList[54195:876029] Unlimited access to network resources
+2015-01-23 12:37:12.400 VideoList[54195:876029] [CDVTimer][keyboard] 0.064969ms
+2015-01-23 12:37:12.400 VideoList[54195:876029] [CDVTimer][TotalPluginStartup] 0.253022ms
+2015-01-23 12:37:12.771 VideoList[54195:876029] Resetting plugins due to page load.
+2015-01-23 12:37:13.164 VideoList[54195:876029] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/D8F57DDA-3D98-4AF6-A48C-47EC7AE76C90/VideoList.app/www/index.html#/tab/dash
+2015-01-23 12:37:20.386 VideoList[54195:876029] THREAD WARNING: ['InAppBrowser'] took '253.027100' ms. Plugin should use a background thread.
+2015-01-23 12:37:20.511 VideoList[54195:876029] Error in Success callbackId: InAppBrowser1232864016 : TypeError: null is not an object (evaluating 'event.type')
+Jan 23 12:37:22 kin-no-MacBook-Pro-2.local rtcreporting[54195] <Info>: logging starts...
+Jan 23 12:37:22 kin-no-MacBook-Pro-2.local rtcreporting[54195] <Debug>: setMessageLoggingBlock: called
+2015-01-23 12:37:23.127 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7a7943c0 UIImageView:0x7b8b5570.centerX == AVAudioOnlyIndicatorView:0x7b8b52b0.centerX>",
+    "<NSLayoutConstraint:0x7a7947a0 H:|-(>=10)-[UIImageView:0x7b8b5570]   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>",
+    "<NSLayoutConstraint:0x7b9756c0 H:|-(0)-[AVAudioOnlyIndicatorView:0x7b8b52b0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975710 H:[AVAudioOnlyIndicatorView:0x7b8b52b0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975480 H:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9754d0 H:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9809c0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7a7943c0 UIImageView:0x7b8b5570.centerX == AVAudioOnlyIndicatorView:0x7b8b52b0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.129 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7a7947a0 H:|-(>=10)-[UIImageView:0x7b8b5570]   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>",
+    "<NSLayoutConstraint:0x7a7947d0 H:[UIImageView:0x7b8b5570]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>",
+    "<NSLayoutConstraint:0x7b9756c0 H:|-(0)-[AVAudioOnlyIndicatorView:0x7b8b52b0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975710 H:[AVAudioOnlyIndicatorView:0x7b8b52b0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975480 H:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9754d0 H:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9809c0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7a7947d0 H:[UIImageView:0x7b8b5570]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.130 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b48d0 UIImageView:0x7b94f530.centerX == AVUnsupportedContentIndicatorView:0x7b8b43a0.centerX>",
+    "<NSLayoutConstraint:0x7b8b4d30 H:[UIImageView:0x7b94f530]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>",
+    "<NSLayoutConstraint:0x7b9755a0 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8b43a0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9755d0 H:[AVUnsupportedContentIndicatorView:0x7b8b43a0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975480 H:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9754d0 H:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9809c0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b48d0 UIImageView:0x7b94f530.centerX == AVUnsupportedContentIndicatorView:0x7b8b43a0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.130 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b60a0 UIView:0x7a794c10.centerX == AVExternalPlaybackIndicatorView:0x7a794950.centerX>",
+    "<NSLayoutConstraint:0x7b8b61d0 H:|-(>=10)-[UIView:0x7a794c10]   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>",
+    "<NSLayoutConstraint:0x7b9757e0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x7a794950]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975810 H:[AVExternalPlaybackIndicatorView:0x7a794950]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975480 H:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9754d0 H:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9809c0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b60a0 UIView:0x7a794c10.centerX == AVExternalPlaybackIndicatorView:0x7a794950.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.131 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b61d0 H:|-(>=10)-[UIView:0x7a794c10]   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>",
+    "<NSLayoutConstraint:0x7b8b6220 H:[UIView:0x7a794c10]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>",
+    "<NSLayoutConstraint:0x7b9757e0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x7a794950]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975810 H:[AVExternalPlaybackIndicatorView:0x7a794950]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975480 H:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9754d0 H:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9809c0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b6220 H:[UIView:0x7a794c10]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.132 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b4bd0 H:|-(>=10)-[UIImageView:0x7b94f530]   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>",
+    "<NSLayoutConstraint:0x7b8b4d30 H:[UIImageView:0x7b94f530]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>",
+    "<NSLayoutConstraint:0x7b9755a0 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8b43a0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9755d0 H:[AVUnsupportedContentIndicatorView:0x7b8b43a0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975480 H:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9754d0 H:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9809c0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b4d30 H:[UIImageView:0x7b94f530]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.133 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b48d0 UIImageView:0x7b94f530.centerX == AVUnsupportedContentIndicatorView:0x7b8b43a0.centerX>",
+    "<NSLayoutConstraint:0x7b8b4bd0 H:|-(>=10)-[UIImageView:0x7b94f530]   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>",
+    "<NSLayoutConstraint:0x7b9755a0 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8b43a0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9755d0 H:[AVUnsupportedContentIndicatorView:0x7b8b43a0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975480 H:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9754d0 H:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b9809c0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b48d0 UIImageView:0x7b94f530.centerX == AVUnsupportedContentIndicatorView:0x7b8b43a0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.134 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b60f0 UIView:0x7a794c10.centerY == AVExternalPlaybackIndicatorView:0x7a794950.centerY + 10>",
+    "<NSLayoutConstraint:0x7b8b62a0 V:[UIView:0x7a794c10]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>",
+    "<NSLayoutConstraint:0x7b8b64b0 V:|-(0)-[UIImageView:0x7a795070]   (Names: '|':UIView:0x7a794c10 )>",
+    "<NSLayoutConstraint:0x7b8b6500 V:[UIImageView:0x7a795070]-(20)-[UILabel:0x7b878880]>",
+    "<NSLayoutConstraint:0x7b8b6530 V:[UILabel:0x7b878880]-(0)-[UILabel:0x7b8b5df0]>",
+    "<NSLayoutConstraint:0x7b8b6560 V:[UILabel:0x7b8b5df0]-(0)-|   (Names: '|':UIView:0x7a794c10 )>",
+    "<NSLayoutConstraint:0x7b975880 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7a794950]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9758b0 V:[AVExternalPlaybackIndicatorView:0x7a794950]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975520 V:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b975570 V:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b981450 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b6500 V:[UIImageView:0x7a795070]-(20)-[UILabel:0x7b878880]>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.135 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b4930 UIImageView:0x7b94f530.centerY == AVUnsupportedContentIndicatorView:0x7b8b43a0.centerY + 10>",
+    "<NSLayoutConstraint:0x7b8b4ec0 V:[UIImageView:0x7b94f530]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>",
+    "<NSLayoutConstraint:0x7b975640 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8b43a0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975670 V:[AVUnsupportedContentIndicatorView:0x7b8b43a0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975520 V:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b975570 V:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b981450 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b4930 UIImageView:0x7b94f530.centerY == AVUnsupportedContentIndicatorView:0x7b8b43a0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.135 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7a794fb0 UIImageView:0x7b8b5570.centerY == AVAudioOnlyIndicatorView:0x7b8b52b0.centerY + 10>",
+    "<NSLayoutConstraint:0x7a794850 V:[UIImageView:0x7b8b5570]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>",
+    "<NSLayoutConstraint:0x7b975760 V:|-(0)-[AVAudioOnlyIndicatorView:0x7b8b52b0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9757b0 V:[AVAudioOnlyIndicatorView:0x7b8b52b0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975520 V:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b975570 V:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b981450 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7a794fb0 UIImageView:0x7b8b5570.centerY == AVAudioOnlyIndicatorView:0x7b8b52b0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.136 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b60f0 UIView:0x7a794c10.centerY == AVExternalPlaybackIndicatorView:0x7a794950.centerY + 10>",
+    "<NSLayoutConstraint:0x7b8b62a0 V:[UIView:0x7a794c10]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>",
+    "<NSLayoutConstraint:0x7b975880 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7a794950]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9758b0 V:[AVExternalPlaybackIndicatorView:0x7a794950]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975520 V:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b975570 V:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b981450 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b60f0 UIView:0x7a794c10.centerY == AVExternalPlaybackIndicatorView:0x7a794950.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.137 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7a794820 V:|-(>=10)-[UIImageView:0x7b8b5570]   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>",
+    "<NSLayoutConstraint:0x7a794850 V:[UIImageView:0x7b8b5570]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>",
+    "<NSLayoutConstraint:0x7b975760 V:|-(0)-[AVAudioOnlyIndicatorView:0x7b8b52b0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9757b0 V:[AVAudioOnlyIndicatorView:0x7b8b52b0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975520 V:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b975570 V:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b981450 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7a794850 V:[UIImageView:0x7b8b5570]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b8b52b0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.138 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b4e60 V:|-(>=10)-[UIImageView:0x7b94f530]   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>",
+    "<NSLayoutConstraint:0x7b8b4ec0 V:[UIImageView:0x7b94f530]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>",
+    "<NSLayoutConstraint:0x7b975640 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8b43a0]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975670 V:[AVUnsupportedContentIndicatorView:0x7b8b43a0]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975520 V:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b975570 V:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b981450 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b4ec0 V:[UIImageView:0x7b94f530]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8b43a0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:37:23.138 VideoList[54195:876029] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8b6250 V:|-(>=10)-[UIView:0x7a794c10]   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>",
+    "<NSLayoutConstraint:0x7b8b62a0 V:[UIView:0x7a794c10]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>",
+    "<NSLayoutConstraint:0x7b975880 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7a794950]   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b9758b0 V:[AVExternalPlaybackIndicatorView:0x7a794950]-(0)-|   (Names: '|':UIView:0x7b8b4330 )>",
+    "<NSLayoutConstraint:0x7b975520 V:|-(0)-[UIView:0x7b8b4330]   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b975570 V:[UIView:0x7b8b4330]-(0)-|   (Names: '|':AVPlayerView:0x7b926e70 )>",
+    "<NSLayoutConstraint:0x7b981450 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7b926e70(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8b62a0 V:[UIView:0x7a794c10]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7a794950 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+Jan 23 12:37:44 kin-no-MacBook-Pro-2.local rtcreporting[54195] <Debug>: initWithSessionInfo: XPC connection interrupted
+2015-01-23 12:53:46.419 VideoList[54679:883966] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 12:53:46.422 VideoList[54679:883966] Multi-tasking -> Device: YES, App: YES
+2015-01-23 12:53:46.447 VideoList[54679:883966] Unlimited access to network resources
+2015-01-23 12:53:46.869 VideoList[54679:883966] [CDVTimer][keyboard] 0.060022ms
+2015-01-23 12:53:46.869 VideoList[54679:883966] [CDVTimer][TotalPluginStartup] 0.239015ms
+2015-01-23 12:53:47.276 VideoList[54679:883966] Resetting plugins due to page load.
+2015-01-23 12:53:47.692 VideoList[54679:883966] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/D3BD0D0F-C6C6-407C-A80E-EBECC0679D49/VideoList.app/www/index.html#/tab/dash
+2015-01-23 12:53:55.068 VideoList[54679:883966] THREAD WARNING: ['InAppBrowser'] took '284.013916' ms. Plugin should use a background thread.
+2015-01-23 12:53:55.196 VideoList[54679:883966] Error in Success callbackId: InAppBrowser301481989 : TypeError: null is not an object (evaluating 'event.type')
+2015-01-23 12:53:56.262 VideoList[54679:883966] webView:didFailLoadWithError - -999: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+Jan 23 12:53:56 kin-no-MacBook-Pro-2.local rtcreporting[54679] <Info>: logging starts...
+Jan 23 12:53:56 kin-no-MacBook-Pro-2.local rtcreporting[54679] <Debug>: setMessageLoggingBlock: called
+2015-01-23 12:53:57.235 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d05e0 UIImageView:0x7acc9a20.centerX == AVAudioOnlyIndicatorView:0x7acc9760.centerX>",
+    "<NSLayoutConstraint:0x796d0710 H:|-(>=10)-[UIImageView:0x7acc9a20]   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>",
+    "<NSLayoutConstraint:0x7acccf80 H:|-(0)-[AVAudioOnlyIndicatorView:0x7acc9760]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccfe0 H:[AVAudioOnlyIndicatorView:0x7acc9760]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accccd0 H:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7acccd40 H:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a946760 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d05e0 UIImageView:0x7acc9a20.centerX == AVAudioOnlyIndicatorView:0x7acc9760.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.236 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d0710 H:|-(>=10)-[UIImageView:0x7acc9a20]   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>",
+    "<NSLayoutConstraint:0x796d0780 H:[UIImageView:0x7acc9a20]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>",
+    "<NSLayoutConstraint:0x7acccf80 H:|-(0)-[AVAudioOnlyIndicatorView:0x7acc9760]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccfe0 H:[AVAudioOnlyIndicatorView:0x7acc9760]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accccd0 H:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7acccd40 H:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a946760 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d0780 H:[UIImageView:0x7acc9a20]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.237 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796cfa60 UIImageView:0x7acc6410.centerX == AVUnsupportedContentIndicatorView:0x7acc6150.centerX>",
+    "<NSLayoutConstraint:0x796cfeb0 H:[UIImageView:0x7acc6410]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>",
+    "<NSLayoutConstraint:0x7accce30 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7acc6150]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accce60 H:[AVUnsupportedContentIndicatorView:0x7acc6150]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accccd0 H:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7acccd40 H:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a946760 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796cfa60 UIImageView:0x7acc6410.centerX == AVUnsupportedContentIndicatorView:0x7acc6150.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.238 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d18d0 UIView:0x796d0c00.centerX == AVExternalPlaybackIndicatorView:0x796d0940.centerX>",
+    "<NSLayoutConstraint:0x796d1d20 H:|-(>=10)-[UIView:0x796d0c00]   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>",
+    "<NSLayoutConstraint:0x7accd0b0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x796d0940]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accd0e0 H:[AVExternalPlaybackIndicatorView:0x796d0940]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accccd0 H:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7acccd40 H:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a946760 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d18d0 UIView:0x796d0c00.centerX == AVExternalPlaybackIndicatorView:0x796d0940.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.239 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d1d20 H:|-(>=10)-[UIView:0x796d0c00]   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>",
+    "<NSLayoutConstraint:0x796d1d90 H:[UIView:0x796d0c00]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>",
+    "<NSLayoutConstraint:0x7accd0b0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x796d0940]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accd0e0 H:[AVExternalPlaybackIndicatorView:0x796d0940]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accccd0 H:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7acccd40 H:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a946760 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d1d90 H:[UIView:0x796d0c00]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.239 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796cfd60 H:|-(>=10)-[UIImageView:0x7acc6410]   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>",
+    "<NSLayoutConstraint:0x796cfeb0 H:[UIImageView:0x7acc6410]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>",
+    "<NSLayoutConstraint:0x7accce30 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7acc6150]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accce60 H:[AVUnsupportedContentIndicatorView:0x7acc6150]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accccd0 H:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7acccd40 H:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a946760 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796cfeb0 H:[UIImageView:0x7acc6410]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.241 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796cfa60 UIImageView:0x7acc6410.centerX == AVUnsupportedContentIndicatorView:0x7acc6150.centerX>",
+    "<NSLayoutConstraint:0x796cfd60 H:|-(>=10)-[UIImageView:0x7acc6410]   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>",
+    "<NSLayoutConstraint:0x7accce30 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7acc6150]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accce60 H:[AVUnsupportedContentIndicatorView:0x7acc6150]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accccd0 H:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7acccd40 H:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a946760 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796cfa60 UIImageView:0x7acc6410.centerX == AVUnsupportedContentIndicatorView:0x7acc6150.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.242 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d1920 UIView:0x796d0c00.centerY == AVExternalPlaybackIndicatorView:0x796d0940.centerY + 10>",
+    "<NSLayoutConstraint:0x796d1e20 V:[UIView:0x796d0c00]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>",
+    "<NSLayoutConstraint:0x796d2030 V:|-(0)-[UIImageView:0x796c0a90]   (Names: '|':UIView:0x796d0c00 )>",
+    "<NSLayoutConstraint:0x796d2090 V:[UIImageView:0x796c0a90]-(20)-[UILabel:0x796d1bd0]>",
+    "<NSLayoutConstraint:0x796d20c0 V:[UILabel:0x796d1bd0]-(0)-[UILabel:0x796d1530]>",
+    "<NSLayoutConstraint:0x796d20f0 V:[UILabel:0x796d1530]-(0)-|   (Names: '|':UIView:0x796d0c00 )>",
+    "<NSLayoutConstraint:0x7accd160 V:|-(0)-[AVExternalPlaybackIndicatorView:0x796d0940]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accd190 V:[AVExternalPlaybackIndicatorView:0x796d0940]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccd90 V:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7accce00 V:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a9aa570 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d2090 V:[UIImageView:0x796c0a90]-(20)-[UILabel:0x796d1bd0]>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.243 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796cfab0 UIImageView:0x7acc6410.centerY == AVUnsupportedContentIndicatorView:0x7acc6150.centerY + 10>",
+    "<NSLayoutConstraint:0x796d0030 V:[UIImageView:0x7acc6410]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>",
+    "<NSLayoutConstraint:0x7acccee0 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7acc6150]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccf20 V:[AVUnsupportedContentIndicatorView:0x7acc6150]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccd90 V:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7accce00 V:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a9aa570 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796cfab0 UIImageView:0x7acc6410.centerY == AVUnsupportedContentIndicatorView:0x7acc6150.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.243 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d0630 UIImageView:0x7acc9a20.centerY == AVAudioOnlyIndicatorView:0x7acc9760.centerY + 10>",
+    "<NSLayoutConstraint:0x796d0810 V:[UIImageView:0x7acc9a20]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>",
+    "<NSLayoutConstraint:0x7accd030 V:|-(0)-[AVAudioOnlyIndicatorView:0x7acc9760]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accd060 V:[AVAudioOnlyIndicatorView:0x7acc9760]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccd90 V:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7accce00 V:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a9aa570 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d0630 UIImageView:0x7acc9a20.centerY == AVAudioOnlyIndicatorView:0x7acc9760.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.244 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d1920 UIView:0x796d0c00.centerY == AVExternalPlaybackIndicatorView:0x796d0940.centerY + 10>",
+    "<NSLayoutConstraint:0x796d1e20 V:[UIView:0x796d0c00]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>",
+    "<NSLayoutConstraint:0x7accd160 V:|-(0)-[AVExternalPlaybackIndicatorView:0x796d0940]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accd190 V:[AVExternalPlaybackIndicatorView:0x796d0940]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccd90 V:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7accce00 V:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a9aa570 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d1920 UIView:0x796d0c00.centerY == AVExternalPlaybackIndicatorView:0x796d0940.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.245 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d1dc0 V:|-(>=10)-[UIView:0x796d0c00]   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>",
+    "<NSLayoutConstraint:0x796d1e20 V:[UIView:0x796d0c00]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>",
+    "<NSLayoutConstraint:0x7accd160 V:|-(0)-[AVExternalPlaybackIndicatorView:0x796d0940]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accd190 V:[AVExternalPlaybackIndicatorView:0x796d0940]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccd90 V:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7accce00 V:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a9aa570 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d1e20 V:[UIView:0x796d0c00]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x796d0940 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.246 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796d07b0 V:|-(>=10)-[UIImageView:0x7acc9a20]   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>",
+    "<NSLayoutConstraint:0x796d0810 V:[UIImageView:0x7acc9a20]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>",
+    "<NSLayoutConstraint:0x7accd030 V:|-(0)-[AVAudioOnlyIndicatorView:0x7acc9760]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7accd060 V:[AVAudioOnlyIndicatorView:0x7acc9760]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccd90 V:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7accce00 V:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a9aa570 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d0810 V:[UIImageView:0x7acc9a20]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7acc9760 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:53:57.247 VideoList[54679:883966] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x796cffe0 V:|-(>=10)-[UIImageView:0x7acc6410]   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>",
+    "<NSLayoutConstraint:0x796d0030 V:[UIImageView:0x7acc6410]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>",
+    "<NSLayoutConstraint:0x7acccee0 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7acc6150]   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccf20 V:[AVUnsupportedContentIndicatorView:0x7acc6150]-(0)-|   (Names: '|':UIView:0x7acc5fc0 )>",
+    "<NSLayoutConstraint:0x7acccd90 V:|-(0)-[UIView:0x7acc5fc0]   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7accce00 V:[UIView:0x7acc5fc0]-(0)-|   (Names: '|':AVPlayerView:0x7acc5d00 )>",
+    "<NSLayoutConstraint:0x7a9aa570 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x7acc5d00(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x796d0030 V:[UIImageView:0x7acc6410]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7acc6150 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:54:06.980 VideoList[54679:883966] THREAD WARNING: ['InAppBrowser'] took '117.983887' ms. Plugin should use a background thread.
+2015-01-23 12:54:06.996 VideoList[54679:883966] Error in Success callbackId: InAppBrowser301481990 : TypeError: null is not an object (evaluating 'event.type')
+2015-01-23 12:54:21.254 VideoList[54679:883966] THREAD WARNING: ['InAppBrowser'] took '114.510986' ms. Plugin should use a background thread.
+2015-01-23 12:54:21.272 VideoList[54679:883966] Error in Success callbackId: InAppBrowser301481991 : TypeError: null is not an object (evaluating 'event.type')
+2015-01-23 12:55:02.199 VideoList[54964:885443] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 12:55:02.201 VideoList[54964:885443] Multi-tasking -> Device: YES, App: YES
+2015-01-23 12:55:02.202 VideoList[54964:885443] Unlimited access to network resources
+2015-01-23 12:55:02.360 VideoList[54964:885443] [CDVTimer][keyboard] 0.056028ms
+2015-01-23 12:55:02.360 VideoList[54964:885443] [CDVTimer][TotalPluginStartup] 0.232041ms
+2015-01-23 12:55:02.531 VideoList[54964:885443] Resetting plugins due to page load.
+2015-01-23 12:55:02.673 VideoList[54964:885443] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/68084A90-95F2-4810-A17E-49199302BF39/VideoList.app/www/index.html#/tab/dash
+2015-01-23 12:55:26.582 VideoList[54964:885443] THREAD WARNING: ['InAppBrowser'] took '148.479980' ms. Plugin should use a background thread.
+2015-01-23 12:55:26.607 VideoList[54964:885443] Error in Success callbackId: InAppBrowser1319139388 : TypeError: null is not an object (evaluating 'event.type')
+Jan 23 12:55:28 kin-no-MacBook-Pro-2.local rtcreporting[54964] <Info>: logging starts...
+Jan 23 12:55:28 kin-no-MacBook-Pro-2.local rtcreporting[54964] <Debug>: setMessageLoggingBlock: called
+2015-01-23 12:55:28.924 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3e2e0 UIImageView:0x78e3efc0.centerX == AVAudioOnlyIndicatorView:0x78e3f290.centerX>",
+    "<NSLayoutConstraint:0x78e3e200 H:|-(>=10)-[UIImageView:0x78e3efc0]   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>",
+    "<NSLayoutConstraint:0x799eaa00 H:|-(0)-[AVAudioOnlyIndicatorView:0x78e3f290]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eaa60 H:[AVAudioOnlyIndicatorView:0x78e3f290]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea750 H:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea7c0 H:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3340 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3e2e0 UIImageView:0x78e3efc0.centerX == AVAudioOnlyIndicatorView:0x78e3f290.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.925 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3e200 H:|-(>=10)-[UIImageView:0x78e3efc0]   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>",
+    "<NSLayoutConstraint:0x78e3e190 H:[UIImageView:0x78e3efc0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>",
+    "<NSLayoutConstraint:0x799eaa00 H:|-(0)-[AVAudioOnlyIndicatorView:0x78e3f290]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eaa60 H:[AVAudioOnlyIndicatorView:0x78e3f290]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea750 H:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea7c0 H:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3340 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3e190 H:[UIImageView:0x78e3efc0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.926 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3fcb0 UIImageView:0x78e44370.centerX == AVUnsupportedContentIndicatorView:0x78e44640.centerX>",
+    "<NSLayoutConstraint:0x78e3f850 H:[UIImageView:0x78e44370]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>",
+    "<NSLayoutConstraint:0x799ea8b0 H:|-(0)-[AVUnsupportedContentIndicatorView:0x78e44640]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea8e0 H:[AVUnsupportedContentIndicatorView:0x78e44640]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea750 H:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea7c0 H:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3340 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3fcb0 UIImageView:0x78e44370.centerX == AVUnsupportedContentIndicatorView:0x78e44640.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.927 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799e2f60 UIView:0x799e1720.centerX == AVExternalPlaybackIndicatorView:0x78e3dfb0.centerX>",
+    "<NSLayoutConstraint:0x799e3090 H:|-(>=10)-[UIView:0x799e1720]   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>",
+    "<NSLayoutConstraint:0x799eab30 H:|-(0)-[AVExternalPlaybackIndicatorView:0x78e3dfb0]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eab60 H:[AVExternalPlaybackIndicatorView:0x78e3dfb0]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea750 H:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea7c0 H:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3340 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799e2f60 UIView:0x799e1720.centerX == AVExternalPlaybackIndicatorView:0x78e3dfb0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.928 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799e3090 H:|-(>=10)-[UIView:0x799e1720]   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>",
+    "<NSLayoutConstraint:0x799e3100 H:[UIView:0x799e1720]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>",
+    "<NSLayoutConstraint:0x799eab30 H:|-(0)-[AVExternalPlaybackIndicatorView:0x78e3dfb0]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eab60 H:[AVExternalPlaybackIndicatorView:0x78e3dfb0]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea750 H:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea7c0 H:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3340 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799e3100 H:[UIView:0x799e1720]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.929 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3f9c0 H:|-(>=10)-[UIImageView:0x78e44370]   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>",
+    "<NSLayoutConstraint:0x78e3f850 H:[UIImageView:0x78e44370]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>",
+    "<NSLayoutConstraint:0x799ea8b0 H:|-(0)-[AVUnsupportedContentIndicatorView:0x78e44640]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea8e0 H:[AVUnsupportedContentIndicatorView:0x78e44640]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea750 H:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea7c0 H:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3340 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3f850 H:[UIImageView:0x78e44370]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.929 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3fcb0 UIImageView:0x78e44370.centerX == AVUnsupportedContentIndicatorView:0x78e44640.centerX>",
+    "<NSLayoutConstraint:0x78e3f9c0 H:|-(>=10)-[UIImageView:0x78e44370]   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>",
+    "<NSLayoutConstraint:0x799ea8b0 H:|-(0)-[AVUnsupportedContentIndicatorView:0x78e44640]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea8e0 H:[AVUnsupportedContentIndicatorView:0x78e44640]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea750 H:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea7c0 H:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3340 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3fcb0 UIImageView:0x78e44370.centerX == AVUnsupportedContentIndicatorView:0x78e44640.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.931 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799e2fb0 UIView:0x799e1720.centerY == AVExternalPlaybackIndicatorView:0x78e3dfb0.centerY + 10>",
+    "<NSLayoutConstraint:0x799e3190 V:[UIView:0x799e1720]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>",
+    "<NSLayoutConstraint:0x799e33a0 V:|-(0)-[UIImageView:0x799e1790]   (Names: '|':UIView:0x799e1720 )>",
+    "<NSLayoutConstraint:0x799e3400 V:[UIImageView:0x799e1790]-(20)-[UILabel:0x78e3dbe0]>",
+    "<NSLayoutConstraint:0x799e3430 V:[UILabel:0x78e3dbe0]-(0)-[UILabel:0x799e2ad0]>",
+    "<NSLayoutConstraint:0x799e3460 V:[UILabel:0x799e2ad0]-(0)-|   (Names: '|':UIView:0x799e1720 )>",
+    "<NSLayoutConstraint:0x799eabe0 V:|-(0)-[AVExternalPlaybackIndicatorView:0x78e3dfb0]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eac10 V:[AVExternalPlaybackIndicatorView:0x78e3dfb0]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea810 V:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea880 V:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3910 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799e3400 V:[UIImageView:0x799e1790]-(20)-[UILabel:0x78e3dbe0]>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.932 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3fc60 UIImageView:0x78e44370.centerY == AVUnsupportedContentIndicatorView:0x78e44640.centerY + 10>",
+    "<NSLayoutConstraint:0x78e3f6c0 V:[UIImageView:0x78e44370]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>",
+    "<NSLayoutConstraint:0x799ea960 V:|-(0)-[AVUnsupportedContentIndicatorView:0x78e44640]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea9a0 V:[AVUnsupportedContentIndicatorView:0x78e44640]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea810 V:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea880 V:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3910 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3fc60 UIImageView:0x78e44370.centerY == AVUnsupportedContentIndicatorView:0x78e44640.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.933 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3e290 UIImageView:0x78e3efc0.centerY == AVAudioOnlyIndicatorView:0x78e3f290.centerY + 10>",
+    "<NSLayoutConstraint:0x78e3e100 V:[UIImageView:0x78e3efc0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>",
+    "<NSLayoutConstraint:0x799eaab0 V:|-(0)-[AVAudioOnlyIndicatorView:0x78e3f290]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eab00 V:[AVAudioOnlyIndicatorView:0x78e3f290]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea810 V:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea880 V:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3910 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3e290 UIImageView:0x78e3efc0.centerY == AVAudioOnlyIndicatorView:0x78e3f290.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.934 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799e2fb0 UIView:0x799e1720.centerY == AVExternalPlaybackIndicatorView:0x78e3dfb0.centerY + 10>",
+    "<NSLayoutConstraint:0x799e3190 V:[UIView:0x799e1720]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>",
+    "<NSLayoutConstraint:0x799eabe0 V:|-(0)-[AVExternalPlaybackIndicatorView:0x78e3dfb0]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eac10 V:[AVExternalPlaybackIndicatorView:0x78e3dfb0]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea810 V:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea880 V:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3910 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799e2fb0 UIView:0x799e1720.centerY == AVExternalPlaybackIndicatorView:0x78e3dfb0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.935 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3e160 V:|-(>=10)-[UIImageView:0x78e3efc0]   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>",
+    "<NSLayoutConstraint:0x78e3e100 V:[UIImageView:0x78e3efc0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>",
+    "<NSLayoutConstraint:0x799eaab0 V:|-(0)-[AVAudioOnlyIndicatorView:0x78e3f290]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eab00 V:[AVAudioOnlyIndicatorView:0x78e3f290]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea810 V:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea880 V:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3910 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3e100 V:[UIImageView:0x78e3efc0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x78e3f290 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.936 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x78e3f720 V:|-(>=10)-[UIImageView:0x78e44370]   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>",
+    "<NSLayoutConstraint:0x78e3f6c0 V:[UIImageView:0x78e44370]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>",
+    "<NSLayoutConstraint:0x799ea960 V:|-(0)-[AVUnsupportedContentIndicatorView:0x78e44640]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea9a0 V:[AVUnsupportedContentIndicatorView:0x78e44640]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea810 V:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea880 V:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3910 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x78e3f6c0 V:[UIImageView:0x78e44370]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x78e44640 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 12:55:28.937 VideoList[54964:885443] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799e3130 V:|-(>=10)-[UIView:0x799e1720]   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>",
+    "<NSLayoutConstraint:0x799e3190 V:[UIView:0x799e1720]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>",
+    "<NSLayoutConstraint:0x799eabe0 V:|-(0)-[AVExternalPlaybackIndicatorView:0x78e3dfb0]   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799eac10 V:[AVExternalPlaybackIndicatorView:0x78e3dfb0]-(0)-|   (Names: '|':UIView:0x78e44810 )>",
+    "<NSLayoutConstraint:0x799ea810 V:|-(0)-[UIView:0x78e44810]   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799ea880 V:[UIView:0x78e44810]-(0)-|   (Names: '|':AVPlayerView:0x78e44ad0 )>",
+    "<NSLayoutConstraint:0x799f3910 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x78e44ad0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799e3190 V:[UIView:0x799e1720]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x78e3dfb0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:15.558 VideoList[55270:888366] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 13:00:15.560 VideoList[55270:888366] Multi-tasking -> Device: YES, App: YES
+2015-01-23 13:00:15.561 VideoList[55270:888366] Unlimited access to network resources
+2015-01-23 13:00:15.723 VideoList[55270:888366] [CDVTimer][keyboard] 0.052989ms
+2015-01-23 13:00:15.723 VideoList[55270:888366] [CDVTimer][TotalPluginStartup] 0.225008ms
+2015-01-23 13:00:15.905 VideoList[55270:888366] Resetting plugins due to page load.
+2015-01-23 13:00:16.063 VideoList[55270:888366] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/AE38DBAF-9825-4DB7-AD51-592539EC5BFE/VideoList.app/www/index.html#/tab/dash
+2015-01-23 13:00:30.839 VideoList[55270:888366] THREAD WARNING: ['InAppBrowser'] took '152.200928' ms. Plugin should use a background thread.
+2015-01-23 13:00:30.859 VideoList[55270:888366] Error in Success callbackId: InAppBrowser1994509897 : TypeError: null is not an object (evaluating 'event.type')
+Jan 23 13:00:32 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Info>: logging starts...
+Jan 23 13:00:32 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Debug>: setMessageLoggingBlock: called
+2015-01-23 13:00:32.201 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799dcd90 UIImageView:0x79a9f840.centerX == AVAudioOnlyIndicatorView:0x79a9f5a0.centerX>",
+    "<NSLayoutConstraint:0x799dd3b0 H:|-(>=10)-[UIImageView:0x79a9f840]   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>",
+    "<NSLayoutConstraint:0x79aa1d70 H:|-(0)-[AVAudioOnlyIndicatorView:0x79a9f5a0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1dd0 H:[AVAudioOnlyIndicatorView:0x79a9f5a0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ac0 H:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1b30 H:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebca30 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799dcd90 UIImageView:0x79a9f840.centerX == AVAudioOnlyIndicatorView:0x79a9f5a0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.201 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799dd3b0 H:|-(>=10)-[UIImageView:0x79a9f840]   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>",
+    "<NSLayoutConstraint:0x799dd410 H:[UIImageView:0x79a9f840]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>",
+    "<NSLayoutConstraint:0x79aa1d70 H:|-(0)-[AVAudioOnlyIndicatorView:0x79a9f5a0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1dd0 H:[AVAudioOnlyIndicatorView:0x79a9f5a0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ac0 H:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1b30 H:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebca30 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799dd410 H:[UIImageView:0x79a9f840]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.202 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79a9ebd0 UIImageView:0x799dc000.centerX == AVUnsupportedContentIndicatorView:0x799dbd40.centerX>",
+    "<NSLayoutConstraint:0x79a9f020 H:[UIImageView:0x799dc000]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>",
+    "<NSLayoutConstraint:0x79aa1c20 H:|-(0)-[AVUnsupportedContentIndicatorView:0x799dbd40]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1c50 H:[AVUnsupportedContentIndicatorView:0x799dbd40]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ac0 H:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1b30 H:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebca30 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79a9ebd0 UIImageView:0x799dc000.centerX == AVUnsupportedContentIndicatorView:0x799dbd40.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.203 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799df7e0 UIView:0x799dd880.centerX == AVExternalPlaybackIndicatorView:0x799dd5c0.centerX>",
+    "<NSLayoutConstraint:0x799df910 H:|-(>=10)-[UIView:0x799dd880]   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>",
+    "<NSLayoutConstraint:0x79aa1ea0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x799dd5c0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ed0 H:[AVExternalPlaybackIndicatorView:0x799dd5c0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ac0 H:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1b30 H:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebca30 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799df7e0 UIView:0x799dd880.centerX == AVExternalPlaybackIndicatorView:0x799dd5c0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.203 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799df910 H:|-(>=10)-[UIView:0x799dd880]   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>",
+    "<NSLayoutConstraint:0x799df980 H:[UIView:0x799dd880]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>",
+    "<NSLayoutConstraint:0x79aa1ea0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x799dd5c0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ed0 H:[AVExternalPlaybackIndicatorView:0x799dd5c0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ac0 H:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1b30 H:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebca30 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799df980 H:[UIView:0x799dd880]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.204 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79a9eed0 H:|-(>=10)-[UIImageView:0x799dc000]   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>",
+    "<NSLayoutConstraint:0x79a9f020 H:[UIImageView:0x799dc000]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>",
+    "<NSLayoutConstraint:0x79aa1c20 H:|-(0)-[AVUnsupportedContentIndicatorView:0x799dbd40]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1c50 H:[AVUnsupportedContentIndicatorView:0x799dbd40]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ac0 H:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1b30 H:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebca30 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79a9f020 H:[UIImageView:0x799dc000]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.205 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79a9ebd0 UIImageView:0x799dc000.centerX == AVUnsupportedContentIndicatorView:0x799dbd40.centerX>",
+    "<NSLayoutConstraint:0x79a9eed0 H:|-(>=10)-[UIImageView:0x799dc000]   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>",
+    "<NSLayoutConstraint:0x79aa1c20 H:|-(0)-[AVUnsupportedContentIndicatorView:0x799dbd40]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1c50 H:[AVUnsupportedContentIndicatorView:0x799dbd40]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1ac0 H:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1b30 H:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebca30 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79a9ebd0 UIImageView:0x799dc000.centerX == AVUnsupportedContentIndicatorView:0x799dbd40.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.206 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799df830 UIView:0x799dd880.centerY == AVExternalPlaybackIndicatorView:0x799dd5c0.centerY + 10>",
+    "<NSLayoutConstraint:0x799dfa10 V:[UIView:0x799dd880]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>",
+    "<NSLayoutConstraint:0x799dfc20 V:|-(0)-[UIImageView:0x799dd940]   (Names: '|':UIView:0x799dd880 )>",
+    "<NSLayoutConstraint:0x799dfc80 V:[UIImageView:0x799dd940]-(20)-[UILabel:0x799dec00]>",
+    "<NSLayoutConstraint:0x799dfcb0 V:[UILabel:0x799dec00]-(0)-[UILabel:0x799defa0]>",
+    "<NSLayoutConstraint:0x799dfce0 V:[UILabel:0x799defa0]-(0)-|   (Names: '|':UIView:0x799dd880 )>",
+    "<NSLayoutConstraint:0x79aa1f50 V:|-(0)-[AVExternalPlaybackIndicatorView:0x799dd5c0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1f80 V:[AVExternalPlaybackIndicatorView:0x799dd5c0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1b80 V:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1bf0 V:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebd670 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799dfc80 V:[UIImageView:0x799dd940]-(20)-[UILabel:0x799dec00]>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.207 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79a9ec20 UIImageView:0x799dc000.centerY == AVUnsupportedContentIndicatorView:0x799dbd40.centerY + 10>",
+    "<NSLayoutConstraint:0x79a9f1b0 V:[UIImageView:0x799dc000]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>",
+    "<NSLayoutConstraint:0x79aa1cd0 V:|-(0)-[AVUnsupportedContentIndicatorView:0x799dbd40]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1d10 V:[AVUnsupportedContentIndicatorView:0x799dbd40]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1b80 V:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1bf0 V:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebd670 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79a9ec20 UIImageView:0x799dc000.centerY == AVUnsupportedContentIndicatorView:0x799dbd40.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.208 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799dd120 UIImageView:0x79a9f840.centerY == AVAudioOnlyIndicatorView:0x79a9f5a0.centerY + 10>",
+    "<NSLayoutConstraint:0x799dd4c0 V:[UIImageView:0x79a9f840]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>",
+    "<NSLayoutConstraint:0x79aa1e20 V:|-(0)-[AVAudioOnlyIndicatorView:0x79a9f5a0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1e70 V:[AVAudioOnlyIndicatorView:0x79a9f5a0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1b80 V:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1bf0 V:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebd670 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799dd120 UIImageView:0x79a9f840.centerY == AVAudioOnlyIndicatorView:0x79a9f5a0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.208 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799df830 UIView:0x799dd880.centerY == AVExternalPlaybackIndicatorView:0x799dd5c0.centerY + 10>",
+    "<NSLayoutConstraint:0x799dfa10 V:[UIView:0x799dd880]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>",
+    "<NSLayoutConstraint:0x79aa1f50 V:|-(0)-[AVExternalPlaybackIndicatorView:0x799dd5c0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1f80 V:[AVExternalPlaybackIndicatorView:0x799dd5c0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1b80 V:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1bf0 V:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebd670 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799df830 UIView:0x799dd880.centerY == AVExternalPlaybackIndicatorView:0x799dd5c0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.209 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799dd440 V:|-(>=10)-[UIImageView:0x79a9f840]   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>",
+    "<NSLayoutConstraint:0x799dd4c0 V:[UIImageView:0x79a9f840]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>",
+    "<NSLayoutConstraint:0x79aa1e20 V:|-(0)-[AVAudioOnlyIndicatorView:0x79a9f5a0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1e70 V:[AVAudioOnlyIndicatorView:0x79a9f5a0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1b80 V:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1bf0 V:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebd670 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799dd4c0 V:[UIImageView:0x79a9f840]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x79a9f5a0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.210 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79a9f150 V:|-(>=10)-[UIImageView:0x799dc000]   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>",
+    "<NSLayoutConstraint:0x79a9f1b0 V:[UIImageView:0x799dc000]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>",
+    "<NSLayoutConstraint:0x79aa1cd0 V:|-(0)-[AVUnsupportedContentIndicatorView:0x799dbd40]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1d10 V:[AVUnsupportedContentIndicatorView:0x799dbd40]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1b80 V:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1bf0 V:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebd670 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79a9f1b0 V:[UIImageView:0x799dc000]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799dbd40 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:00:32.211 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799df9b0 V:|-(>=10)-[UIView:0x799dd880]   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>",
+    "<NSLayoutConstraint:0x799dfa10 V:[UIView:0x799dd880]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>",
+    "<NSLayoutConstraint:0x79aa1f50 V:|-(0)-[AVExternalPlaybackIndicatorView:0x799dd5c0]   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1f80 V:[AVExternalPlaybackIndicatorView:0x799dd5c0]-(0)-|   (Names: '|':UIView:0x799dbb70 )>",
+    "<NSLayoutConstraint:0x79aa1b80 V:|-(0)-[UIView:0x799dbb70]   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x79aa1bf0 V:[UIView:0x799dbb70]-(0)-|   (Names: '|':AVPlayerView:0x799db8b0 )>",
+    "<NSLayoutConstraint:0x78ebd670 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799db8b0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799dfa10 V:[UIView:0x799dd880]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799dd5c0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+Jan 23 13:01:08 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Debug>: setMessageLoggingBlock: called
+2015-01-23 13:01:08.930 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799b3dd0 UIImageView:0x799c3be0.centerX == AVUnsupportedContentIndicatorView:0x799c3b40.centerX>",
+    "<NSLayoutConstraint:0x799b3f30 H:[UIImageView:0x799c3be0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>",
+    "<NSLayoutConstraint:0x798fa140 H:|-(0)-[AVUnsupportedContentIndicatorView:0x799c3b40]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa170 H:[AVUnsupportedContentIndicatorView:0x799c3b40]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798f07f0 H:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798f1250 H:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce194b0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799b3dd0 UIImageView:0x799c3be0.centerX == AVUnsupportedContentIndicatorView:0x799c3b40.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.930 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79814160 UIView:0x799d4460.centerX == AVExternalPlaybackIndicatorView:0x799d4240.centerX>",
+    "<NSLayoutConstraint:0x798f4bd0 H:|-(>=10)-[UIView:0x799d4460]   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>",
+    "<NSLayoutConstraint:0x798fa3c0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x799d4240]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa3f0 H:[AVExternalPlaybackIndicatorView:0x799d4240]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798f07f0 H:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798f1250 H:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce194b0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79814160 UIView:0x799d4460.centerX == AVExternalPlaybackIndicatorView:0x799d4240.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.931 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x798f4bd0 H:|-(>=10)-[UIView:0x799d4460]   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>",
+    "<NSLayoutConstraint:0x798f4c00 H:[UIView:0x799d4460]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>",
+    "<NSLayoutConstraint:0x798fa3c0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x799d4240]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa3f0 H:[AVExternalPlaybackIndicatorView:0x799d4240]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798f07f0 H:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798f1250 H:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce194b0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x798f4c00 H:[UIView:0x799d4460]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.932 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799b3ec0 H:|-(>=10)-[UIImageView:0x799c3be0]   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>",
+    "<NSLayoutConstraint:0x799b3f30 H:[UIImageView:0x799c3be0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>",
+    "<NSLayoutConstraint:0x798fa140 H:|-(0)-[AVUnsupportedContentIndicatorView:0x799c3b40]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa170 H:[AVUnsupportedContentIndicatorView:0x799c3b40]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798f07f0 H:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798f1250 H:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce194b0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799b3f30 H:[UIImageView:0x799c3be0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.932 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799b3dd0 UIImageView:0x799c3be0.centerX == AVUnsupportedContentIndicatorView:0x799c3b40.centerX>",
+    "<NSLayoutConstraint:0x799b3ec0 H:|-(>=10)-[UIImageView:0x799c3be0]   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>",
+    "<NSLayoutConstraint:0x798fa140 H:|-(0)-[AVUnsupportedContentIndicatorView:0x799c3b40]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa170 H:[AVUnsupportedContentIndicatorView:0x799c3b40]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798f07f0 H:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798f1250 H:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce194b0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799b3dd0 UIImageView:0x799c3be0.centerX == AVUnsupportedContentIndicatorView:0x799c3b40.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.933 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799ed730 UIImageView:0x799c4880.centerX == AVAudioOnlyIndicatorView:0x799c46e0.centerX>",
+    "<NSLayoutConstraint:0x799ed6b0 H:|-(>=10)-[UIImageView:0x799c4880]   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>",
+    "<NSLayoutConstraint:0x798fa290 H:|-(0)-[AVAudioOnlyIndicatorView:0x799c46e0]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa2f0 H:[AVAudioOnlyIndicatorView:0x799c46e0]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798f07f0 H:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798f1250 H:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce194b0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799ed730 UIImageView:0x799c4880.centerX == AVAudioOnlyIndicatorView:0x799c46e0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.934 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799ed6b0 H:|-(>=10)-[UIImageView:0x799c4880]   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>",
+    "<NSLayoutConstraint:0x799d4180 H:[UIImageView:0x799c4880]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>",
+    "<NSLayoutConstraint:0x798fa290 H:|-(0)-[AVAudioOnlyIndicatorView:0x799c46e0]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa2f0 H:[AVAudioOnlyIndicatorView:0x799c46e0]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798f07f0 H:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798f1250 H:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce194b0 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799d4180 H:[UIImageView:0x799c4880]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.936 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x798f4b50 UIView:0x799d4460.centerY == AVExternalPlaybackIndicatorView:0x799d4240.centerY + 10>",
+    "<NSLayoutConstraint:0x798f4c60 V:[UIView:0x799d4460]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>",
+    "<NSLayoutConstraint:0x798ef210 V:|-(0)-[UIImageView:0x799d4500]   (Names: '|':UIView:0x799d4460 )>",
+    "<NSLayoutConstraint:0x798ef240 V:[UIImageView:0x799d4500]-(20)-[UILabel:0x799d2a10]>",
+    "<NSLayoutConstraint:0x798ef270 V:[UILabel:0x799d2a10]-(0)-[UILabel:0x798ba660]>",
+    "<NSLayoutConstraint:0x7980fad0 V:[UILabel:0x798ba660]-(0)-|   (Names: '|':UIView:0x799d4460 )>",
+    "<NSLayoutConstraint:0x798fa470 V:|-(0)-[AVExternalPlaybackIndicatorView:0x799d4240]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa4a0 V:[AVExternalPlaybackIndicatorView:0x799d4240]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa0a0 V:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798fa110 V:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce1a7d0 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x798ef240 V:[UIImageView:0x799d4500]-(20)-[UILabel:0x799d2a10]>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.937 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799b3e30 UIImageView:0x799c3be0.centerY == AVUnsupportedContentIndicatorView:0x799c3b40.centerY + 10>",
+    "<NSLayoutConstraint:0x799c3d10 V:[UIImageView:0x799c3be0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>",
+    "<NSLayoutConstraint:0x798fa1f0 V:|-(0)-[AVUnsupportedContentIndicatorView:0x799c3b40]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa230 V:[AVUnsupportedContentIndicatorView:0x799c3b40]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa0a0 V:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798fa110 V:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce1a7d0 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799b3e30 UIImageView:0x799c3be0.centerY == AVUnsupportedContentIndicatorView:0x799c3b40.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.939 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x798f4b50 UIView:0x799d4460.centerY == AVExternalPlaybackIndicatorView:0x799d4240.centerY + 10>",
+    "<NSLayoutConstraint:0x798f4c60 V:[UIView:0x799d4460]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>",
+    "<NSLayoutConstraint:0x798fa470 V:|-(0)-[AVExternalPlaybackIndicatorView:0x799d4240]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa4a0 V:[AVExternalPlaybackIndicatorView:0x799d4240]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa0a0 V:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798fa110 V:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce1a7d0 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x798f4b50 UIView:0x799d4460.centerY == AVExternalPlaybackIndicatorView:0x799d4240.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.940 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799ed5f0 UIImageView:0x799c4880.centerY == AVAudioOnlyIndicatorView:0x799c46e0.centerY + 10>",
+    "<NSLayoutConstraint:0x799d4210 V:[UIImageView:0x799c4880]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>",
+    "<NSLayoutConstraint:0x798fa340 V:|-(0)-[AVAudioOnlyIndicatorView:0x799c46e0]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa370 V:[AVAudioOnlyIndicatorView:0x799c46e0]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa0a0 V:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798fa110 V:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce1a7d0 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799ed5f0 UIImageView:0x799c4880.centerY == AVAudioOnlyIndicatorView:0x799c46e0.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.940 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x798f4c30 V:|-(>=10)-[UIView:0x799d4460]   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>",
+    "<NSLayoutConstraint:0x798f4c60 V:[UIView:0x799d4460]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>",
+    "<NSLayoutConstraint:0x798fa470 V:|-(0)-[AVExternalPlaybackIndicatorView:0x799d4240]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa4a0 V:[AVExternalPlaybackIndicatorView:0x799d4240]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa0a0 V:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798fa110 V:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce1a7d0 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x798f4c60 V:[UIView:0x799d4460]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x799d4240 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.941 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799b3f60 V:|-(>=10)-[UIImageView:0x799c3be0]   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>",
+    "<NSLayoutConstraint:0x799c3d10 V:[UIImageView:0x799c3be0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>",
+    "<NSLayoutConstraint:0x798fa1f0 V:|-(0)-[AVUnsupportedContentIndicatorView:0x799c3b40]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa230 V:[AVUnsupportedContentIndicatorView:0x799c3b40]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa0a0 V:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798fa110 V:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce1a7d0 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799c3d10 V:[UIImageView:0x799c3be0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x799c3b40 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:01:08.942 VideoList[55270:888366] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x799d41b0 V:|-(>=10)-[UIImageView:0x799c4880]   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>",
+    "<NSLayoutConstraint:0x799d4210 V:[UIImageView:0x799c4880]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>",
+    "<NSLayoutConstraint:0x798fa340 V:|-(0)-[AVAudioOnlyIndicatorView:0x799c46e0]   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa370 V:[AVAudioOnlyIndicatorView:0x799c46e0]-(0)-|   (Names: '|':UIView:0x799cf8c0 )>",
+    "<NSLayoutConstraint:0x798fa0a0 V:|-(0)-[UIView:0x799cf8c0]   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x798fa110 V:[UIView:0x799cf8c0]-(0)-|   (Names: '|':AVPlayerView:0x799cf850 )>",
+    "<NSLayoutConstraint:0x7ce1a7d0 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x799cf850(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x799d4210 V:[UIImageView:0x799c4880]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x799c46e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Debug>: initWithSessionInfo: XPC connection interrupted
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Debug>: initWithSessionInfo: XPC connection interrupted
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Error>: initWithSessionInfo: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4097 "The operation couldn’t be completed. (Cocoa error 4097.)" (connection to service named com.apple.rtcreportingd) UserInfo=0x799f4990 {NSDebugDescription=connection to service named com.apple.rtcreportingd}
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Error>: startConfigurationWithCompletionHandler: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4097 "The operation couldn’t be completed. (Cocoa error 4097.)" (connection to service named com.apple.rtcreportingd) UserInfo=0x79b22fb0 {NSDebugDescription=connection to service named com.apple.rtcreportingd}
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Error>: sendMessageWithCategory: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4097 "The operation couldn’t be completed. (Cocoa error 4097.)" (connection to service named com.apple.rtcreportingd) UserInfo=0x79b28120 {NSDebugDescription=connection to service named com.apple.rtcreportingd}
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Error>: startConfigurationWithCompletionHandler: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4097 "The operation couldn’t be completed. (Cocoa error 4097.)" (connection to service named com.apple.rtcreportingd) UserInfo=0x79b22fb0 {NSDebugDescription=connection to service named com.apple.rtcreportingd}
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Error>: sendMessageWithCategory: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4097 "The operation couldn’t be completed. (Cocoa error 4097.)" (connection to service named com.apple.rtcreportingd) UserInfo=0x79aab9f0 {NSDebugDescription=connection to service named com.apple.rtcreportingd}
+Jan 23 13:01:12 kin-no-MacBook-Pro-2.local rtcreporting[55270] <Error>: fetchReportingStatesWithUserInfo: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4097 "The operation couldn’t be completed. (Cocoa error 4097.)" (connection to service named com.apple.rtcreportingd) UserInfo=0x79b26ac0 {NSDebugDescription=connection to service named com.apple.rtcreportingd}
+2015-01-23 13:56:06.902 VideoList[57360:914123] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 13:56:06.907 VideoList[57360:914123] Multi-tasking -> Device: YES, App: YES
+2015-01-23 13:56:06.939 VideoList[57360:914123] Unlimited access to network resources
+2015-01-23 13:56:07.331 VideoList[57360:914123] [CDVTimer][keyboard] 0.061989ms
+2015-01-23 13:56:07.331 VideoList[57360:914123] [CDVTimer][TotalPluginStartup] 0.274003ms
+2015-01-23 13:56:07.677 VideoList[57360:914123] Resetting plugins due to page load.
+2015-01-23 13:56:07.994 VideoList[57360:914123] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/05231527-6ED6-44BE-A3F4-FDC479D1727F/VideoList.app/www/index.html#/tab/dash
+2015-01-23 13:56:29.368 VideoList[57360:914123] THREAD WARNING: ['InAppBrowser'] took '274.381836' ms. Plugin should use a background thread.
+2015-01-23 13:56:29.431 VideoList[57360:914123] Error in Success callbackId: InAppBrowser189694839 : TypeError: null is not an object (evaluating 'event.type')
+Jan 23 13:56:30 kin-no-MacBook-Pro-2.local rtcreporting[57360] <Info>: logging starts...
+Jan 23 13:56:30 kin-no-MacBook-Pro-2.local rtcreporting[57360] <Debug>: setMessageLoggingBlock: called
+2015-01-23 13:56:31.807 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8eb190 UIImageView:0x79e22ea0.centerX == AVAudioOnlyIndicatorView:0x7b9d9950.centerX>",
+    "<NSLayoutConstraint:0x7b8eb790 H:|-(>=10)-[UIImageView:0x79e22ea0]   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>",
+    "<NSLayoutConstraint:0x79ff33b0 H:|-(0)-[AVAudioOnlyIndicatorView:0x7b9d9950]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3410 H:[AVAudioOnlyIndicatorView:0x7b9d9950]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3100 H:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3170 H:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e19b40 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8eb190 UIImageView:0x79e22ea0.centerX == AVAudioOnlyIndicatorView:0x7b9d9950.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.810 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8eb790 H:|-(>=10)-[UIImageView:0x79e22ea0]   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>",
+    "<NSLayoutConstraint:0x7b8eb7e0 H:[UIImageView:0x79e22ea0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>",
+    "<NSLayoutConstraint:0x79ff33b0 H:|-(0)-[AVAudioOnlyIndicatorView:0x7b9d9950]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3410 H:[AVAudioOnlyIndicatorView:0x7b9d9950]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3100 H:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3170 H:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e19b40 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8eb7e0 H:[UIImageView:0x79e22ea0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.811 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b9d8f70 UIImageView:0x7b8e76d0.centerX == AVUnsupportedContentIndicatorView:0x7b8e7410.centerX>",
+    "<NSLayoutConstraint:0x7b9d93d0 H:[UIImageView:0x7b8e76d0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>",
+    "<NSLayoutConstraint:0x79ff3260 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8e7410]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3290 H:[AVUnsupportedContentIndicatorView:0x7b8e7410]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3100 H:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3170 H:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e19b40 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b9d8f70 UIImageView:0x7b8e76d0.centerX == AVUnsupportedContentIndicatorView:0x7b8e7410.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.812 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79e21590 UIView:0x7b8ebc30.centerX == AVExternalPlaybackIndicatorView:0x7b8eb970.centerX>",
+    "<NSLayoutConstraint:0x79e21460 H:|-(>=10)-[UIView:0x7b8ebc30]   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>",
+    "<NSLayoutConstraint:0x79ff34e0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x7b8eb970]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3510 H:[AVExternalPlaybackIndicatorView:0x7b8eb970]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3100 H:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3170 H:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e19b40 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79e21590 UIView:0x7b8ebc30.centerX == AVExternalPlaybackIndicatorView:0x7b8eb970.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.813 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79e21460 H:|-(>=10)-[UIView:0x7b8ebc30]   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>",
+    "<NSLayoutConstraint:0x79e213f0 H:[UIView:0x7b8ebc30]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>",
+    "<NSLayoutConstraint:0x79ff34e0 H:|-(0)-[AVExternalPlaybackIndicatorView:0x7b8eb970]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3510 H:[AVExternalPlaybackIndicatorView:0x7b8eb970]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3100 H:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3170 H:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e19b40 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79e213f0 H:[UIView:0x7b8ebc30]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.814 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b9d9260 H:|-(>=10)-[UIImageView:0x7b8e76d0]   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>",
+    "<NSLayoutConstraint:0x7b9d93d0 H:[UIImageView:0x7b8e76d0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>",
+    "<NSLayoutConstraint:0x79ff3260 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8e7410]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3290 H:[AVUnsupportedContentIndicatorView:0x7b8e7410]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3100 H:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3170 H:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e19b40 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b9d93d0 H:[UIImageView:0x7b8e76d0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.815 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b9d8f70 UIImageView:0x7b8e76d0.centerX == AVUnsupportedContentIndicatorView:0x7b8e7410.centerX>",
+    "<NSLayoutConstraint:0x7b9d9260 H:|-(>=10)-[UIImageView:0x7b8e76d0]   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>",
+    "<NSLayoutConstraint:0x79ff3260 H:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8e7410]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3290 H:[AVUnsupportedContentIndicatorView:0x7b8e7410]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3100 H:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3170 H:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e19b40 'UIView-Encapsulated-Layout-Width' H:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b9d8f70 UIImageView:0x7b8e76d0.centerX == AVUnsupportedContentIndicatorView:0x7b8e7410.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.817 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79e21540 UIView:0x7b8ebc30.centerY == AVExternalPlaybackIndicatorView:0x7b8eb970.centerY + 10>",
+    "<NSLayoutConstraint:0x79e21360 V:[UIView:0x7b8ebc30]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>",
+    "<NSLayoutConstraint:0x79e21150 V:|-(0)-[UIImageView:0x7b8ebcf0]   (Names: '|':UIView:0x7b8ebc30 )>",
+    "<NSLayoutConstraint:0x79e210f0 V:[UIImageView:0x7b8ebcf0]-(20)-[UILabel:0x79e21dc0]>",
+    "<NSLayoutConstraint:0x79e210c0 V:[UILabel:0x79e21dc0]-(0)-[UILabel:0x79e21980]>",
+    "<NSLayoutConstraint:0x79e21090 V:[UILabel:0x79e21980]-(0)-|   (Names: '|':UIView:0x7b8ebc30 )>",
+    "<NSLayoutConstraint:0x79ff3590 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7b8eb970]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff35c0 V:[AVExternalPlaybackIndicatorView:0x7b8eb970]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff31c0 V:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3230 V:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e15040 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79e210f0 V:[UIImageView:0x7b8ebcf0]-(20)-[UILabel:0x79e21dc0]>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.818 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b9d8fc0 UIImageView:0x7b8e76d0.centerY == AVUnsupportedContentIndicatorView:0x7b8e7410.centerY + 10>",
+    "<NSLayoutConstraint:0x7b9d9560 V:[UIImageView:0x7b8e76d0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>",
+    "<NSLayoutConstraint:0x79ff3310 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8e7410]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3350 V:[AVUnsupportedContentIndicatorView:0x7b8e7410]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff31c0 V:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3230 V:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e15040 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b9d8fc0 UIImageView:0x7b8e76d0.centerY == AVUnsupportedContentIndicatorView:0x7b8e7410.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.819 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8eb700 UIImageView:0x79e22ea0.centerY == AVAudioOnlyIndicatorView:0x7b9d9950.centerY + 10>",
+    "<NSLayoutConstraint:0x7b8eb860 V:[UIImageView:0x79e22ea0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>",
+    "<NSLayoutConstraint:0x79ff3460 V:|-(0)-[AVAudioOnlyIndicatorView:0x7b9d9950]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff34b0 V:[AVAudioOnlyIndicatorView:0x7b9d9950]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff31c0 V:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3230 V:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e15040 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8eb700 UIImageView:0x79e22ea0.centerY == AVAudioOnlyIndicatorView:0x7b9d9950.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.821 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79e21540 UIView:0x7b8ebc30.centerY == AVExternalPlaybackIndicatorView:0x7b8eb970.centerY + 10>",
+    "<NSLayoutConstraint:0x79e21360 V:[UIView:0x7b8ebc30]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>",
+    "<NSLayoutConstraint:0x79ff3590 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7b8eb970]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff35c0 V:[AVExternalPlaybackIndicatorView:0x7b8eb970]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff31c0 V:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3230 V:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e15040 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79e21540 UIView:0x7b8ebc30.centerY == AVExternalPlaybackIndicatorView:0x7b8eb970.centerY + 10>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.822 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b8eb810 V:|-(>=10)-[UIImageView:0x79e22ea0]   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>",
+    "<NSLayoutConstraint:0x7b8eb860 V:[UIImageView:0x79e22ea0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>",
+    "<NSLayoutConstraint:0x79ff3460 V:|-(0)-[AVAudioOnlyIndicatorView:0x7b9d9950]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff34b0 V:[AVAudioOnlyIndicatorView:0x7b9d9950]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff31c0 V:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3230 V:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e15040 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b8eb860 V:[UIImageView:0x79e22ea0]-(>=10)-|   (Names: '|':AVAudioOnlyIndicatorView:0x7b9d9950 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.823 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x7b9d9500 V:|-(>=10)-[UIImageView:0x7b8e76d0]   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>",
+    "<NSLayoutConstraint:0x7b9d9560 V:[UIImageView:0x7b8e76d0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>",
+    "<NSLayoutConstraint:0x79ff3310 V:|-(0)-[AVUnsupportedContentIndicatorView:0x7b8e7410]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff3350 V:[AVUnsupportedContentIndicatorView:0x7b8e7410]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff31c0 V:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3230 V:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e15040 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x7b9d9560 V:[UIImageView:0x7b8e76d0]-(>=10)-|   (Names: '|':AVUnsupportedContentIndicatorView:0x7b8e7410 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2015-01-23 13:56:31.823 VideoList[57360:914123] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSLayoutConstraint:0x79e213c0 V:|-(>=10)-[UIView:0x7b8ebc30]   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>",
+    "<NSLayoutConstraint:0x79e21360 V:[UIView:0x7b8ebc30]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>",
+    "<NSLayoutConstraint:0x79ff3590 V:|-(0)-[AVExternalPlaybackIndicatorView:0x7b8eb970]   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff35c0 V:[AVExternalPlaybackIndicatorView:0x7b8eb970]-(0)-|   (Names: '|':UIView:0x7b8e7310 )>",
+    "<NSLayoutConstraint:0x79ff31c0 V:|-(0)-[UIView:0x7b8e7310]   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79ff3230 V:[UIView:0x7b8e7310]-(0)-|   (Names: '|':AVPlayerView:0x79e233a0 )>",
+    "<NSLayoutConstraint:0x79e15040 'UIView-Encapsulated-Layout-Height' V:[AVPlayerView:0x79e233a0(1)]>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x79e21360 V:[UIView:0x7b8ebc30]-(>=10)-|   (Names: '|':AVExternalPlaybackIndicatorView:0x7b8eb970 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
