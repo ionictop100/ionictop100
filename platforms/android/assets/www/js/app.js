@@ -3,6 +3,10 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
+
+// var api_url = 'http://127.0.0.1:8060/survey/';
+var api_url = 'http://dev.followkr.com/survey/';
+
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 
@@ -24,11 +28,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .controller('videoListCtrl', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 
     $scope.data = {};
-    
-
-	//http://127.0.0.1:8060/survey/youtube_api/
-    $http.get('http://dev.followkr.com/survey/youtube_api/')
-    // $http.get('http://127.0.0.1:8060/survey/youtube_api/')
+    $http.get(api_url+'youtube_api/')
       .success(function(data) {
       	// alert(data.toSource());
         $scope.data.videos = data;
@@ -57,11 +57,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   }])
   .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
-      // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-      // for form inputs)
-      // if(window.cordova && window.cordova.plugins.Keyboard) {
-      //   cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-      // }
       if(window.StatusBar) {
         StatusBar.styleDefault();
       }
@@ -72,8 +67,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 .controller('videoListCtrl_pop', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 $scope.data = {};
-// $http.get('http://127.0.0.1:8060/survey/youtube_api_pop/')
-$http.get('http://dev.followkr.com/survey/youtube_api_pop/')
+$http.get(api_url + 'youtube_api_pop/')
   .success(function(data) {
     $scope.data.videos = data;
   })
@@ -109,8 +103,8 @@ $http.get('http://dev.followkr.com/survey/youtube_api_pop/')
 
 .controller('videoListCtrl_jp', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 $scope.data = {};
-// $http.get('http://127.0.0.1:8060/survey/youtube_api_jp/')
-$http.get('http://dev.followkr.com/survey/youtube_api_jp/')
+
+$http.get(api_url+'youtube_api_jp/')
   .success(function(data) {
   	// alert(data.toSource());
     $scope.data.videos = data;

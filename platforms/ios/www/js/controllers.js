@@ -1,6 +1,6 @@
 
-angular.module('starter.controllers',[])
 
+angular.module('starter.controllers',[])
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
@@ -80,8 +80,7 @@ return $sce.trustAsHtml(html_code);
     template: 'loading'
   })
   // $scope.music = Music.all();
-      $http.get("http://dev.followkr.com/survey/youtube_api/").
-      // $http.get("http://127.0.0.1:8060/survey/youtube_api/").
+      $http.get(api_url+'youtube_api/').
       success(function(data, status, headers, config) {
       	$ionicLoading.hide()
       	$scope.results = data
@@ -96,8 +95,7 @@ return $sce.trustAsHtml(html_code);
     template: 'loading'
   })	
   // $scope.music = Music.all();
-      $http.get("http://dev.followkr.com/survey/youtube_api_jp/").
-      // $http.get("http://127.0.0.1:8060/survey/youtube_api_jp/").
+      $http.get(api_url + 'youtube_api_jp/').
       success(function(data, status, headers, config) {
       	$ionicLoading.hide()
       	$scope.results = data
@@ -112,8 +110,7 @@ return $sce.trustAsHtml(html_code);
     template: 'loading'
   })	
   // $scope.music = Music.all();
-      $http.get("http://dev.followkr.com/survey/youtube_api_pop/").
-      // $http.get("http://127.0.0.1:8060/survey/youtube_api_pop/").
+      $http.get(api_url + 'youtube_api_pop/').
       success(function(data, status, headers, config) {
       	$ionicLoading.hide()
       	$scope.results = data
