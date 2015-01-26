@@ -4756,16 +4756,23 @@ a.item-content {
 
 .item-note_new {
   padding-top: 1px;
-  padding-left: 210px;
+  padding-left: 140px;
   position: absolute;
   opacity: 0.4;
-  font-size: 30px; }
+  font-size: 35px; }
 
 .item-note_is_new {
   padding-top: 4px;
   padding-left: 25px;
   position: absolute;
   color: #aaa;
+  opacity: 0.8;
+  font-size: 12px; }
+
+.item-note_popup_right {
+  padding-top: 1px;
+  padding-left: 140px;
+  position: absolute;
   opacity: 0.8;
   font-size: 12px; }
 
