@@ -25,6 +25,7 @@
 /Users/free31/git/ionictop100/platforms/android/res/drawable-xxhdpi/ic_action_previous_item.png \
 /Users/free31/git/ionictop100/platforms/android/res/drawable-xxhdpi/ic_action_remove.png \
 /Users/free31/git/ionictop100/platforms/android/res/values/strings.xml \
+/Users/free31/git/ionictop100/platforms/android/res/values/version.xml \
 /Users/free31/git/ionictop100/platforms/android/res/xml/config.xml \
 /Users/free31/git/ionictop100/platforms/android/ant-build/res/drawable/icon.png \
 /Users/free31/git/ionictop100/platforms/android/ant-build/res/drawable-hdpi/ic_action_next_item.png \

@@ -31,6 +31,9 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
+    <feature name="AdMob">
+        <param name="ios-package" value="CDVAdMob" />
+    </feature>
     <name>VideoList</name>
     <description>
         An Ionic Framework and Cordova project.

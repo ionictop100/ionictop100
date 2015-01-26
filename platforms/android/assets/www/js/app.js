@@ -10,6 +10,59 @@ var api_url = 'http://dev.followkr.com/survey/';
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.run(function($ionicPlatform, $ionicPopup) {
+    $ionicPlatform.ready(function() {
+        if(window.plugins && window.plugins.AdMob) {
+            var admob_key = device.platform == "Android" ? "ca-app-pub-4370549857018390/3098428262" : "ca-app-pub-4370549857018390/7668228667";
+            var admob = window.plugins.AdMob;
+            admob.createBannerView(
+                {
+                    'publisherId': admob_key,
+                    'adSize': admob.AD_SIZE.BANNER,
+                    'bannerAtTop': false
+                },
+                function() {
+                    admob.requestAd(
+                        { 'isTesting': false },
+                        function() {
+                            admob.showAd(true);
+                        },
+                        function() { console.log('failed to request ad'); }
+                    );
+                },
+                function() { console.log('failed to create banner view'); }
+            );
+        }
+    });
+})
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

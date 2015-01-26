@@ -25,6 +25,7 @@
 /Users/free31/git/ionictop100/platforms/android/res/drawable-xxhdpi/ic_action_previous_item.png \
 /Users/free31/git/ionictop100/platforms/android/res/drawable-xxhdpi/ic_action_remove.png \
 /Users/free31/git/ionictop100/platforms/android/res/values/strings.xml \
+/Users/free31/git/ionictop100/platforms/android/res/values/version.xml \
 /Users/free31/git/ionictop100/platforms/android/res/xml/config.xml \
 /Users/free31/git/ionictop100/platforms/android/ant-build/res/drawable/icon.png \
 /Users/free31/git/ionictop100/platforms/android/ant-build/res/drawable-hdpi/ic_action_next_item.png \
@@ -197,10 +198,13 @@
 /Users/free31/git/ionictop100/platforms/android/assets/www/lib/platform/LICENSE.txt \
 /Users/free31/git/ionictop100/platforms/android/assets/www/lib/platform/platform.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/com.ionic.keyboard \
+/Users/free31/git/ionictop100/platforms/android/assets/www/plugins/com.rjfun.cordova.plugin.admob \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/com.ionic.keyboard/www \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js \
+/Users/free31/git/ionictop100/platforms/android/assets/www/plugins/com.rjfun.cordova.plugin.admob/www \
+/Users/free31/git/ionictop100/platforms/android/assets/www/plugins/com.rjfun.cordova.plugin.admob/www/AdMob.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Users/free31/git/ionictop100/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser/www \

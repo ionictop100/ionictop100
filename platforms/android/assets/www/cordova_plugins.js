@@ -20,6 +20,13 @@ module.exports = [
         "clobbers": [
             "window.open"
         ]
+    },
+    {
+        "file": "plugins/com.rjfun.cordova.plugin.admob/www/AdMob.js",
+        "id": "com.rjfun.cordova.plugin.admob.AdMob",
+        "clobbers": [
+            "window.plugins.AdMob"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -28,7 +35,10 @@ module.exports.metadata =
     "com.ionic.keyboard": "0.0.1",
     "org.apache.cordova.console": "0.2.9",
     "org.apache.cordova.device": "0.2.10",
-    "org.apache.cordova.inappbrowser": "0.5.0"
+    "org.apache.cordova.inappbrowser": "0.5.0",
+    "com.rjfun.cordova.plugin.admob": "2.1.7",
+    "com.google.playservices": "19.0.0",
+    "com.google.admobsdk": "6.12.2"
 }
 // BOTTOM OF METADATA
 });

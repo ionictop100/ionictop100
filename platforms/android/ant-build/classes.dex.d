@@ -5,9 +5,21 @@
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/ionicframework/starter/CordovaApp.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/ionicframework/starter/R$attr.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/ionicframework/starter/R$drawable.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/ionicframework/starter/R$integer.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/ionicframework/starter/R$string.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/ionicframework/starter/R$xml.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/ionicframework/starter/R.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$1.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$2.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$3.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$4.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$5.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$6.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$7.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$BannerListener.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$BasicListener.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob$InterstitialListener.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/com/rjfun/cordova/plugin/AdMob.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
@@ -24,3 +36,4 @@
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/dexedLibs/classes-a7f1fd3ef9d92a3866bec25673adf65e.jar \
+/Users/free31/git/ionictop100/platforms/android/ant-build/dexedLibs/google-play-services-63d718c0c471652c2a84d0a9130e904d.jar \

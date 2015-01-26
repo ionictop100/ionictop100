@@ -4,10 +4,63 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-var api_url = 'http://127.0.0.1:8060/survey/';
-// var api_url = 'http://dev.followkr.com/survey/';
+// var api_url = 'http://127.0.0.1:8060/survey/';
+var api_url = 'http://dev.followkr.com/survey/';
 
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.run(function($ionicPlatform, $ionicPopup) {
+    $ionicPlatform.ready(function() {
+        if(window.plugins && window.plugins.AdMob) {
+            var admob_key = device.platform == "Android" ? "ca-app-pub-4370549857018390/3098428262" : "ca-app-pub-4370549857018390/7668228667";
+            var admob = window.plugins.AdMob;
+            admob.createBannerView(
+                {
+                    'publisherId': admob_key,
+                    'adSize': admob.AD_SIZE.BANNER,
+                    'bannerAtTop': false
+                },
+                function() {
+                    admob.requestAd(
+                        { 'isTesting': false },
+                        function() {
+                            admob.showAd(true);
+                        },
+                        function() { console.log('failed to request ad'); }
+                    );
+                },
+                function() { console.log('failed to create banner view'); }
+            );
+        }
+    });
+})
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
 
 
 .run(function($ionicPlatform) {
