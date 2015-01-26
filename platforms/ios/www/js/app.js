@@ -10,19 +10,6 @@ var api_url = 'http://dev.followkr.com/survey/';
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .run(function($ionicPlatform, $ionicPopup) {
     $ionicPlatform.ready(function() {
         if(window.plugins && window.plugins.AdMob) {
@@ -50,17 +37,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 })
     
     
-    
-    
-
-
-
-
-
-
-
-
-
 
 
 .run(function($ionicPlatform) {

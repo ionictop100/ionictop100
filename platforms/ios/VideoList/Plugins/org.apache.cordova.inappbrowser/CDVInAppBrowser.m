@@ -560,7 +560,7 @@
     self.addressLabel.numberOfLines = 1;
     self.addressLabel.opaque = NO;
     self.addressLabel.shadowOffset = CGSizeMake(0.0, -1.0);
-    self.addressLabel.text = NSLocalizedString(@"Loading...", nil);
+    self.addressLabel.text = NSLocalizedString(@"Loading....", nil);
     self.addressLabel.textAlignment = NSTextAlignmentLeft;
     self.addressLabel.textColor = [UIColor colorWithWhite:1.000 alpha:1.000];
     self.addressLabel.userInteractionEnabled = NO;
@@ -809,7 +809,7 @@
 {
     // loading url, start spinner, update back/forward
 
-    self.addressLabel.text = NSLocalizedString(@"Loading...", nil);
+    self.addressLabel.text = NSLocalizedString(@"Loading.....", nil);
     self.backButton.enabled = theWebView.canGoBack;
     self.forwardButton.enabled = theWebView.canGoForward;
 

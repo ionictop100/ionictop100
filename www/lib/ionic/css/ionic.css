@@ -4770,10 +4770,9 @@ a.item-content {
   font-size: 12px; }
 
 .item-note_popup_right {
-  padding-top: 1px;
-  padding-left: 140px;
+  padding-top: 10px;
   position: absolute;
-  opacity: 0.8;
+  padding-left: 200px;
   font-size: 12px; }
 
 .item-left-editable .item-content, .item-right-editable .item-content {
