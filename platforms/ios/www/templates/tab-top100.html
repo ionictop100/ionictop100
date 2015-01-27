@@ -9,14 +9,17 @@
     <ion-list>
 	    <div ng-controller="videoListCtrl">
 	      <div class="list">
-	          <a ion-item item-thumbnail-left ng-repeat="video in data.videos" class="item item-thumbnail-left" href="{{video.url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
-	            <img src="{{video.thumbnail_url}}">
-	            <h2>{{video.title}}</h2>
-	            <div class="item-note_new positive">{{video.rank}}</div>
-	            <p>{{video.name}}<span class="assertive item-note_is_new">{{video.is_new}}</span></p>
-			  <div class="item-button-right">
+	          <a ion-item item-thumbnail-left ng-repeat="video in data.videos" class="item item-thumbnail-left" >
+	            <img src="{{video.thumbnail_url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
+	            <h2 ng-click="showInAppVideo('{{video.url}}', $event)">{{video.title}}</h2>
+	            <div class="item-note_new positive" ng-click="showInAppVideo('{{video.url}}', $event)">{{video.rank}}</div>
+	            <p>{{video.name}}<span class="assertive item-note_is_new" ng-click="showInAppVideo('{{video.url}}', $event)">{{video.is_new}}</span></p>
+			  
+			  <div class="item-button-right" ng-controller="PopupCtrl">
 			    <button class="button button-positive">
-			      <i class="icon ion-ios7-telephone"></i>
+			          <button class="button button-primary" ng-click="showConfirm()">
+				      追加
+				    </button>
 			    </button>
 			  </div>			  
 	          </a>
