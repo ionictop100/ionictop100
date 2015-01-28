@@ -39,8 +39,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         }
     });
 })
-    
-    
 
 
 .run(function($ionicPlatform) {
@@ -60,18 +58,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .constant('dataUrl', 'data/mostviewed_videos.json')
   .controller('videoListCtrl', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 
-    $scope.data = {};
-    $http.get(api_url+'youtube_api/')
-      .success(function(data) {
-      	// alert(data.toSource());
-        $scope.data.videos = data;
-      })
-      .error(function(error) {
-        $scope.data.error = error;
-      });
-
       $scope.showInAppVideo = function(url, $event) {
-
         if ($event.preventDefault) {
           $event.preventDefault();
         }
@@ -99,15 +86,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 
 
 .controller('videoListCtrl_pop', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
-$scope.data = {};
-
-$http.get(api_url + 'youtube_api_pop/')
-  .success(function(data) {
-    $scope.data.videos = data;
-  })
-  .error(function(error) {
-    $scope.data.error = error;
-  });
 
   $scope.showInAppVideo = function(url, $event) {
 
@@ -136,16 +114,6 @@ $http.get(api_url + 'youtube_api_pop/')
   })
 
 .controller('videoListCtrl_jp', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
-$scope.data = {};
-
-$http.get(api_url+'youtube_api_jp/')
-  .success(function(data) {
-  	// alert(data.toSource());
-    $scope.data.videos = data;
-  })
-  .error(function(error) {
-    $scope.data.error = error;
-  });
 
   $scope.showInAppVideo = function(url, $event) {
 

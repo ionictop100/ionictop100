@@ -2,7 +2,6 @@
 
 angular.module('starter.controllers',[])
 
-
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
@@ -124,60 +123,88 @@ return $sce.trustAsHtml(html_code);
   $scope.friends = Friends.all();
 })
 
+
+
+
+
+
+// .controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+// 	
+	// $ionicPlatform.ready(function() {
+		// try{
+			// alert($cordovaDevice.getUUID());
+		// }catch(err){
+		// }
+	// })
+	// // $cordovaDevice.getUUID();
+  // var _this = this
+  // $ionicLoading.show({
+    // template: 'loading'
+  // })
+  // // $scope.music = Music.all();
+      // $http.get(api_url+'youtube_api/').
+
+      // success(function(data, status, headers, config) {
+      	// $ionicLoading.hide()
+      	// $scope.results = data
+      // }).
+      	// error(function(data, status, headers, config) {
+      // });            
+// })
+
+
+
+
+
 .controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
 	
-
-
-	$ionicPlatform.ready(function() {
-		// alert(11);
-		alert($cordovaDevice.getUUID());
-		
-	})
-	
-	// $cordovaDevice.getUUID();
-	
-  var _this = this
   $ionicLoading.show({
     template: 'loading'
   })
-  // $scope.music = Music.all();
-      $http.get(api_url+'youtube_api/').
-      success(function(data, status, headers, config) {
-      	$ionicLoading.hide()
-      	$scope.results = data
-      }).
-      	error(function(data, status, headers, config) {
-      });            
+	$scope.data = {};
+	$http.get(api_url+'youtube_api/', { params: { "key1": "KR", "key2": "kr" } }).
+	  success(function(data) {
+	  	// alert(data.toSource());
+	    $scope.data.videos = data;
+	    $ionicLoading.hide()
+	  })
+	  .error(function(error) {
+	    $scope.data.error = error;
+	  });              
 })
 
-.controller('Top100jpCtrl',  function($scope, Music, $http, $ionicLoading) {
+
+.controller('Top100jpCtrl',  function($scope, $ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+	  $ionicLoading.show({
+	    template: 'loading'
+	  })	
+
+	$scope.data = {};
+	$http.get(api_url+'youtube_api_jp/', { params: { "key1": "jp", "key2": "jp" } }).
+	  success(function(data) {
+	    $scope.data.videos = data;
+	    $ionicLoading.hide()
+	  })
+	  .error(function(error) {
+	    $scope.data.error = error;
+	  }); 
+})
+
+.controller('Top100popCtrl',  function($scope, $ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
   var _this = this
   $ionicLoading.show({
     template: 'loading'
   })	
-  // $scope.music = Music.all();
-      $http.get(api_url + 'youtube_api_jp/').
-      success(function(data, status, headers, config) {
-      	$ionicLoading.hide()
-      	$scope.results = data
-      }).
-      	error(function(data, status, headers, config) {
-      });            
-})
-
-.controller('Top100popCtrl',  function($scope, Music, $http, $ionicLoading) {
-  var _this = this
-  $ionicLoading.show({
-    template: 'loading'
-  })	
-  // $scope.music = Music.all();
-      $http.get(api_url + 'youtube_api_pop/').
-      success(function(data, status, headers, config) {
-      	$ionicLoading.hide()
-      	$scope.results = data
-      }).
-      	error(function(data, status, headers, config) {
-      });            
+	$scope.data = {};
+	$http.get(api_url+'youtube_api_pop/', { params: { "key1": "pop", "key2": "pop" } }).
+	  success(function(data) {
+	  	// alert(data.toSource());
+	    $scope.data.videos = data;
+	    $ionicLoading.hide()
+	  })
+	  .error(function(error) {
+	    $scope.data.error = error;
+	  });       
 })
 
 .controller('Top100DetailCtrl', function($scope, $stateParams, Music) {
