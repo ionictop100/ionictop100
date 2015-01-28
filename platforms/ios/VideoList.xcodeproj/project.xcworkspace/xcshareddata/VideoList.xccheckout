@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>A625A42D-4366-4AF2-A53C-34AF38819391</string>
+=======
+	<string>5724C2D1-22B3-490F-BFCC-9E07DAA7F74B</string>
+>>>>>>> f7686aa55e31fc9219a5cfa3caf1ba7ab03b60fc
 	<key>IDESourceControlProjectName</key>
 	<string>VideoList</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
