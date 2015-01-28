@@ -910,10 +910,10 @@
         self.location = YES;
         self.toolbar = YES;
         self.closebuttoncaption = nil;
-        self.toolbarposition = kInAppBrowserToolbarBarPositionBottom;
+//        self.toolbarposition = kInAppBrowserToolbarBarPositionBottom;
+        self.toolbarposition = kInAppBrowserToolbarBarPositionTop;
         self.clearcache = NO;
         self.clearsessioncache = NO;
-
         self.enableviewportscale = NO;
         self.mediaplaybackrequiresuseraction = NO;
         self.allowinlinemediaplayback = NO;

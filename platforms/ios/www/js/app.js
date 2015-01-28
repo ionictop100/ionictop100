@@ -63,7 +63,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
           $event.preventDefault();
         }
 
-        var ref = window.open(url, '_blank', 'location=yes');
+        var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=閉じる,toolbarposition=top,transitionstyle=fliphorizontal');
       };
 
       $scope.getDuration = function(sec) {
