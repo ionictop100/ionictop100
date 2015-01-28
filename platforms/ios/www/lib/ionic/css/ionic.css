@@ -4754,6 +4754,27 @@ a.item-content {
   color: #aaa;
   font-size: 34px; }
 
+.item-note_new {
+  padding-top: 1px;
+  padding-left: 140px;
+  position: absolute;
+  opacity: 0.4;
+  font-size: 35px; }
+
+.item-note_is_new {
+  padding-top: 4px;
+  padding-left: 25px;
+  position: absolute;
+  color: #aaa;
+  opacity: 0.8;
+  font-size: 12px; }
+
+.item-note_popup_right {
+  padding-top: 10px;
+  position: absolute;
+  padding-left: 200px;
+  font-size: 12px; }
+
 .item-left-editable .item-content, .item-right-editable .item-content {
   -webkit-transition-duration: 250ms;
   transition-duration: 250ms;

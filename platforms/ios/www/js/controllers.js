@@ -1,5 +1,7 @@
 
+
 angular.module('starter.controllers',[])
+
 
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
@@ -36,9 +38,56 @@ return $sce.trustAsHtml(html_code);
 };
 })
 
+.controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
 
+ // Triggered on a button click, or some other target
+ $scope.showPopup = function() {
+   $scope.data = {}
 
-
+   // An elaborate, custom popup
+   var myPopup = $ionicPopup.show({
+     template: '<input type="password" ng-model="data.wifi">',
+     title: 'Enter Wi-Fi Password',
+     subTitle: 'Please use normal things',
+     scope: $scope,
+     buttons: [
+       { text: 'Cancel' },
+       {
+         text: '<b>Save</b>',
+         type: 'button-positive',
+         onTap: function(e) {
+           if (!$scope.data.wifi) {
+             //don't allow the user to close unless he enters wifi password
+             e.preventDefault();
+           } else {
+             return $scope.data.wifi;
+           }
+         }
+       },
+     ]
+   });
+   myPopup.then(function(res) {
+     console.log('Tapped!', res);
+   });
+   $timeout(function() {
+      myPopup.close(); //close the popup after 3 seconds for some reason
+   }, 3000);
+  };
+   // A confirm dialog
+   $scope.showConfirm = function() {
+     var confirmPopup = $ionicPopup.confirm({
+       title: 'プレイリストへ追加',
+       template: 'この曲を追加しますか？'
+     });
+     confirmPopup.then(function(res) {
+       if(res) {
+         console.log('You are sure');
+       } else {
+         console.log('You are not sure');
+       }
+     });
+   };
+})
 
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
@@ -74,14 +123,25 @@ return $sce.trustAsHtml(html_code);
 .controller('SearchCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
 })
-.controller('Top100Ctrl',  function($scope, Music, $http, $ionicLoading) {
+
+.controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+	
+
+
+	$ionicPlatform.ready(function() {
+		// alert(11);
+		alert($cordovaDevice.getUUID());
+		
+	})
+	
+	// $cordovaDevice.getUUID();
+	
   var _this = this
   $ionicLoading.show({
     template: 'loading'
   })
   // $scope.music = Music.all();
-      $http.get("http://dev.followkr.com/survey/youtube_api/").
-      // $http.get("http://127.0.0.1:8060/survey/youtube_api/").
+      $http.get(api_url+'youtube_api/').
       success(function(data, status, headers, config) {
       	$ionicLoading.hide()
       	$scope.results = data
@@ -96,8 +156,7 @@ return $sce.trustAsHtml(html_code);
     template: 'loading'
   })	
   // $scope.music = Music.all();
-      $http.get("http://dev.followkr.com/survey/youtube_api_jp/").
-      // $http.get("http://127.0.0.1:8060/survey/youtube_api_jp/").
+      $http.get(api_url + 'youtube_api_jp/').
       success(function(data, status, headers, config) {
       	$ionicLoading.hide()
       	$scope.results = data
@@ -112,8 +171,7 @@ return $sce.trustAsHtml(html_code);
     template: 'loading'
   })	
   // $scope.music = Music.all();
-      $http.get("http://dev.followkr.com/survey/youtube_api_pop/").
-      // $http.get("http://127.0.0.1:8060/survey/youtube_api_pop/").
+      $http.get(api_url + 'youtube_api_pop/').
       success(function(data, status, headers, config) {
       	$ionicLoading.hide()
       	$scope.results = data
