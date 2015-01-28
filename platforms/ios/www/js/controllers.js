@@ -158,19 +158,41 @@ return $sce.trustAsHtml(html_code);
 
 .controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
 	
+	
   $ionicLoading.show({
     template: 'loading'
   })
-	$scope.data = {};
-	$http.get(api_url+'youtube_api/', { params: { "key1": "KR", "key2": "kr" } }).
-	  success(function(data) {
-	  	// alert(data.toSource());
-	    $scope.data.videos = data;
-	    $ionicLoading.hide()
-	  })
-	  .error(function(error) {
-	    $scope.data.error = error;
-	  });              
+	$ionicPlatform.ready(function() {
+		// try{
+			try{
+				var uuid = $cordovaDevice.getUUID();
+				var device_model = $cordovaDevice.getModel();
+				var device_platform = $cordovaDevice.getPlatform();
+			}catch(err){
+				var uuid = 1234567;
+				var device_model = "device_model";
+				var device_platform = "device_platform";
+			}
+			
+			$scope.data = {};
+			$http.get(api_url+'youtube_api/', { params: {
+										 "uuid": uuid, 
+										 "device_model": device_model,
+										 "device_platform": device_platform,
+										 "device_app_version": "1.0.1" } }).
+			  success(function(data) {
+			  	// alert(data.toSource());
+			    $scope.data.videos = data;
+			    $ionicLoading.hide()
+			  })
+			  .error(function(error) {
+			    $scope.data.error = error;
+			  });              
+		// }catch(err){			
+		// }
+	})
+	
+	
 })
 
 

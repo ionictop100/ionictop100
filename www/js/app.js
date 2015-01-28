@@ -4,8 +4,8 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-// var api_url = 'http://127.0.0.1:8060/survey/';
-var api_url = 'http://dev.followkr.com/survey/';
+var api_url = 'http://127.0.0.1:8060/survey/';
+// var api_url = 'http://dev.followkr.com/survey/';
 
 // angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngCordova'])
@@ -174,6 +174,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       'tab-top100': {
         templateUrl: 'templates/tab-top100.html',
         controller: 'Top100Ctrl'
+      }
+    }
+  })
+
+  .state('tab.list', {
+    url: '/list',
+    views: {
+      'tab-list': {
+        templateUrl: 'templates/tab-list.html',
+        controller: 'ListCtrl'
       }
     }
   })
