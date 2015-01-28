@@ -1,13 +1,136 @@
-2015-01-26 23:27:43.819 VideoList[17565:607863] Apache Cordova native platform version 3.7.0 is starting.
-2015-01-26 23:27:43.829 VideoList[17565:607863] Multi-tasking -> Device: YES, App: YES
-2015-01-26 23:27:43.848 VideoList[17565:607863] Unlimited access to network resources
-2015-01-26 23:27:44.359 VideoList[17565:607863] [CDVTimer][keyboard] 0.093997ms
-2015-01-26 23:27:44.359 VideoList[17565:607863] [CDVTimer][TotalPluginStartup] 0.841975ms
-2015-01-26 23:27:44.694 VideoList[17565:607863] Resetting plugins due to page load.
-2015-01-26 23:27:45.115 VideoList[17565:607863] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/9CAE24F3-ADD8-459F-8320-043FD7E5CF50/data/Containers/Bundle/Application/49991303-B98D-4877-A4E5-00E85D2BC535/VideoList.app/www/index.html#/tab/dash
-2015-01-26 23:27:45.511 VideoList[17565:607863] createBannerView
-2015-01-26 23:27:45.511 VideoList[17565:607863] __createBanner
-2015-01-26 23:27:45.730 VideoList[17565:607863] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
-2015-01-26 23:27:45.903 VideoList[17565:607863] THREAD WARNING: ['AdMob'] took '391.974365' ms. Plugin should use a background thread.
-2015-01-26 23:27:45.917 VideoList[17565:607863] requestAd
-2015-01-26 23:27:45.918 VideoList[17565:607863] showAd
+2015-01-27 19:01:20.907 VideoList[88841:1682861] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:01:20.910 VideoList[88841:1682861] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:01:20.923 VideoList[88841:1682861] Unlimited access to network resources
+2015-01-27 19:01:21.327 VideoList[88841:1682861] [CDVTimer][keyboard] 0.059962ms
+2015-01-27 19:01:21.327 VideoList[88841:1682861] [CDVTimer][TotalPluginStartup] 0.253975ms
+2015-01-27 19:01:21.544 VideoList[88841:1682861] Resetting plugins due to page load.
+2015-01-27 19:01:21.784 VideoList[88841:1682861] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/7BAD4F78-5231-4D71-9B15-A11D393BE7EC/VideoList.app/www/index.html#/tab/dash
+2015-01-27 19:01:22.012 VideoList[88841:1682861] createBannerView
+2015-01-27 19:01:22.012 VideoList[88841:1682861] __createBanner
+2015-01-27 19:01:22.144 VideoList[88841:1682861] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-01-27 19:01:22.267 VideoList[88841:1682861] THREAD WARNING: ['AdMob'] took '255.182129' ms. Plugin should use a background thread.
+2015-01-27 19:01:22.280 VideoList[88841:1682861] requestAd
+2015-01-27 19:01:23.039 VideoList[88841:1682861] THREAD WARNING: ['AdMob'] took '758.127930' ms. Plugin should use a background thread.
+2015-01-27 19:01:23.086 VideoList[88841:1682861] showAd
+2015-01-27 19:01:47.308 VideoList[89136:1684070] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:01:47.309 VideoList[89136:1684070] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:01:47.311 VideoList[89136:1684070] Unlimited access to network resources
+2015-01-27 19:01:47.470 VideoList[89136:1684070] [CDVTimer][keyboard] 0.068009ms
+2015-01-27 19:01:47.471 VideoList[89136:1684070] [CDVTimer][TotalPluginStartup] 0.249982ms
+2015-01-27 19:01:47.598 VideoList[89136:1684070] Resetting plugins due to page load.
+2015-01-27 19:01:49.871 VideoList[89136:1684070] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/4F88A220-86A1-4F7A-8E8E-3C8743FDFF11/VideoList.app/www/index.html#/tab/dash
+2015-01-27 19:01:50.057 VideoList[89136:1684070] createBannerView
+2015-01-27 19:01:50.057 VideoList[89136:1684070] __createBanner
+2015-01-27 19:01:50.193 VideoList[89136:1684070] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-01-27 19:01:50.313 VideoList[89136:1684070] THREAD WARNING: ['AdMob'] took '256.635986' ms. Plugin should use a background thread.
+2015-01-27 19:01:50.322 VideoList[89136:1684070] requestAd
+2015-01-27 19:01:50.872 VideoList[89136:1684070] THREAD WARNING: ['AdMob'] took '550.709717' ms. Plugin should use a background thread.
+2015-01-27 19:01:50.883 VideoList[89136:1684070] showAd
+2015-01-27 19:12:33.729 VideoList[89521:1689607] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:12:33.730 VideoList[89521:1689607] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:12:33.732 VideoList[89521:1689607] Unlimited access to network resources
+2015-01-27 19:12:33.908 VideoList[89521:1689607] [CDVTimer][keyboard] 0.056028ms
+2015-01-27 19:12:33.908 VideoList[89521:1689607] [CDVTimer][TotalPluginStartup] 0.239968ms
+2015-01-27 19:12:34.035 VideoList[89521:1689607] Resetting plugins due to page load.
+2015-01-27 19:12:45.963 VideoList[89521:1689676] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-01-27 19:12:45.980 VideoList[89521:1689607] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/83977606-B7D0-41BD-9C74-428A99F08F53/VideoList.app/www/index.html#/tab/dash
+2015-01-27 19:12:46.148 VideoList[89521:1689607] createBannerView
+2015-01-27 19:12:46.148 VideoList[89521:1689607] __createBanner
+2015-01-27 19:12:46.278 VideoList[89521:1689607] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-01-27 19:12:46.400 VideoList[89521:1689607] THREAD WARNING: ['AdMob'] took '252.667969' ms. Plugin should use a background thread.
+2015-01-27 19:12:46.408 VideoList[89521:1689607] requestAd
+2015-01-27 19:12:46.957 VideoList[89521:1689607] THREAD WARNING: ['AdMob'] took '549.186279' ms. Plugin should use a background thread.
+2015-01-27 19:12:46.967 VideoList[89521:1689607] showAd
+2015-01-27 19:24:27.769 VideoList[89521:1692564] Terminating since there is no system app.
+2015-01-27 19:29:34.451 VideoList[90601:1701252] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:29:34.453 VideoList[90601:1701252] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:29:34.466 VideoList[90601:1701252] Unlimited access to network resources
+2015-01-27 19:29:34.903 VideoList[90601:1701252] [CDVTimer][keyboard] 0.120997ms
+2015-01-27 19:29:34.903 VideoList[90601:1701252] [CDVTimer][TotalPluginStartup] 0.496984ms
+2015-01-27 19:29:35.178 VideoList[90601:1701252] Resetting plugins due to page load.
+2015-01-27 19:29:35.420 VideoList[90601:1701252] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/E723ACC0-A014-4A42-95CB-BEDDF08CB2FF/VideoList.app/www/index.html#/tab/dash
+2015-01-27 19:30:35.870 VideoList[91191:1703580] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:30:35.871 VideoList[91191:1703580] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:30:35.873 VideoList[91191:1703580] Unlimited access to network resources
+2015-01-27 19:30:36.065 VideoList[91191:1703580] [CDVTimer][keyboard] 0.068009ms
+2015-01-27 19:30:36.065 VideoList[91191:1703580] [CDVTimer][TotalPluginStartup] 0.270963ms
+2015-01-27 19:30:36.187 VideoList[91191:1703580] Resetting plugins due to page load.
+2015-01-27 19:30:36.371 VideoList[91191:1703580] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/051FF642-475C-4177-9B14-AC3C3C54DE62/VideoList.app/www/index.html
+2015-01-27 19:38:23.525 VideoList[91902:1710745] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:38:23.527 VideoList[91902:1710745] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:38:23.543 VideoList[91902:1710745] Unlimited access to network resources
+2015-01-27 19:38:23.935 VideoList[91902:1710745] [CDVTimer][keyboard] 0.073016ms
+2015-01-27 19:38:23.935 VideoList[91902:1710745] [CDVTimer][TotalPluginStartup] 0.266016ms
+2015-01-27 19:38:24.143 VideoList[91902:1710745] Resetting plugins due to page load.
+2015-01-27 19:38:24.389 VideoList[91902:1710745] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/DD5558C7-C51E-4E00-849C-0273642B36B4/VideoList.app/www/index.html
+2015-01-27 19:38:59.655 VideoList[92145:1711745] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:38:59.656 VideoList[92145:1711745] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:38:59.658 VideoList[92145:1711745] Unlimited access to network resources
+2015-01-27 19:38:59.809 VideoList[92145:1711745] [CDVTimer][keyboard] 0.063002ms
+2015-01-27 19:38:59.809 VideoList[92145:1711745] [CDVTimer][TotalPluginStartup] 0.234962ms
+2015-01-27 19:38:59.911 VideoList[92145:1711745] Resetting plugins due to page load.
+2015-01-27 19:39:00.051 VideoList[92145:1711745] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/0FDA8C60-7755-454B-AF30-5EEA0331FE4B/VideoList.app/www/index.html
+2015-01-27 19:39:22.627 VideoList[92397:1712468] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:39:22.628 VideoList[92397:1712468] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:39:22.629 VideoList[92397:1712468] Unlimited access to network resources
+2015-01-27 19:39:22.784 VideoList[92397:1712468] [CDVTimer][keyboard] 0.074983ms
+2015-01-27 19:39:22.785 VideoList[92397:1712468] [CDVTimer][TotalPluginStartup] 0.276983ms
+2015-01-27 19:39:22.883 VideoList[92397:1712468] Resetting plugins due to page load.
+2015-01-27 19:39:23.046 VideoList[92397:1712468] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/CA0CA59C-4B07-4D70-B09A-58DB8D2E10F0/VideoList.app/www/index.html#/tab/dash
+2015-01-27 19:39:37.047 VideoList[92644:1713218] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 19:39:37.048 VideoList[92644:1713218] Multi-tasking -> Device: YES, App: YES
+2015-01-27 19:39:37.049 VideoList[92644:1713218] Unlimited access to network resources
+2015-01-27 19:39:37.224 VideoList[92644:1713218] [CDVTimer][keyboard] 0.059009ms
+2015-01-27 19:39:37.224 VideoList[92644:1713218] [CDVTimer][TotalPluginStartup] 0.244975ms
+2015-01-27 19:39:37.364 VideoList[92644:1713218] Resetting plugins due to page load.
+2015-01-27 19:39:37.506 VideoList[92644:1713218] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/0CC5BDB5-47CC-4C98-841F-340BF403D0E5/VideoList.app/www/index.html#/tab/dash
+2015-01-27 19:39:40.151 VideoList[92644:1713218] createBannerView
+2015-01-27 19:39:40.151 VideoList[92644:1713218] __createBanner
+2015-01-27 19:39:40.320 VideoList[92644:1713218] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-01-27 19:39:40.450 VideoList[92644:1713218] THREAD WARNING: ['AdMob'] took '299.168945' ms. Plugin should use a background thread.
+2015-01-27 19:39:40.459 VideoList[92644:1713218] requestAd
+2015-01-27 19:39:41.011 VideoList[92644:1713218] THREAD WARNING: ['AdMob'] took '552.694092' ms. Plugin should use a background thread.
+2015-01-27 19:39:41.063 VideoList[92644:1713218] showAd
+2015-01-27 19:54:21.497 VideoList[92644:1721899] Terminating since there is no system app.
+2015-01-27 20:41:26.950 VideoList[93809:1740998] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 20:41:26.953 VideoList[93809:1740998] Multi-tasking -> Device: YES, App: YES
+2015-01-27 20:41:26.970 VideoList[93809:1740998] Unlimited access to network resources
+2015-01-27 20:41:27.388 VideoList[93809:1740998] [CDVTimer][keyboard] 0.063002ms
+2015-01-27 20:41:27.389 VideoList[93809:1740998] [CDVTimer][TotalPluginStartup] 0.250995ms
+2015-01-27 20:41:27.589 VideoList[93809:1740998] Resetting plugins due to page load.
+2015-01-27 20:41:27.821 VideoList[93809:1740998] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/B200C0B9-A940-4A8A-B0B6-044D88C416A4/VideoList.app/www/index.html#/tab/dash
+2015-01-27 20:41:36.584 VideoList[93809:1740998] createBannerView
+2015-01-27 20:41:36.584 VideoList[93809:1740998] __createBanner
+2015-01-27 20:41:36.733 VideoList[93809:1740998] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-01-27 20:41:36.907 VideoList[93809:1740998] THREAD WARNING: ['AdMob'] took '323.024902' ms. Plugin should use a background thread.
+2015-01-27 20:41:36.959 VideoList[93809:1740998] requestAd
+2015-01-27 20:41:37.499 VideoList[93809:1740998] THREAD WARNING: ['AdMob'] took '540.334717' ms. Plugin should use a background thread.
+2015-01-27 20:41:37.546 VideoList[93809:1740998] showAd
+2015-01-27 20:41:58.287 VideoList[94068:1741900] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 20:41:58.288 VideoList[94068:1741900] Multi-tasking -> Device: YES, App: YES
+2015-01-27 20:41:58.289 VideoList[94068:1741900] Unlimited access to network resources
+2015-01-27 20:41:58.443 VideoList[94068:1741900] [CDVTimer][keyboard] 0.055969ms
+2015-01-27 20:41:58.443 VideoList[94068:1741900] [CDVTimer][TotalPluginStartup] 0.240982ms
+2015-01-27 20:41:58.547 VideoList[94068:1741900] Resetting plugins due to page load.
+2015-01-27 20:41:58.695 VideoList[94068:1741900] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/79D36519-9143-4F8C-8465-897FFA35CE67/VideoList.app/www/index.html#/tab/dash
+2015-01-27 20:41:58.844 VideoList[94068:1741900] createBannerView
+2015-01-27 20:41:58.844 VideoList[94068:1741900] __createBanner
+2015-01-27 20:41:58.974 VideoList[94068:1741900] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-01-27 20:41:59.096 VideoList[94068:1741900] THREAD WARNING: ['AdMob'] took '252.142822' ms. Plugin should use a background thread.
+2015-01-27 20:41:59.106 VideoList[94068:1741900] requestAd
+2015-01-27 20:41:59.645 VideoList[94068:1741900] THREAD WARNING: ['AdMob'] took '539.375977' ms. Plugin should use a background thread.
+2015-01-27 20:41:59.656 VideoList[94068:1741900] showAd
+2015-01-27 20:42:24.071 VideoList[94345:1742711] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-27 20:42:24.072 VideoList[94345:1742711] Multi-tasking -> Device: YES, App: YES
+2015-01-27 20:42:24.074 VideoList[94345:1742711] Unlimited access to network resources
+2015-01-27 20:42:24.228 VideoList[94345:1742711] [CDVTimer][keyboard] 0.056982ms
+2015-01-27 20:42:24.228 VideoList[94345:1742711] [CDVTimer][TotalPluginStartup] 0.229955ms
+2015-01-27 20:42:24.330 VideoList[94345:1742711] Resetting plugins due to page load.
+2015-01-27 20:42:24.491 VideoList[94345:1742711] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/DC26B547-6CBD-461C-BD8C-AFBC3BC8D76A/VideoList.app/www/index.html#/tab/dash
+2015-01-27 20:42:26.893 VideoList[94345:1742711] createBannerView
+2015-01-27 20:42:26.893 VideoList[94345:1742711] __createBanner
+2015-01-27 20:42:27.049 VideoList[94345:1742711] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-01-27 20:42:27.179 VideoList[94345:1742711] THREAD WARNING: ['AdMob'] took '286.093018' ms. Plugin should use a background thread.
+2015-01-27 20:42:27.189 VideoList[94345:1742711] requestAd
+2015-01-27 20:42:27.801 VideoList[94345:1742711] THREAD WARNING: ['AdMob'] took '612.813965' ms. Plugin should use a background thread.
+2015-01-27 20:42:27.811 VideoList[94345:1742711] showAd

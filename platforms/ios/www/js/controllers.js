@@ -1,6 +1,8 @@
 
 
 angular.module('starter.controllers',[])
+
+
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
@@ -35,10 +37,6 @@ return $sce.trustAsHtml(html_code);
 }
 };
 })
-
-
-
-
 
 .controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
 
@@ -92,9 +90,6 @@ return $sce.trustAsHtml(html_code);
 })
 
 
-
-
-
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
 })
@@ -128,7 +123,19 @@ return $sce.trustAsHtml(html_code);
 .controller('SearchCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
 })
-.controller('Top100Ctrl',  function($scope, Music, $http, $ionicLoading) {
+
+.controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+	
+
+
+	$ionicPlatform.ready(function() {
+		// alert(11);
+		alert($cordovaDevice.getUUID());
+		
+	})
+	
+	// $cordovaDevice.getUUID();
+	
   var _this = this
   $ionicLoading.show({
     template: 'loading'

@@ -7,11 +7,15 @@
 // var api_url = 'http://127.0.0.1:8060/survey/';
 var api_url = 'http://dev.followkr.com/survey/';
 
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
-
+// angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngCordova'])
 
 .run(function($ionicPlatform, $ionicPopup) {
-    $ionicPlatform.ready(function() {
+	// alert(ionic.Platform.toSource());
+	// alert(ionic.Platform.device());
+	// alert(device.toSource());
+	
+    $ionicPlatform.ready(function($cordovaDevice) {
         if(window.plugins && window.plugins.AdMob) {
             var admob_key = device.platform == "Android" ? "ca-app-pub-4370549857018390/3098428262" : "ca-app-pub-4370549857018390/7668228667";
             var admob = window.plugins.AdMob;
@@ -96,6 +100,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 .controller('videoListCtrl_pop', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 $scope.data = {};
+
 $http.get(api_url + 'youtube_api_pop/')
   .success(function(data) {
     $scope.data.videos = data;

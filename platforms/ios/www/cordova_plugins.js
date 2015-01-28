@@ -51,7 +51,7 @@ module.exports.metadata =
     "com.ionic.keyboard": "0.0.1",
     "com.rjfun.cordova.plugin.admob": "2.1.7",
     "org.apache.cordova.console": "0.2.9",
-    "org.apache.cordova.device": "0.2.10",
+    "org.apache.cordova.device": "0.2.13",
     "org.apache.cordova.inappbrowser": "0.5.0"
 }
 // BOTTOM OF METADATA
