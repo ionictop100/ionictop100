@@ -4,8 +4,8 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-var api_url = 'http://127.0.0.1:8060/survey/';
-// var api_url = 'http://dev.followkr.com/survey/';
+// var api_url = 'http://127.0.0.1:8060/survey/';
+var api_url = 'http://dev.followkr.com/survey/';
 
 // angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngCordova'])
@@ -14,7 +14,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 	// alert(ionic.Platform.toSource());
 	// alert(ionic.Platform.device());
 	// alert(device.toSource());
-	
+
     $ionicPlatform.ready(function($cordovaDevice) {
         if(window.plugins && window.plugins.AdMob) {
             var admob_key = device.platform == "Android" ? "ca-app-pub-4370549857018390/3098428262" : "ca-app-pub-4370549857018390/7668228667";
@@ -180,6 +180,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 
   .state('tab.list', {
     url: '/list',
+  	cache: false,
     views: {
       'tab-list': {
         templateUrl: 'templates/tab-list.html',

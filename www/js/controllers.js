@@ -38,11 +38,10 @@ return $sce.trustAsHtml(html_code);
 })
 
 // .controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
-.controller('PopupCtrl',function($scope, $ionicPopup, $ionicPlatform, $timeout, $http, $ionicLoading, $cordovaDevice) {
+.controller('PopupCtrl',function($scope,$state, $ionicPopup, $ionicPlatform, $timeout, $http, $ionicLoading, $cordovaDevice) {
 
-   // A confirm dialog
+   // Song add
    $scope.showConfirm = function() {
-   	
      var confirmPopup = $ionicPopup.confirm({
        title: 'プレイリストへ追加',
        template: $scope.video.title + ' 曲を追加しますか？'
@@ -51,22 +50,10 @@ return $sce.trustAsHtml(html_code);
        if(res) {
 			$ionicPlatform.ready(function() {
 				
-				// alert($scope.video.title);
-				// alert($scope.video.name);
-				// alert($scope.video.videoId);
-				// alert($scope.video.thumbnail_url);
 				try{
 					var uuid = $cordovaDevice.getUUID();
-					// var title = $scope.video.title;
-					// var name = $scope.video.name;
-					// var userid = $scope.video.userID;
-					// var thumbnail = $scope.video.thumbnail_url;
 				}catch(err){
 					var uuid = 1234567;
-					// var title = "title";
-					// var name = "name";
-					// var userid = "userid";
-					// var thumbnail = "thumbnail";
 				}
 				$http.get(api_url+'youtube_api_add/', { params: {
 											 "uuid": uuid, 
@@ -85,21 +72,72 @@ return $sce.trustAsHtml(html_code);
 					   alertPopup.then(function(res) {
 					     console.log('Thank you for not eating my delicious ice cream cone');
 					   });
-				  	
-				  	// alert(data.detail);
-				  	// alert(data.userID);
-
-				    
 				  })
 				  .error(function(error) {
 				    $scope.data.error = error;
 				  });              
 			})
        } else {
-
        }
      });
    };
+   
+   
+   
+   
+   // Song delete
+   $scope.showConfirmDelete = function() {
+     var confirmPopup = $ionicPopup.confirm({
+       title: '曲削除',
+       template: $scope.video.title + ' 曲を削除しますか？'
+     });
+     confirmPopup.then(function(res) {
+       if(res) {
+			$ionicPlatform.ready(function() {
+				try{
+					var uuid = $cordovaDevice.getUUID();
+				}catch(err){
+					var uuid = 1234567;
+				}
+				$http.get(api_url+'youtube_api_delete/', { params: {
+											 "uuid": uuid, 
+											 "song_title": $scope.video.title,
+											 "song_name": $scope.video.name,
+											 "videoId": $scope.video.videoId,
+											 "userID": $scope.video.userID,
+											 "url": $scope.video.url,
+											 "thumbnail": $scope.video.thumbnail_url 
+											 } }).
+				  success(function(data) {
+					   var alertPopup = $ionicPopup.alert({
+					     title: data.title,
+					     template: data.detail
+					   });
+					   alertPopup.then(function(res) {
+					     console.log('Thank you for not eating my delicious ice cream cone');
+					   });
+				  })
+				  .error(function(error) {
+				    $scope.data.error = error;
+				  });
+					  $state.reload()
+			})
+       } else {
+       }
+     });
+   };   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 })
 
 
