@@ -18,7 +18,12 @@
          to be sent to iCloud. Note: enabling this could result in Apple rejecting your app.
     -->
     <preference name="BackupWebStorage" value="none" />
-
+	
+	
+	<!-- <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" /> -->
+    
+    
+    
     <feature name="StatusBar">
       <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>

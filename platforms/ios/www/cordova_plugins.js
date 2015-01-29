@@ -15,6 +15,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/de.appplant.cordova.plugin.email-composer/www/email_composer.js",
+        "id": "de.appplant.cordova.plugin.email-composer.EmailComposer",
+        "clobbers": [
+            "plugin.email"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.console/www/console-via-logger.js",
         "id": "org.apache.cordova.console.console",
         "clobbers": [
@@ -41,14 +48,6 @@ module.exports = [
         "clobbers": [
             "window.open"
         ]
-    },
-    {
-        "file": "plugins/de.appplant.cordova.plugin.email-composer/www/email_composer.js",
-        "id": "de.appplant.cordova.plugin.email-composer.EmailComposer",
-        "clobbers": [
-            "cordova.plugins.email",
-            "plugin.email"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -58,10 +57,10 @@ module.exports.metadata =
     "com.google.playservices": "19.0.0",
     "com.ionic.keyboard": "0.0.1",
     "com.rjfun.cordova.plugin.admob": "2.1.7",
+    "de.appplant.cordova.plugin.email-composer": "0.8.1",
     "org.apache.cordova.console": "0.2.9",
     "org.apache.cordova.device": "0.2.13",
-    "org.apache.cordova.inappbrowser": "0.5.0",
-    "de.appplant.cordova.plugin.email-composer": "0.8.2dev"
+    "org.apache.cordova.inappbrowser": "0.5.0"
 }
 // BOTTOM OF METADATA
 });

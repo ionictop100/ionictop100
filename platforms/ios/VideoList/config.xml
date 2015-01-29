@@ -25,6 +25,9 @@
     <feature name="AdMob">
         <param name="ios-package" value="CDVAdMob" />
     </feature>
+    <feature name="EmailComposer">
+        <param name="ios-package" value="APPEmailComposer" />
+    </feature>
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
     </feature>
@@ -48,7 +51,4 @@
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
-    <feature name="EmailComposer">
-        <param name="ios-package" value="APPEmailComposer" />
-    </feature>
 </widget>

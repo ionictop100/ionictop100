@@ -202,12 +202,6 @@ return $sce.trustAsHtml(html_code);
 // })
 
 
-
-
-
-
-
-
 .controller('ListCtrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
   $ionicLoading.show({
     template: 'loading'

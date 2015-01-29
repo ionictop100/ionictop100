@@ -4754,6 +4754,13 @@ a.item-content {
   color: #aaa;
   font-size: 34px; }
 
+.item-note_account {
+  float: right;
+  padding-top: 2px;
+  /*padding-left: 140px;  */
+  color: #aaa;
+  font-size: 24px; }
+
 .item-note_new {
   padding-top: 1px;
   padding-left: 140px;
@@ -4762,8 +4769,8 @@ a.item-content {
   font-size: 35px; }
 
 .item-note_is_new {
-  padding-top: 4px;
-  padding-left: 25px;
+  padding-top: 17px;
+  padding-left: -10px;
   position: absolute;
   color: #aaa;
   opacity: 0.8;

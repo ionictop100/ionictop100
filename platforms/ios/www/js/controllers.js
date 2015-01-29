@@ -82,9 +82,6 @@ return $sce.trustAsHtml(html_code);
      });
    };
    
-   
-   
-   
    // Song delete
    $scope.showConfirmDelete = function() {
      var confirmPopup = $ionicPopup.confirm({
@@ -210,6 +207,26 @@ return $sce.trustAsHtml(html_code);
 
 
 
+.controller('ApplicationController', function($scope) {
+  $scope.sendMail = function () {
+    cordova.plugins.email.isAvailable(
+      function (isAvailable) {
+           alert('Service is not available');
+      }
+    );
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
 
 .controller('ListCtrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
   $ionicLoading.show({
@@ -235,11 +252,29 @@ return $sce.trustAsHtml(html_code);
 	})
 })
 
-
-
-
-
-
+.controller('AccountCtrl', function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+$ionicLoading.show({
+    template: 'loading'
+  })
+	$ionicPlatform.ready(function() {
+			try{
+				var uuid = $cordovaDevice.getUUID();
+			}catch(err){
+				var uuid = 1234567;
+			}
+			$scope.data = {};
+			$http.get(api_url+'youtube_api_user/', { params: {
+										 "uuid": uuid 
+										 } }).
+			  success(function(data) {
+			    $scope.data = data;
+			    $ionicLoading.hide()
+			  })
+			  .error(function(error) {
+			    $scope.data.error = error;
+			  });              
+	})
+})
 
 .controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
 	
@@ -333,13 +368,6 @@ return $sce.trustAsHtml(html_code);
 .controller('MainCtrl', function($scope) {
   $scope.code = 'hfEf6NFS81E';
 })
-
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
-});
-
 
 var User = App.factory("User",function($resource){
     var User = $resource('/api/user.json',{},{

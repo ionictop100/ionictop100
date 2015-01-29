@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 
 var api_url = 'http://127.0.0.1:8060/survey/';
-//var api_url = 'http://dev.followkr.com/survey/';
+// var api_url = 'http://dev.followkr.com/survey/';
 
 // angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngCordova'])
