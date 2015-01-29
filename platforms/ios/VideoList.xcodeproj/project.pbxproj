@@ -57,6 +57,7 @@
 		2BBC8AD8FA8348CD992E4C06 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D03F0DD96864D49BD2E33AE /* CDVLogger.m */; };
 		5AFB4DF22E944AF5A33CBE8E /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2124415B503B47429000D906 /* CDVDevice.m */; };
 		0A1EA988D3BA4284BEC8B383 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8237E578B1B3411F8DF86F57 /* CDVInAppBrowser.m */; };
+		086EC7B58B594B3BB2F6E470 /* APPEmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 105BEDF0BA6C4A43BA2B31A2 /* APPEmailComposer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +173,8 @@
 		E30F30ECF25A455B80E523F4 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		8237E578B1B3411F8DF86F57 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		B7079A84DDE24588903F01E6 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		105BEDF0BA6C4A43BA2B31A2 /* APPEmailComposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APPEmailComposer.m"; path = "de.appplant.cordova.plugin.email-composer/APPEmailComposer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		801B5AB33E0F4A69A9F03B59 /* APPEmailComposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APPEmailComposer.h"; path = "de.appplant.cordova.plugin.email-composer/APPEmailComposer.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +335,8 @@
 				E30F30ECF25A455B80E523F4 /* CDVDevice.h */,
 				8237E578B1B3411F8DF86F57 /* CDVInAppBrowser.m */,
 				B7079A84DDE24588903F01E6 /* CDVInAppBrowser.h */,
+				105BEDF0BA6C4A43BA2B31A2 /* APPEmailComposer.m */,
+				801B5AB33E0F4A69A9F03B59 /* APPEmailComposer.h */,
 			);
 			name = Plugins;
 			path = "VideoList/Plugins";
@@ -522,6 +527,7 @@
 				2BBC8AD8FA8348CD992E4C06 /* CDVLogger.m in Sources */,
 				5AFB4DF22E944AF5A33CBE8E /* CDVDevice.m in Sources */,
 				0A1EA988D3BA4284BEC8B383 /* CDVInAppBrowser.m in Sources */,
+				086EC7B58B594B3BB2F6E470 /* APPEmailComposer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,6 +41,14 @@ module.exports = [
         "clobbers": [
             "window.open"
         ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.email-composer/www/email_composer.js",
+        "id": "de.appplant.cordova.plugin.email-composer.EmailComposer",
+        "clobbers": [
+            "cordova.plugins.email",
+            "plugin.email"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -52,7 +60,8 @@ module.exports.metadata =
     "com.rjfun.cordova.plugin.admob": "2.1.7",
     "org.apache.cordova.console": "0.2.9",
     "org.apache.cordova.device": "0.2.13",
-    "org.apache.cordova.inappbrowser": "0.5.0"
+    "org.apache.cordova.inappbrowser": "0.5.0",
+    "de.appplant.cordova.plugin.email-composer": "0.8.2dev"
 }
 // BOTTOM OF METADATA
 });
