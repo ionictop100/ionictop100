@@ -15,6 +15,10 @@
                         {
                             "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" android:name=\"com.google.android.gms.ads.AdActivity\" android:theme=\"@android:style/Theme.Translucent\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<provider android:authorities=\"com.ionicframework.starter.plugin.emailcomposer.attachmentprovider\" android:name=\"de.appplant.cordova.plugin.emailcomposer.AttachmentProvider\"></provider>",
+                            "count": 1
                         }
                     ],
                     "/*": [
@@ -41,15 +45,15 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"EmailComposer\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.emailcomposer.EmailComposer\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"EmailComposer\"><param name=\"android-package\" value=\"de.appplant.cordova.emailcomposer.EmailComposer\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -67,6 +71,9 @@
         "com.rjfun.cordova.plugin.admob": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
+        "de.appplant.cordova.plugin.email-composer": {
+            "PACKAGE_NAME": "com.ionicframework.starter"
+        },
         "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
@@ -74,9 +81,6 @@
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
         "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
-        },
-        "de.appplant.cordova.plugin.email-composer": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         }
     },

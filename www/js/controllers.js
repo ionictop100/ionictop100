@@ -26,6 +26,7 @@ angular.module('starter.controllers',[])
 	var id =permalink.match(/^.+\/(.+?)$/)[1];
 	// var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' frameborder='0' allowfullscreen></iframe>";
 	var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' ng-click='showInAppVideo('{{video.url}}', $event)'></iframe>";
+	// var iframe = "<iframe webkit-playsinline width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1&feature=player_detailpage&playsinline=1' ng-click='showInAppVideo('{{video.url}}', $event)'></iframe>";
 	$scope.results[i].iframesrc = iframe;
 	});
 });

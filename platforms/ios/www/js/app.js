@@ -10,35 +10,6 @@ var api_url = 'http://127.0.0.1:8060/survey/';
 // angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngCordova'])
 
-
-
-
-
-
-
-.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-
-cordova.plugins.email.isAvailable(
-  function (isAvailable) {
-       alert('Service is available');
-  }
-);
-// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-// for form inputs)
-if(window.cordova && window.cordova.plugins.Keyboard) {
-  cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-}
-if(window.StatusBar) {
-  // org.apache.cordova.statusbar required
-  StatusBar.styleDefault();
-}
-  });
-})
-
-
-
-
 .run(function($ionicPlatform, $ionicPopup) {
 	// alert(ionic.Platform.toSource());
 	// alert(ionic.Platform.device());
