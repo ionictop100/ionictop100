@@ -41,16 +41,11 @@ return $sce.trustAsHtml(html_code);
 // .controller('InviteCtrl',function($scope, $ionicPopup) {
 .controller('InviteCtrl',function($scope,$state, $ionicPopup, $ionicPlatform, $timeout, $http, $ionicLoading, $cordovaDevice) {	
     $scope.inviteInput = function() {
-    	alert($scope.invite_code);
+    	// alert($scope.invite_code);
      var confirmPopup = $ionicPopup.confirm({
        title: '招待コード送信',
        template: $scope.invite_code + 'コードを送信しますか？'
      });
-
-
-
-
-
     confirmPopup.then(function(res) {
        if(res) {
 			$ionicPlatform.ready(function() {
@@ -75,16 +70,12 @@ return $sce.trustAsHtml(html_code);
 				  })
 				  .error(function(error) {
 				    $scope.data.error = error;
-				  });              
+				  });
+				$state.reload()
 			})
        } else {
        }
      });
-     
-     
-     
-     
-    	
     };
 })
 
