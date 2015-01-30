@@ -19,4 +19,17 @@
         </label>
       </ion-item>
     </ion-list>
+    
+    
+    
+    <div class="item-button-right " ng-controller="InviteCtrl">
+        <form name="myform" ng-submit="inviteInput()">
+            <label class="item item-input">
+                <input type="text" ng-model="invite_code"/>
+            </label>
+            <button type="submit" class="button button-positive" >
+                button-positive
+            </button>
+        </form>
+    </div>
   </ion-content>

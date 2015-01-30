@@ -38,10 +38,58 @@ return $sce.trustAsHtml(html_code);
 };
 })
 
-// .controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
-.controller('PopupCtrl',function($scope,$state, $ionicPopup, $ionicPlatform, $timeout, $http, $ionicLoading, $cordovaDevice) {
+// .controller('InviteCtrl',function($scope, $ionicPopup) {
+.controller('InviteCtrl',function($scope,$state, $ionicPopup, $ionicPlatform, $timeout, $http, $ionicLoading, $cordovaDevice) {	
+    $scope.inviteInput = function() {
+    	alert($scope.invite_code);
+     var confirmPopup = $ionicPopup.confirm({
+       title: '招待コード送信',
+       template: $scope.invite_code + 'コードを送信しますか？'
+     });
 
-   // Song add
+
+
+
+
+    confirmPopup.then(function(res) {
+       if(res) {
+			$ionicPlatform.ready(function() {
+				// alert($scope.invite_code);
+				try{
+					var uuid = $cordovaDevice.getUUID();
+				}catch(err){
+					var uuid = uuid_temp;
+				}
+				$http.get(api_url+'youtube_api_invite/', { params: {
+											 "uuid": uuid, 
+											 "invite_code": $scope.invite_code 
+											 } }).
+				  success(function(data) {
+					   var alertPopup = $ionicPopup.alert({
+					     title: data.title,
+					     template: data.detail
+					   });
+					   alertPopup.then(function(res) {
+					     console.log('Thank you for not eating my delicious ice cream cone');
+					   });
+				  })
+				  .error(function(error) {
+				    $scope.data.error = error;
+				  });              
+			})
+       } else {
+       }
+     });
+     
+     
+     
+     
+    	
+    };
+})
+
+
+.controller('PopupCtrl',function($scope,$state, $ionicPopup, $ionicPlatform, $timeout, $http, $ionicLoading, $cordovaDevice) {
    $scope.showConfirm = function() {
      var confirmPopup = $ionicPopup.confirm({
        title: 'プレイリストへ追加',
@@ -54,7 +102,7 @@ return $sce.trustAsHtml(html_code);
 				try{
 					var uuid = $cordovaDevice.getUUID();
 				}catch(err){
-					var uuid = 1234567;
+					var uuid = uuid_temp;
 				}
 				$http.get(api_url+'youtube_api_add/', { params: {
 											 "uuid": uuid, 
@@ -95,7 +143,7 @@ return $sce.trustAsHtml(html_code);
 				try{
 					var uuid = $cordovaDevice.getUUID();
 				}catch(err){
-					var uuid = 1234567;
+					var uuid = uuid_temp;
 				}
 				$http.get(api_url+'youtube_api_delete/', { params: {
 											 "uuid": uuid, 
@@ -124,18 +172,6 @@ return $sce.trustAsHtml(html_code);
        }
      });
    };   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
 })
 
 
@@ -173,36 +209,6 @@ return $sce.trustAsHtml(html_code);
   $scope.friends = Friends.all();
 })
 
-
-
-
-
-
-// .controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
-// 	
-	// $ionicPlatform.ready(function() {
-		// try{
-			// alert($cordovaDevice.getUUID());
-		// }catch(err){
-		// }
-	// })
-	// // $cordovaDevice.getUUID();
-  // var _this = this
-  // $ionicLoading.show({
-    // template: 'loading'
-  // })
-  // // $scope.music = Music.all();
-      // $http.get(api_url+'youtube_api/').
-
-      // success(function(data, status, headers, config) {
-      	// $ionicLoading.hide()
-      	// $scope.results = data
-      // }).
-      	// error(function(data, status, headers, config) {
-      // });            
-// })
-
-
 .controller('ListCtrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
   $ionicLoading.show({
     template: 'loading'
@@ -211,7 +217,7 @@ return $sce.trustAsHtml(html_code);
 			try{
 				var uuid = $cordovaDevice.getUUID();
 			}catch(err){
-				var uuid = 1234567;
+				var uuid = uuid_temp;
 			}
 			$scope.data = {};
 			$http.get(api_url+'youtube_api_list/', { params: {
@@ -235,7 +241,7 @@ $ionicLoading.show({
 			try{
 				var uuid = $cordovaDevice.getUUID();
 			}catch(err){
-				var uuid = 1234567;
+				var uuid = uuid_temp;
 			}
 			$scope.data = {};
 			$http.get(api_url+'youtube_api_user/', { params: {
@@ -263,7 +269,7 @@ $ionicLoading.show({
 				var device_model = $cordovaDevice.getModel();
 				var device_platform = $cordovaDevice.getPlatform();
 			}catch(err){
-				var uuid = 1234567;
+				var uuid = uuid_temp;
 				var device_model = "device_model";
 				var device_platform = "device_platform";
 			}
