@@ -15,7 +15,7 @@ angular.module('starter.controllers',[])
 			+ ['q=' + encodeURIComponent($scope.query),
 			'alt=json',
 			'order=relevance',
-			'max-results=20',
+			'max-results=50',
 			'callback=JSON_CALLBACK'
 			].join('&');
  
@@ -248,8 +248,9 @@ $ionicLoading.show({
 	})
 })
 
-.controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
-	
+// .controller('Top100Ctrl',  function($scope,$ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+.controller('Top100Ctrl',  function($scope,$ionicPlatform,$ionicPopup, $http, $ionicLoading, $cordovaDevice) {
+
   $ionicLoading.show({
     template: 'loading'
   })
@@ -274,6 +275,21 @@ $ionicLoading.show({
 			  	// alert(data.toSource());
 			    $scope.data.videos = data;
 			    $ionicLoading.hide()
+			    
+			    
+			    $http.get(api_url+'youtube_api_notification/', { params: {"uuid": uuid}}).
+			    success(function(data) {
+			    	if (data.flag == 1) {
+					   var alertPopup = $ionicPopup.alert({
+					     title: data.title,
+					     template: data.detail
+					   });
+			    	}
+			    });
+			    
+			    
+			    
+			    
 			  })
 			  .error(function(error) {
 			    $scope.data.error = error;
