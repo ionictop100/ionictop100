@@ -4,8 +4,8 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-var api_url = 'http://127.0.0.1:8060/survey/';
-// var api_url = 'http://dev.followkr.com/survey/';
+// var api_url = 'http://127.0.0.1:8060/survey/';
+var api_url = 'http://dev.followkr.com/survey/';
 var uuid_temp = 12345678;
 
 // angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])

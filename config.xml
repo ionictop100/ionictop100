@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ionicframework.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>VideoList</name>
+    <name>MusicTop100</name>
     <description>
-        An Ionic Framework and Cordova project.
+        World Music TOP100
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+    <author email="orange3311@gmail.com" href="http://www.followjp.com">
+      Kim Nam
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -21,8 +21,6 @@
 	
 	
 	<!-- <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" /> -->
-    
-    
     
     <feature name="StatusBar">
       <param name="ios-package" value="CDVStatusBar" onload="true" />
