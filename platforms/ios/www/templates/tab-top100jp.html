@@ -4,16 +4,24 @@
 
   <ion-content>
     <ion-list>
-	    <div ng-controller="videoListCtrl_jp">
+	    <div ng-controller="videoListCtrl">
 	      <div class="list">
-	          <a ion-item item-thumbnail-left ng-repeat="video in data.videos" class="item item-thumbnail-left" href="{{video.url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
-	            <img src="{{video.thumbnail_url}}">
-	            <h2>{{video.title}}</h2>
-	            <span class="item-note_new energized">{{video.rank}}</span>
-	            <p>{{video.name}}<span class="assertive item-note_is_new">{{video.is_new}}</span></p>	            
-				<!-- <p>{{video.name}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="assertive right">{{video.is_new}}</span></p> -->
+	          <a ion-item item-thumbnail-left ng-repeat="video in data.videos" class="item item-thumbnail-left" >
+	            <img src="{{video.thumbnail_url}}" ng-click="showInAppVideo('{{video.url}}', $event)">
+	            <h2 ng-click="showInAppVideo('{{video.url}}', $event)">{{video.title}}</h2>
+	            <div class="item-note_new positive" ng-click="showInAppVideo('{{video.url}}', $event)">{{video.rank}}</div>
+	            <p>{{video.name}}<span class="assertive item-note_is_new" ng-click="showInAppVideo('{{video.url}}', $event)">{{video.is_new}}</span></p>
+			  <div class="item-button-right " ng-controller="PopupCtrl">
+			    <button class="button button-light" ng-click="showConfirm()">
+			    	+
+			         <!-- <button class="button button-primary" ng-click="showConfirm()">
+				      追加
+				    </button> -->				    
+			    </button>
+			  </div>			  
 	          </a>
 	      </div>
-	    </div>      
+	    </div>
     </ion-list>
+  
   </ion-content>
