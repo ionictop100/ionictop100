@@ -89,7 +89,6 @@ return $sce.trustAsHtml(html_code);
      confirmPopup.then(function(res) {
        if(res) {
 			$ionicPlatform.ready(function() {
-				
 				try{
 					var uuid = $cordovaDevice.getUUID();
 				}catch(err){
@@ -299,39 +298,114 @@ $ionicLoading.show({
 	})
 })
 
+.controller('Top100jpCtrl',  function($scope,$ionicPlatform,$ionicPopup, $http, $ionicLoading, $cordovaDevice) {
 
-.controller('Top100jpCtrl',  function($scope, $ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
-	  $ionicLoading.show({
-	    template: 'loading'
-	  })	
-
-	$scope.data = {};
-	$http.get(api_url+'youtube_api_jp/', { params: { "key1": "jp", "key2": "jp" } }).
-	  success(function(data) {
-	    $scope.data.videos = data;
-	    $ionicLoading.hide()
-	  })
-	  .error(function(error) {
-	    $scope.data.error = error;
-	  }); 
-})
-
-.controller('Top100popCtrl',  function($scope, $ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
-  var _this = this
   $ionicLoading.show({
     template: 'loading'
-  })	
-	$scope.data = {};
-	$http.get(api_url+'youtube_api_pop/', { params: { "key1": "pop", "key2": "pop" } }).
-	  success(function(data) {
-	  	// alert(data.toSource());
-	    $scope.data.videos = data;
-	    $ionicLoading.hide()
-	  })
-	  .error(function(error) {
-	    $scope.data.error = error;
-	  });       
+  })
+	$ionicPlatform.ready(function() {
+		// try{
+			try{
+				var uuid = $cordovaDevice.getUUID();
+				var device_model = $cordovaDevice.getModel();
+				var device_platform = $cordovaDevice.getPlatform();
+			}catch(err){
+				var uuid = uuid_temp;
+				var device_model = "device_model";
+				var device_platform = "device_platform";
+			}
+			$scope.data = {};
+			$http.get(api_url+'youtube_api_jp/', { params: {
+										 "uuid": uuid, 
+										 "device_model": device_model,
+										 "device_platform": device_platform,
+										 "device_app_version": "1.0.1" } }).
+			  success(function(data) {
+			  	// alert(data.toSource());
+			    $scope.data.videos = data;
+			    $ionicLoading.hide()
+
+			  })
+			  .error(function(error) {
+			    $scope.data.error = error;
+			  });              
+		// }catch(err){			
+		// }
+	})
 })
+
+
+.controller('Top100popCtrl',  function($scope,$ionicPlatform,$ionicPopup, $http, $ionicLoading, $cordovaDevice) {
+
+  $ionicLoading.show({
+    template: 'loading'
+  })
+	$ionicPlatform.ready(function() {
+		// try{
+			try{
+				var uuid = $cordovaDevice.getUUID();
+				var device_model = $cordovaDevice.getModel();
+				var device_platform = $cordovaDevice.getPlatform();
+			}catch(err){
+				var uuid = uuid_temp;
+				var device_model = "device_model";
+				var device_platform = "device_platform";
+			}
+			$scope.data = {};
+			$http.get(api_url+'youtube_api_pop/', { params: {
+										 "uuid": uuid, 
+										 "device_model": device_model,
+										 "device_platform": device_platform,
+										 "device_app_version": "1.0.1" } }).
+			  success(function(data) {
+			  	// alert(data.toSource());
+			    $scope.data.videos = data;
+			    $ionicLoading.hide()
+
+			  })
+			  .error(function(error) {
+			    $scope.data.error = error;
+			  });              
+		// }catch(err){			
+		// }
+	})
+})
+
+
+
+
+// .controller('Top100jpCtrl',  function($scope, $ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+	  // $ionicLoading.show({
+	    // template: 'loading'
+	  // })	
+// 
+	// $scope.data = {};
+	// $http.get(api_url+'youtube_api_jp/', { params: { "key1": "jp", "key2": "jp" } }).
+	  // success(function(data) {
+	    // $scope.data.videos = data;
+	    // $ionicLoading.hide()
+	  // })
+	  // .error(function(error) {
+	    // $scope.data.error = error;
+	  // }); 
+// })
+
+// .controller('Top100popCtrl',  function($scope, $ionicPlatform, Music, $http, $ionicLoading, $cordovaDevice) {
+  // var _this = this
+  // $ionicLoading.show({
+    // template: 'loading'
+  // })	
+	// $scope.data = {};
+	// $http.get(api_url+'youtube_api_pop/', { params: { "key1": "pop", "key2": "pop" } }).
+	  // success(function(data) {
+	  	// // alert(data.toSource());
+	    // $scope.data.videos = data;
+	    // $ionicLoading.hide()
+	  // })
+	  // .error(function(error) {
+	    // $scope.data.error = error;
+	  // });       
+// })
 
 .controller('Top100DetailCtrl', function($scope, $stateParams, Music) {
   // $scope.m = Music.get($stateParams.id);

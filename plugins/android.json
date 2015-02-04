@@ -17,7 +17,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<provider android:authorities=\"com.ionicframework.starter.plugin.emailcomposer.attachmentprovider\" android:name=\"de.appplant.cordova.plugin.emailcomposer.AttachmentProvider\"></provider>",
+                            "xml": "<provider android:authorities=\"jp.co.musictop100.plugin.emailcomposer.attachmentprovider\" android:name=\"de.appplant.cordova.plugin.emailcomposer.AttachmentProvider\"></provider>",
                             "count": 1
                         }
                     ],
@@ -63,30 +63,30 @@
     },
     "installed_plugins": {
         "com.google.admobsdk": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         },
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         },
         "com.rjfun.cordova.plugin.admob": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         },
         "de.appplant.cordova.plugin.email-composer": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         },
         "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         },
         "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         }
     },
     "dependent_plugins": {
         "com.google.playservices": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "jp.co.musictop100"
         }
     }
 }
