@@ -14,18 +14,21 @@
 			</div>
 		</form>
 		<ul ng-show="results.length" style="list-style-type: none; padding: 0;">
-			<!-- <li ng-repeat="result in results"> -->
-				<!-- <p>{{result}}</p> -->
-				<!-- <p>{{result.id}}</p>
-				<p>{{result.media$group.media$thumbnail[0].url}}</p> -->
-			<!-- </li> -->
 			<div ng-controller="videoListCtrl">
 			  <div class="list">
 			      <!-- <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left" href="{{ video.link[0].href }}" ng-click="showInAppVideo('{{video.link[0].href }}', $event)"> -->
-			      <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left" href="{{video.link[0].href}}&autoplay=1" ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">
-			        <img src="{{video.media$group.media$thumbnail[0].url}}">
-			        <h2>{{video.title.$t}}</h2>
-			        <p>{{video.name}}</p>
+			      <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left">
+			        <img src="{{video.media$group.media$thumbnail[0].url}}" ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">
+			        <!-- <h2 ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">{{video.title.$t}}</h2> -->
+			        <p ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">{{video.title.$t}}</p>
+					  <div class="item-button-right " ng-controller="PopupSearchCtrl">
+					    <button class="button button-light" ng-click="showSearchConfirm({{uuid}},'{{video.title.$t}}','{{video.id.$t}}','{{video.link[0].href}}','{{video.media$group.media$thumbnail[0].url}}')">
+					    <!-- <button class="button button-light" ng-click="showSearchConfirm({{uuid}},'{{video.id.$t}}',3,4,5)"> -->
+					    	+
+					    </button>
+					  </div>			  
+			        
+			        
 			      </a>
 			  </div>
 			</div>

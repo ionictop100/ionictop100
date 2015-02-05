@@ -5,5 +5,5 @@
 -keep class de.appplant.cordova.plugin.emailcomposer.AttachmentProvider { <init>(...); }
 
 # view AndroidManifest.xml #generated:6
--keep class jp.co.musictop100.CordovaApp { <init>(...); }
+-keep class jp.co.ionicmusictop100.CordovaApp { <init>(...); }
 

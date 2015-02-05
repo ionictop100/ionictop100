@@ -15,6 +15,14 @@
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/de/appplant/cordova/plugin/emailcomposer/AttachmentProvider.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/de/appplant/cordova/plugin/emailcomposer/EmailComposer$1.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/de/appplant/cordova/plugin/emailcomposer/EmailComposer.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/BuildConfig.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/CordovaApp.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/R$attr.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/R$drawable.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/R$integer.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/R$string.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/R$xml.class \
+/Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/ionicmusictop100/R.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/musictop100/BuildConfig.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/musictop100/CordovaApp.class \
 /Users/free31/git/ionictop100/platforms/android/ant-build/classes/jp/co/musictop100/R$attr.class \
