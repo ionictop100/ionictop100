@@ -64,7 +64,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
           $event.preventDefault();
         }
 
-        var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+        var ref = window.open('http://m.youtube.com/watch?v=Skhwqq-iGQM&rel=0&amp;autoplay=1', '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+        // var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+        // var ref = window.open(url, '_system', 'location=yes,closebuttoncaption=Back,toolbarposition=top');
       };
 
       $scope.getDuration = function(sec) {

@@ -9,21 +9,8 @@ angular.module('starter.controllers',[])
   }
 })
 
-// .controller('mainController', function($scope, $http,$sce) {
-.controller('mainController', function($scope, $http,$sce,$cordovaDevice, $ionicPlatform) {
-
+.controller('mainController', function($scope, $http,$sce) {
  $scope.doSearch = function(){
- 	
-	$ionicPlatform.ready(function() {
-			try{
-				var uuid = $cordovaDevice.getUUID();
-				$scope.uuid = uuid;
-			}catch(err){
-				var uuid = uuid_temp;
-				$scope.uuid = uuid;
-			}
-	}) 	
- 	
 	var url = 'http://gdata.youtube.com/feeds/api/videos?'
 			+ ['q=' + encodeURIComponent($scope.query),
 			'alt=json',
@@ -32,12 +19,12 @@ angular.module('starter.controllers',[])
 			'callback=JSON_CALLBACK'
 			].join('&');
  
-	
 	$http.jsonp(url).success(function(data){
 	$scope.results = data.feed.entry;
 	angular.forEach(data.feed.entry, function(entry, i){
 	var permalink=entry['id']['$t'];
 	var id =permalink.match(/^.+\/(.+?)$/)[1];
+	// var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' frameborder='0' allowfullscreen></iframe>";
 	var iframe = "<iframe width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1' ng-click='showInAppVideo('{{video.url}}', $event)'></iframe>";
 	// var iframe = "<iframe webkit-playsinline width='300' height='200' src='https://www.youtube.com/embed/" + id+ "?rel=0&showinfo=0&autohide=1&feature=player_detailpage&playsinline=1' ng-click='showInAppVideo('{{video.url}}', $event)'></iframe>";
 	$scope.results[i].iframesrc = iframe;
@@ -438,66 +425,6 @@ $ionicLoading.show({
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
   $scope.friend = Friends.get($stateParams.friendId);
 })
-
-
-
-
-
-
-
-
-
-.controller('PopupSearchCtrl',function($scope,$state, $ionicPopup, $ionicPlatform, $timeout, $http, $ionicLoading, $cordovaDevice) {
-   $scope.showSearchConfirm = function(uuid,title,id,url,img) {
-   	// alert(11);
-     var confirmPopup = $ionicPopup.confirm({
-       title: 'プレイリストへ追加',
-       template: title + ' 曲を追加しますか？'
-     });
-     confirmPopup.then(function(res) {
-       if(res) {
-			$ionicPlatform.ready(function() {
-				try{
-					var uuid = $cordovaDevice.getUUID();
-				}catch(err){
-					var uuid = uuid_temp;
-				}
-				$http.get(api_url+'youtube_api_add_search/', { params: {
-											 "uuid": uuid, 
-											 "song_title": title,
-											 "song_name": title,
-											 "videoId": id,
-											 "userID": uuid,
-											 "url": url,
-											 "thumbnail": img 
-											 } }).
-				  success(function(data) {
-					   var alertPopup = $ionicPopup.alert({
-					     title: data.title,
-					     template: data.detail
-					   });
-					   alertPopup.then(function(res) {
-					     console.log('Thank you for not eating my delicious ice cream cone');
-					   });
-				  })
-				  .error(function(error) {
-				    $scope.data.error = error;
-				  });              
-			})
-       } else {
-       }
-     });
-   };
-})
-
-
-
-
-
-
-
-
-
 
 
 .controller('MainCtrl', function($scope) {
