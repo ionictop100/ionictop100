@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:13
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class de.appplant.cordova.plugin.emailcomposer.AttachmentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class jp.co.musictop100.CordovaApp { <init>(...); }
+

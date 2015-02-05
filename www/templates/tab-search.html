@@ -20,10 +20,7 @@
 			      <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left">
 			        <img src="{{video.media$group.media$thumbnail[0].url}}" ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">
 			        <!-- <h2 ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">{{video.title.$t}}</h2> -->
-
-
 			        <p ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">{{video.title.$t}}</p>
-			        <p ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">{{video.id.$t}}</p>
 					  <div class="item-button-right " ng-controller="PopupSearchCtrl">
 					    <button class="button button-light" ng-click="showSearchConfirm({{uuid}},'{{video.title.$t}}','{{video.id.$t}}','{{video.link[0].href}}','{{video.media$group.media$thumbnail[0].url}}')">
 					    <!-- <button class="button button-light" ng-click="showSearchConfirm({{uuid}},'{{video.id.$t}}',3,4,5)"> -->
