@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		194FD899684643F6A905FF1B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F3A459B3274EAAAE2E2D71 /* MessageUI.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -550,7 +551,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nam Kim (KFL3385P6W)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -578,7 +579,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = MusicTop100;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d4d3667b-e905-453d-94a0-58eb9fa68f0f";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -588,7 +589,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nam Kim (KFL3385P6W)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -614,7 +615,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = MusicTop100;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d4d3667b-e905-453d-94a0-58eb9fa68f0f";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
