@@ -375,6 +375,7 @@ $ionicLoading.show({
 				var device_model = "device_model";
 				var device_platform = "device_platform";
 			}
+			$scope.device_platform = device_platform;
 			$scope.data = {};
 			$http.get(api_url+'youtube_api_jp/', { params: {
 										 "uuid": uuid, 
@@ -412,6 +413,7 @@ $ionicLoading.show({
 				var device_model = "device_model";
 				var device_platform = "device_platform";
 			}
+			$scope.device_platform = device_platform;
 			$scope.data = {};
 			$http.get(api_url+'youtube_api_pop/', { params: {
 										 "uuid": uuid, 

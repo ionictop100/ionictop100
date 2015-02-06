@@ -103,8 +103,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
 
 	if(device_platform=="iOS"){
+		alert("iOS");
         var ref = window.open(url+"&autoplay=1", '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
 	}else{
+		alert("Android");
 	    var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
 	}
 
@@ -137,8 +139,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
 
 	if(device_platform=="iOS"){
+		alert("iOS");
         var ref = window.open(url+"&autoplay=1", '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
 	}else{
+		alert("Android");
 	    var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
 	}
     // var ref = window.open(url, '_blank', 'location=yes');
