@@ -57,16 +57,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 })
 
   .constant('dataUrl', 'data/mostviewed_videos.json')
-  .controller('videoListCtrl', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
+  .controller('videoListCtrl', ['$scope', '$http', 'dataUrl', function($scope, $cordovaDevice, $http, dataUrl) {
 
-      $scope.showInAppVideo = function(url, $event) {
+      $scope.showInAppVideo = function(url, device_platform, $event) {
         if ($event.preventDefault) {
           $event.preventDefault();
         }
 
-        // var ref = window.open('http://www.youtube.com/watch?v=Skhwqq-iGQM&rel=0&autoplay=1', '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
-        var ref = window.open('http://www.youtube.com/watch?v=Skhwqq-iGQM&autoplay=1', '_blank', 'location=yes');
-        // var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+		if(device_platform=="iOS"){
+			alert("iOS");
+	        var ref = window.open(url+"&autoplay=1", '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+		}else{
+			alert("Android");
+    	    var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+		}
+
         // var ref = window.open(url, '_system', 'location=yes,closebuttoncaption=Back,toolbarposition=top');
       };
 
@@ -91,13 +96,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 
 .controller('videoListCtrl_pop', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 
-  $scope.showInAppVideo = function(url, $event) {
+  $scope.showInAppVideo = function(url, device_platform, $event) {
 
     if ($event.preventDefault) {
       $event.preventDefault();
     }
 
-    var ref = window.open(url, '_blank', 'location=yes');
+	if(device_platform=="iOS"){
+        var ref = window.open(url+"&autoplay=1", '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+	}else{
+	    var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+	}
+
+    // var ref = window.open(url, '_blank', 'location=yes');
   };
 
   $scope.getDuration = function(sec) {
@@ -119,13 +130,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 
 .controller('videoListCtrl_jp', ['$scope', '$http', 'dataUrl', function($scope, $http, dataUrl) {
 
-  $scope.showInAppVideo = function(url, $event) {
+  $scope.showInAppVideo = function(url, device_platform, $event) {
 
     if ($event.preventDefault) {
       $event.preventDefault();
     }
 
-    var ref = window.open(url, '_blank', 'location=yes');
+	if(device_platform=="iOS"){
+        var ref = window.open(url+"&autoplay=1", '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+	}else{
+	    var ref = window.open(url, '_blank', 'location=yes,closebuttoncaption=Back,toolbarposition=top,transitionstyle=fliphorizontal');
+	}
+    // var ref = window.open(url, '_blank', 'location=yes');
   };
 
   $scope.getDuration = function(sec) {

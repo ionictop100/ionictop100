@@ -1,0 +1,130 @@
+2015-02-06 11:53:42.068 MusicTop100[17398:4471120] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Data/Application/670D214C-B318-4E44-A38C-D4A383E756E2/Library/Cookies/Cookies.binarycookies
+2015-02-06 11:53:42.490 MusicTop100[17398:4471120] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 11:53:42.490 MusicTop100[17398:4471120] Multi-tasking -> Device: YES, App: YES
+2015-02-06 11:53:42.518 MusicTop100[17398:4471120] Unlimited access to network resources
+2015-02-06 11:53:42.961 MusicTop100[17398:4471120] [CDVTimer][keyboard] 0.081003ms
+2015-02-06 11:53:42.961 MusicTop100[17398:4471120] [CDVTimer][TotalPluginStartup] 0.315964ms
+2015-02-06 11:53:43.782 MusicTop100[17398:4471120] Resetting plugins due to page load.
+2015-02-06 11:53:44.068 MusicTop100[17398:4471120] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/A8112463-AF07-467E-9126-8AE769BB1090/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 11:53:44.383 MusicTop100[17398:4471120] createBannerView
+2015-02-06 11:53:44.384 MusicTop100[17398:4471120] __createBanner
+2015-02-06 11:53:44.578 MusicTop100[17398:4471120] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 11:53:44.728 MusicTop100[17398:4471120] THREAD WARNING: ['AdMob'] took '345.157959' ms. Plugin should use a background thread.
+2015-02-06 11:53:44.737 MusicTop100[17398:4471120] requestAd
+2015-02-06 11:53:45.718 MusicTop100[17398:4471120] THREAD WARNING: ['AdMob'] took '980.569092' ms. Plugin should use a background thread.
+2015-02-06 11:53:45.736 MusicTop100[17398:4471120] showAd
+2015-02-06 11:55:25.295 MusicTop100[17398:4472320] Terminating since there is no system app.
+2015-02-06 11:56:01.933 MusicTop100[17745:4473573] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Data/Application/732FF729-82E7-4CE1-9EDE-51FF1EECD684/Library/Cookies/Cookies.binarycookies
+2015-02-06 11:56:02.253 MusicTop100[17745:4473573] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 11:56:02.254 MusicTop100[17745:4473573] Multi-tasking -> Device: YES, App: YES
+2015-02-06 11:56:02.271 MusicTop100[17745:4473573] Unlimited access to network resources
+2015-02-06 11:56:02.683 MusicTop100[17745:4473573] [CDVTimer][keyboard] 0.065982ms
+2015-02-06 11:56:02.683 MusicTop100[17745:4473573] [CDVTimer][TotalPluginStartup] 0.249982ms
+2015-02-06 11:56:02.893 MusicTop100[17745:4473573] Resetting plugins due to page load.
+2015-02-06 11:56:03.143 MusicTop100[17745:4473573] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/4C782462-7EA4-47D6-AE1B-5676A2F49EC5/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 11:56:03.359 MusicTop100[17745:4473573] createBannerView
+2015-02-06 11:56:03.359 MusicTop100[17745:4473573] __createBanner
+2015-02-06 11:56:03.531 MusicTop100[17745:4473573] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 11:56:03.681 MusicTop100[17745:4473573] THREAD WARNING: ['AdMob'] took '322.048828' ms. Plugin should use a background thread.
+2015-02-06 11:56:03.696 MusicTop100[17745:4473573] requestAd
+2015-02-06 11:56:04.444 MusicTop100[17745:4473573] THREAD WARNING: ['AdMob'] took '747.600098' ms. Plugin should use a background thread.
+2015-02-06 11:56:04.494 MusicTop100[17745:4473573] showAd
+2015-02-06 11:59:28.035 MusicTop100[18048:4475887] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Data/Application/66168688-CCFF-4D04-B615-175B40039620/Library/Cookies/Cookies.binarycookies
+2015-02-06 11:59:28.120 MusicTop100[18048:4475887] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 11:59:28.121 MusicTop100[18048:4475887] Multi-tasking -> Device: YES, App: YES
+2015-02-06 11:59:28.122 MusicTop100[18048:4475887] Unlimited access to network resources
+2015-02-06 11:59:28.313 MusicTop100[18048:4475887] [CDVTimer][keyboard] 0.054002ms
+2015-02-06 11:59:28.313 MusicTop100[18048:4475887] [CDVTimer][TotalPluginStartup] 0.238955ms
+2015-02-06 11:59:28.430 MusicTop100[18048:4475887] Resetting plugins due to page load.
+2015-02-06 11:59:28.582 MusicTop100[18048:4475887] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/073EC8D1-A633-464C-95A0-4A50147DBADF/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 11:59:28.761 MusicTop100[18048:4475887] createBannerView
+2015-02-06 11:59:28.761 MusicTop100[18048:4475887] __createBanner
+2015-02-06 11:59:28.924 MusicTop100[18048:4475887] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 11:59:29.078 MusicTop100[18048:4475887] THREAD WARNING: ['AdMob'] took '317.279053' ms. Plugin should use a background thread.
+2015-02-06 11:59:29.088 MusicTop100[18048:4475887] requestAd
+2015-02-06 11:59:29.729 MusicTop100[18048:4475887] THREAD WARNING: ['AdMob'] took '641.115234' ms. Plugin should use a background thread.
+2015-02-06 11:59:29.742 MusicTop100[18048:4475887] showAd
+2015-02-06 11:59:35.010 MusicTop100[18048:4475887] THREAD WARNING: ['InAppBrowser'] took '248.808105' ms. Plugin should use a background thread.
+2015-02-06 11:59:35.727 MusicTop100[18048:4475887] Error in Success callbackId: InAppBrowser1267768969 : TypeError: null is not an object (evaluating 'event.type')
+2015-02-06 11:59:36.535 MusicTop100[18048:4475887] webView:didFailLoadWithError - -999: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-02-06 12:00:04.171 MusicTop100[18330:4477039] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Data/Application/2F8272BC-8AF5-4266-B9CD-E48659F490FA/Library/Cookies/Cookies.binarycookies
+2015-02-06 12:00:04.264 MusicTop100[18330:4477039] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 12:00:04.265 MusicTop100[18330:4477039] Multi-tasking -> Device: YES, App: YES
+2015-02-06 12:00:04.266 MusicTop100[18330:4477039] Unlimited access to network resources
+2015-02-06 12:00:04.458 MusicTop100[18330:4477039] [CDVTimer][keyboard] 0.052989ms
+2015-02-06 12:00:04.458 MusicTop100[18330:4477039] [CDVTimer][TotalPluginStartup] 0.227034ms
+2015-02-06 12:00:04.562 MusicTop100[18330:4477039] Resetting plugins due to page load.
+2015-02-06 12:00:04.715 MusicTop100[18330:4477039] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/938F9FCD-BA6D-499A-B662-3BA9C947E348/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 12:00:04.905 MusicTop100[18330:4477039] createBannerView
+2015-02-06 12:00:04.905 MusicTop100[18330:4477039] __createBanner
+2015-02-06 12:00:05.063 MusicTop100[18330:4477039] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 12:00:05.204 MusicTop100[18330:4477039] THREAD WARNING: ['AdMob'] took '299.467041' ms. Plugin should use a background thread.
+2015-02-06 12:00:05.215 MusicTop100[18330:4477039] requestAd
+2015-02-06 12:00:06.133 MusicTop100[18330:4477039] THREAD WARNING: ['AdMob'] took '918.409912' ms. Plugin should use a background thread.
+2015-02-06 12:00:06.146 MusicTop100[18330:4477039] showAd
+2015-02-06 12:00:14.651 MusicTop100[18330:4477039] THREAD WARNING: ['InAppBrowser'] took '180.492188' ms. Plugin should use a background thread.
+2015-02-06 12:00:15.358 MusicTop100[18330:4477039] Error in Success callbackId: InAppBrowser1658613050 : TypeError: null is not an object (evaluating 'event.type')
+2015-02-06 12:00:16.038 MusicTop100[18330:4477039] webView:didFailLoadWithError - -999: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-02-06 12:04:41.282 MusicTop100[18624:4480255] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 12:04:41.284 MusicTop100[18624:4480255] Multi-tasking -> Device: YES, App: YES
+2015-02-06 12:04:41.285 MusicTop100[18624:4480255] Unlimited access to network resources
+2015-02-06 12:04:41.495 MusicTop100[18624:4480255] [CDVTimer][keyboard] 0.072002ms
+2015-02-06 12:04:41.495 MusicTop100[18624:4480255] [CDVTimer][TotalPluginStartup] 0.275016ms
+2015-02-06 12:04:41.617 MusicTop100[18624:4480255] Resetting plugins due to page load.
+2015-02-06 12:04:41.786 MusicTop100[18624:4480255] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/0AA903A6-AD35-450A-AE8A-A35C796690E2/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 12:04:41.960 MusicTop100[18624:4480255] createBannerView
+2015-02-06 12:04:41.960 MusicTop100[18624:4480255] __createBanner
+2015-02-06 12:04:42.131 MusicTop100[18624:4480255] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 12:04:42.277 MusicTop100[18624:4480255] THREAD WARNING: ['AdMob'] took '317.562012' ms. Plugin should use a background thread.
+2015-02-06 12:04:42.286 MusicTop100[18624:4480255] requestAd
+2015-02-06 12:04:42.994 MusicTop100[18624:4480255] THREAD WARNING: ['AdMob'] took '707.789062' ms. Plugin should use a background thread.
+2015-02-06 12:04:43.010 MusicTop100[18624:4480255] showAd
+2015-02-06 12:12:31.784 MusicTop100[19024:4485339] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 12:12:31.786 MusicTop100[19024:4485339] Multi-tasking -> Device: YES, App: YES
+2015-02-06 12:12:31.810 MusicTop100[19024:4485339] Unlimited access to network resources
+2015-02-06 12:12:32.315 MusicTop100[19024:4485339] [CDVTimer][keyboard] 0.063002ms
+2015-02-06 12:12:32.315 MusicTop100[19024:4485339] [CDVTimer][TotalPluginStartup] 0.248015ms
+2015-02-06 12:12:32.526 MusicTop100[19024:4485339] Resetting plugins due to page load.
+2015-02-06 12:12:32.780 MusicTop100[19024:4485339] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/48F6FBA7-5F15-4D71-9A03-D101261240DA/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 12:12:33.040 MusicTop100[19024:4485339] createBannerView
+2015-02-06 12:12:33.040 MusicTop100[19024:4485339] __createBanner
+2015-02-06 12:12:33.207 MusicTop100[19024:4485339] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 12:12:33.367 MusicTop100[19024:4485339] THREAD WARNING: ['AdMob'] took '327.707031' ms. Plugin should use a background thread.
+2015-02-06 12:12:33.377 MusicTop100[19024:4485339] requestAd
+2015-02-06 12:12:34.071 MusicTop100[19024:4485339] THREAD WARNING: ['AdMob'] took '693.662842' ms. Plugin should use a background thread.
+2015-02-06 12:12:34.107 MusicTop100[19024:4485339] showAd
+2015-02-06 12:15:56.205 MusicTop100[19321:4488043] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 12:15:56.206 MusicTop100[19321:4488043] Multi-tasking -> Device: YES, App: YES
+2015-02-06 12:15:56.207 MusicTop100[19321:4488043] Unlimited access to network resources
+2015-02-06 12:15:56.426 MusicTop100[19321:4488043] [CDVTimer][keyboard] 0.067055ms
+2015-02-06 12:15:56.426 MusicTop100[19321:4488043] [CDVTimer][TotalPluginStartup] 0.243008ms
+2015-02-06 12:15:56.606 MusicTop100[19321:4488043] Resetting plugins due to page load.
+2015-02-06 12:15:56.779 MusicTop100[19321:4488043] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/DEF40423-1B0D-4FAD-B2EB-8C848AC693DC/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 12:15:56.944 MusicTop100[19321:4488043] createBannerView
+2015-02-06 12:15:56.944 MusicTop100[19321:4488043] __createBanner
+2015-02-06 12:15:57.110 MusicTop100[19321:4488043] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 12:15:57.267 MusicTop100[19321:4488043] THREAD WARNING: ['AdMob'] took '322.316895' ms. Plugin should use a background thread.
+2015-02-06 12:15:57.275 MusicTop100[19321:4488043] requestAd
+2015-02-06 12:15:57.974 MusicTop100[19321:4488043] THREAD WARNING: ['AdMob'] took '699.241699' ms. Plugin should use a background thread.
+2015-02-06 12:15:57.988 MusicTop100[19321:4488043] showAd
+2015-02-06 12:16:03.108 MusicTop100[19321:4488043] THREAD WARNING: ['InAppBrowser'] took '239.603027' ms. Plugin should use a background thread.
+2015-02-06 12:16:03.887 MusicTop100[19321:4488043] Error in Success callbackId: InAppBrowser1571653463 : TypeError: null is not an object (evaluating 'event.type')
+2015-02-06 12:19:25.727 MusicTop100[19825:4492103] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-06 12:19:25.728 MusicTop100[19825:4492103] Multi-tasking -> Device: YES, App: YES
+2015-02-06 12:19:25.730 MusicTop100[19825:4492103] Unlimited access to network resources
+2015-02-06 12:19:25.944 MusicTop100[19825:4492103] [CDVTimer][keyboard] 0.061035ms
+2015-02-06 12:19:25.944 MusicTop100[19825:4492103] [CDVTimer][TotalPluginStartup] 0.237048ms
+2015-02-06 12:19:26.078 MusicTop100[19825:4492103] Resetting plugins due to page load.
+2015-02-06 12:19:26.299 MusicTop100[19825:4492103] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/12960105-F18F-4960-955A-5DD75CFDF39A/MusicTop100.app/www/index.html#/tab/dash
+2015-02-06 12:19:26.487 MusicTop100[19825:4492103] createBannerView
+2015-02-06 12:19:26.487 MusicTop100[19825:4492103] __createBanner
+2015-02-06 12:19:26.656 MusicTop100[19825:4492103] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-06 12:19:26.811 MusicTop100[19825:4492103] THREAD WARNING: ['AdMob'] took '323.730957' ms. Plugin should use a background thread.
+2015-02-06 12:19:26.819 MusicTop100[19825:4492103] requestAd
+2015-02-06 12:19:27.511 MusicTop100[19825:4492103] THREAD WARNING: ['AdMob'] took '691.888916' ms. Plugin should use a background thread.
+2015-02-06 12:19:27.525 MusicTop100[19825:4492103] showAd
+2015-02-06 12:20:09.610 MusicTop100[19825:4492103] THREAD WARNING: ['InAppBrowser'] took '183.235840' ms. Plugin should use a background thread.
+2015-02-06 12:20:10.486 MusicTop100[19825:4492103] Error in Success callbackId: InAppBrowser1614591276 : TypeError: null is not an object (evaluating 'event.type')
+Feb  6 12:20:12 kin-no-MacBook-Pro-2.local rtcreporting[19825] <Info>: logging starts...
+Feb  6 12:20:12 kin-no-MacBook-Pro-2.local rtcreporting[19825] <Debug>: setMessageLoggingBlock: called
+Feb  6 12:20:21 kin-no-MacBook-Pro-2.local rtcreporting[19825] <Debug>: initWithSessionInfo: XPC connection interrupted

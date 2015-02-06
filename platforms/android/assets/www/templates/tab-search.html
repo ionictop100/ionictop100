@@ -3,7 +3,7 @@
 </ion-header-bar>
   <ion-content>
 	<div ng-controller="mainController">
-		<form ng-submit="doSearch()" name="myForm">
+		<form ng-submit="doSearch()" name="myForm"><br />
 			<div class="list">
 				<div class="item item-input-inset">
 					<label class="item-input-wrapper">
@@ -18,16 +18,14 @@
 			  <div class="list">
 			      <!-- <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left" href="{{ video.link[0].href }}" ng-click="showInAppVideo('{{video.link[0].href }}', $event)"> -->
 			      <a ion-item item-thumbnail-left ng-repeat="video in results" class="item item-thumbnail-left">
-			        <img src="{{video.media$group.media$thumbnail[0].url}}" ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">
-			        <!-- <h2 ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">{{video.title.$t}}</h2> -->
-			        <p ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1', $event)">{{video.title.$t}}</p>
+			        <img src="{{video.media$group.media$thumbnail[0].url}}" ng-click="showInAppVideo('{{video.link[0].href}}','Android',$event)">
+			        <p ng-click="showInAppVideo('{{video.link[0].href}}&autoplay=1','Android',$event)">{{video.title.$t}}</p>
 					  <div class="item-button-right " ng-controller="PopupSearchCtrl">
-					    <button class="button button-light" ng-click="showSearchConfirm({{uuid}},'{{video.title.$t}}','{{video.id.$t}}','{{video.link[0].href}}','{{video.media$group.media$thumbnail[0].url}}')">
+					    <button class="button button-light" ng-click="showSearchConfirm('{{uuid}}','{{video.title.$t}}','{{video.id.$t}}','{{video.link[0].href}}','{{video.media$group.media$thumbnail[0].url}}')">
 					    <!-- <button class="button button-light" ng-click="showSearchConfirm({{uuid}},'{{video.id.$t}}',3,4,5)"> -->
 					    	+
 					    </button>
-					  </div>			  
-			        
+					  </div>
 			        
 			      </a>
 			  </div>
