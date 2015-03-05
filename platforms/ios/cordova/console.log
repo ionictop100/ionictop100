@@ -128,3 +128,18 @@
 Feb  6 12:20:12 kin-no-MacBook-Pro-2.local rtcreporting[19825] <Info>: logging starts...
 Feb  6 12:20:12 kin-no-MacBook-Pro-2.local rtcreporting[19825] <Debug>: setMessageLoggingBlock: called
 Feb  6 12:20:21 kin-no-MacBook-Pro-2.local rtcreporting[19825] <Debug>: initWithSessionInfo: XPC connection interrupted
+2015-02-17 12:30:21.336 MusicTop100[22815:7618176] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-17 12:30:21.340 MusicTop100[22815:7618176] Multi-tasking -> Device: YES, App: YES
+2015-02-17 12:30:21.360 MusicTop100[22815:7618176] Unlimited access to network resources
+2015-02-17 12:30:21.758 MusicTop100[22815:7618176] [CDVTimer][keyboard] 0.073016ms
+2015-02-17 12:30:21.758 MusicTop100[22815:7618176] [CDVTimer][TotalPluginStartup] 0.276029ms
+2015-02-17 12:30:22.087 MusicTop100[22815:7618176] Resetting plugins due to page load.
+2015-02-17 12:30:22.556 MusicTop100[22815:7618176] Finished load of: file:///Users/free31/Library/Developer/CoreSimulator/Devices/13FA7AAF-05B8-4146-BA10-EB7377C7B5F3/data/Containers/Bundle/Application/17690DB7-DEAC-42EE-BB2B-9CF5C9788018/MusicTop100.app/www/index.html#/tab/dash
+2015-02-17 12:30:22.797 MusicTop100[22815:7618176] createBannerView
+2015-02-17 12:30:22.797 MusicTop100[22815:7618176] __createBanner
+2015-02-17 12:30:22.948 MusicTop100[22815:7618176] <Google> To get test ads on this device, call: request.testDevices = @[ GAD_SIMULATOR_ID ];
+2015-02-17 12:30:23.070 MusicTop100[22815:7618176] THREAD WARNING: ['AdMob'] took '273.455322' ms. Plugin should use a background thread.
+2015-02-17 12:30:23.082 MusicTop100[22815:7618176] requestAd
+2015-02-17 12:30:23.083 MusicTop100[22815:7618176] showAd
+2015-02-17 12:30:32.253 MusicTop100[22815:7618176] Thank you for not eating my delicious ice cream cone
+2015-02-17 12:30:45.101 MusicTop100[22815:7618176] Thank you for not eating my delicious ice cream cone
