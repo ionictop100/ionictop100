@@ -9,7 +9,10 @@
 	            <img src="{{video.thumbnail_url}}" ng-click="showInAppVideo('{{video.url}}','{{device_platform}}', $event)">
 	            <h2 ng-click="showInAppVideo('{{video.url}}','{{device_platform}}', $event)">{{video.title}}</h2>
 	            <div class="item-note_new positive" ng-click="showInAppVideo('{{video.url}}', '{{device_platform}}', $event)">{{video.rank}}</div>
-	            <p>{{video.name}}<span class="assertive item-note_is_new" ng-click="showInAppVideo('{{video.url}}','{{device_platform}}', $event)">{{video.is_new}}</span></p>
+	            <p>
+	            	<span ng-click="showInAppVideo('{{video.url}}', '{{device_platform}}',$event)">{{video.name}}</span>
+	            	<span class="assertive item-note_is_new" ng-click="showInAppVideo('{{video.url}}','{{device_platform}}', $event)">{{video.is_new}}</span>
+	            </p>
 			  <div class="item-button-right " ng-controller="PopupCtrl">
 			    <button class="button button-light" ng-click="showConfirm()">
 			    	+
